@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "collection_list": [
+          "craftsman-house-plans",
+          "modern-farmhouse-plans",
+          "lake-house-plans",
+          "luxury-house-plans",
+          "barndominium-house-plans",
+          "french-country-house-plans",
+          "ranch-house-plans",
+          "european-manor-house-plans",
+          "traditional-house-plans",
+          "colonial-house-plans",
+          "detached-garage-plans",
+          "coastal",
+          "pool-house-plans",
+          "1000-sq-ft-foot-house-plans",
+          "1200-sq-ft-foot-house-plans",
+          "barndominium-with-shop",
+          "beach-house-plans",
+          "cabin-house-plans",
+          "castle-floor-plans",
+          "down-slope-house-plans",
+          "rustic-farmhouse-with-wrap-around-porch",
+          "garage-apartment-plans",
+          "in-law-suite-homes",
+          "mansion-floor-plans",
+          "narrow-lot-house-plans",
+          "rustic-house-plans",
+          "rv-garage-with-living-quarters",
+          "walkout-basement-house-plans"
+        ]
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}

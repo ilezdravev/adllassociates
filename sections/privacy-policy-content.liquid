@@ -1,0 +1,142 @@
+<div class="ploicy_page {{ section.settings.Class }}" style="padding: {{ section.settings.Section_padding_top }}px 0 {{ section.settings.Section_padding_bottom }}px 0; ">
+  <section class="policy_banner" style=" background-image: url('{{section.settings.Banner-Image | img_url: ""  }}'); background-size: cover; background-position: center; height: {{ section.settings.banner_height }}px; margin-bottom: {{ section.settings.Banner_padding_Bottom }}px;">
+  </section>
+  <section class="policy_Content">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <h3>{{ section.settings.main_heading }}</h3>
+                  {% if section.settings.show_update_date == true %}
+                    <p class="date_updated">{{ section.settings.Update_date_Time }}</p>
+                  {% endif %}
+                  <p class="content">{{ section.settings.main_paragraph }}</p>
+              </div>
+          </div>
+          {% for block in section.blocks %}  
+            <div class="row new_content_block {{ block.settings.Block_Class }}">
+                  <div class="col-md-12">
+                      <h3>{{ block.settings.Main_heading_block }}</h3>
+                      <p class="content">{{ block.settings.Main_paragraph_block }}</p>
+                  </div>
+              </div>
+        {% endfor %}
+      </div>
+  </section>
+</div>
+
+{% schema %}
+  {
+    "name": "Privacy Content Content",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "Banner-Image",
+        "label": "Banner_image"
+      },
+      {
+        "type": "range",
+        "id": "banner_height",
+        "min": 20,
+        "max": 600,
+        "step": 20,
+        "unit": "px",
+        "label": "Banner Height",
+        "default": 80
+      },
+      {
+        "type": "range",
+        "id": "Banner_padding_Bottom",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Banner Margin Bottom",
+        "default": 50
+      },
+      {
+        "type": "text",
+        "id": "main_heading",
+        "label": "Page Heading",
+        "default": "Privacy Ploicy"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_update_date",
+        "label": "Last Update Date/Time",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "Update_date_Time",
+        "label": "Last Updated on",
+        "default": "Quick links"
+      },
+      {
+        "type": "richtext",
+        "id": "main_paragraph",
+        "label": "Main Content"
+      },
+      {
+        "type": "range",
+        "id": "Section_padding_top",
+        "min": 20,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Section Padding Top",
+        "default": 30
+      },
+      {
+        "type": "range",
+        "id": "Section_padding_bottom",
+        "min": 20,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Section Padding Bottom",
+        "default": 30
+      },
+      {
+        "type": "text",
+        "id": "Class",
+        "label": "Class"
+      }
+      
+    ],
+    "blocks": [
+      {
+        "type": "Content_Block",
+        "name": "Content Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "Main_heading_block",
+            "label": "Main Heading",
+            "default": "Quick links"
+          },
+          {
+            "type": "richtext",
+            "id": "Main_paragraph_block",
+            "label": "Main Content"
+          },
+          {
+            "type": "text",
+            "id": "Block_Class",
+            "label": "Class"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+  $('.new_content_block p').each(function() {
+    const $this = $(this);
+    if($this.html().replace(/\s|&nbsp;/g, '').length === 0)
+        $this.remove();
+});
+{% endjavascript %}

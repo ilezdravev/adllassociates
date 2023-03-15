@@ -1,0 +1,22 @@
+{%if product.metafields.my_fields.plan_id != blank %}
+<input type="hidden" id="plan-id" name="properties[Plan No.]" value="{{product.metafields.my_fields.plan_id}}"> 
+ {%endif%} 
+ {%if product.metafields.my_fields.bedrooms != blank%}       
+  <input type="hidden" id="Bed_room" name="properties[Bebrooms]" value="{{ product.metafields.my_fields.bedrooms }}"> 
+             {%endif%}
+ {%if product.metafields.my_fields.bathrooms != blank%}  
+	<input type="hidden" id="Bath_room" name="properties[Bathrooms]" value="{{product.metafields.my_fields.bathrooms}} "> 
+    {%endif%}
+ {%if product.metafields.my_fields.area != blank%}
+   <input type="hidden" id="Area" name="properties[Area]" value="{{product.metafields.my_fields.area}} "> 
+            {%endif%}
+ {%if product.metafields.my_fields.stories != blank%}
+    <input type="hidden" id="Stories" name="properties[Stories]" value="{{product.metafields.my_fields.stories}}"> 
+            {%endif%}
+ {%if product.metafields.my_fields.car != blank%}
+    <input type="hidden" id="Stories" name="properties[Car]" value="{{product.metafields.my_fields.car}}">
+         {%endif%} 
+
+ {%if product.metafields.my_fields.short_description != blank%}
+    <input type="hidden" id="Stories" name="properties[Short description]" value="{{product.metafields.my_fields.short_description}}">
+         {%endif%}

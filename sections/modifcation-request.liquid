@@ -1,0 +1,133 @@
+<div class="modification_form">
+  <div class="page-width">
+    <div class="product_detail-outer">
+  <div class="product_detail">
+ {% assign pcollection = collections['all'] %}
+ {% paginate pcollection.products by 2500 %}
+ {% for product in pcollection.products %}
+<div class="specific-product specific-product--{{product.id}} " data-id="{{product.id}}" style="display:none;">
+<img src="{{product.featured_image | img_url :''}}">
+<span class="plan_name-{{product.id}}" style="display:none;">{{product.title}}</span>
+</div>
+{% endfor %}
+ {% endpaginate %}
+  <span class="plan_id" style="display:none;"></span>
+  </div>
+  
+  
+  <div class="product_form">
+    
+    <h2 class="h2_heading">{{section.settings.heading}}-<span class="plan_name"></span></h2>
+    <p class="text_para">{{section.settings.subheading}}</p>
+    
+    <div class="form_new"> {ets_cf_H5m}
+    
+      <style>
+      .modifcation-request div#ets_cf_ipg_YsPR2WwIvA {
+    display: none !important;
+}
+      
+      </style>
+    
+    </div>
+    
+    
+    <div class="pxFormGenerator" id="iEiv3IwrAT34DKyoCH-WNQ"></div>
+    
+  
+   </div>
+  
+  </div>
+</div>
+</div>
+
+
+<script>
+    
+  $(document).ready(function() {
+
+      
+      var getUrlParameter = function getUrlParameter(sParam) {
+      var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+
+var product = getUrlParameter('pr-id');
+var plan_id = getUrlParameter('plan-id');     
+$('.plan_id').html(plan_id); 
+  var plan_name =  $('.plan_name').text();
+    
+    $('.plan_name_text').text();
+   
+    
+ 
+
+      
+
+
+$( ".specific-product" ).each(function() {
+var data_id = $(this).attr('data-id'); 
+  if (data_id == product ){
+   $('.specific-product--'+data_id).show();
+    var plan_name = $('.plan_name-'+data_id).text();
+     $('.plan_name').text(plan_name);
+    
+
+  }
+  
+});
+    
+    setTimeout(function() {
+    $('.ets_cf_row ets_cf_row_5 input[type=text]').val(plan_id);
+      $('.ets_cf_row ets_cf_row_5').hide;
+   
+    }, 2500);
+    
+    
+    
+      });
+  
+   
+
+  
+  </script>
+
+
+
+{% schema %}
+  {
+    "name": "Modifcation-request",
+    "settings": [
+{
+"type":"text",
+"id":"heading",
+"label":"Heading"
+},
+{
+"type":"text",
+"id":"subheading",
+"label":"Sub heading"
+}
+
+
+
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

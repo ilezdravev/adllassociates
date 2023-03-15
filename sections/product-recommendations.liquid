@@ -1,0 +1,361 @@
+<link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-product-recommendations.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{% if section.settings.show_related_products == true %}
+{% comment %}
+  Number of related items per row,
+  and number of rows.
+{% endcomment %}
+
+{% assign number_of_related_products_per_row = section.settings.related_grid_num %}
+{% assign number_of_rows = section.settings.related_grid_row %}
+
+{% comment %}
+  Heading.
+  Leave blank if you don't need one.
+{% endcomment %}
+
+{% assign heading = section.settings.related_title %}
+
+{% comment %}
+  Set either or both to true, if you want
+  to limit yourself to items with same vendor, and/or type.
+{% endcomment %}
+
+{% assign same_vendor = true %}
+{% assign same_type = true %}
+
+{% comment %}
+  Collections to ignore.
+  Never pick related items from those.
+{% endcomment %}
+
+{% assign exclusions = 'CollectionDrop,all' | split: ',' %}
+
+{% comment %}
+  Looking for a relevant collection.
+{% endcomment %}
+
+{% assign found_a_collection = false %}
+{% if collection and collection.all_products_count > 1 %}
+  {% unless exclusions contains collection.handle %}
+    {% assign found_a_collection = true %}
+  {% endunless %}
+{% endif %}
+{% unless found_a_collection %}
+  {% for c in product.collections %}
+    {% unless exclusions contains c.handle or c.all_products_count < 2 %}
+      {% assign found_a_collection = true %}
+      {% assign collection = c %}
+      {% break %}
+    {% endunless %}
+  {% endfor %}
+{% endunless %}
+
+{% comment %}
+  If we have a relevant collection.
+{% endcomment %}
+
+{% if found_a_collection %}
+
+  {% assign counter = 0 %}
+  {% assign break_at = number_of_rows | times: number_of_related_products_per_row %}
+  {% assign current_product = product %}
+  
+  {% case number_of_related_products_per_row %}
+    {% when '1' %}
+      {% assign grid_item_width = '' %}
+        {%- assign max_height = 700 -%}
+    {% when '2' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-half' %}
+      {%- assign max_height = 530 -%}
+    {% when '3' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-third' %}
+      {%- assign max_height = 345 -%}
+    {% when '4' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-quarter' %}
+      {%- assign max_height = 250 -%}
+    {% when '5' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-fifth' %}
+      {%- assign max_height = 195 -%}
+    {% when '6' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-sixth' %}
+      {%- assign max_height = 195 -%}
+    {% else %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-quarter' %}
+      {%- assign max_height = 195 -%}
+  {% endcase %}
+
+  <div class="page-width">
+    <div class="title-wrapper-with-link title-wrapper--no-top-margin">
+      <h2 class="title">{{ section.settings.heading | escape }}</h2>
+    </div>
+  </div>
+<ul class="related_products collections owl-carousel-3  grid grid--2-col product-grid grid--4-col-desktop grid--quarter-max" role="list">
+
+  {% for product in collection.products %}
+  {% unless product.handle == current_product.handle %}
+  {% unless same_vendor and current_product.vendor != product.vendor %}
+  {% unless same_type and current_product.type != product.type %}
+
+  <li class="">
+    {% render 'card-product',
+    card_product: product,
+    lazy_load: false,
+    media_aspect_ratio: section.settings.image_ratio,
+    show_secondary_image: section.settings.show_secondary_image,
+    show_vendor: section.settings.show_vendor,
+    show_rating: section.settings.show_rating
+    %}
+  </li>
+  {% assign counter = counter | plus: 1 %}
+  {% if counter == break_at %}
+  {% break %}
+
+  {% endif %}
+  {% endunless %}
+  {% endunless %}
+  {% endunless %}
+  {% endfor %}
+  
+</div>
+</ul>
+
+  {% assign related_items = related_items | trim %}
+
+     
+{% endif %}
+{% endif %}
+
+
+
+{% schema %}
+{
+  "name": "Related products",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_related_products",
+      "label": "Show related products",
+      "default": false
+    },
+    {
+      "id": "related_title",
+      "type": "text",
+      "label": "Section title",
+      "default": "Other fine products"
+    },
+    {
+      "type": "select",
+      "id": "related_grid_num",
+      "label": "Products per row (Desktop)",
+      "default": "4",
+      "options": [
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "related_grid_row",
+      "label": "Number of rows (Desktop)",
+      "default": "1",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.product-recommendations.settings.paragraph__1.content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "You may also like",
+      "label": "t:sections.product-recommendations.settings.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.has_cards_info"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.product-recommendations.settings.header__2.content"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.product-recommendations.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.product-recommendations.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.product-recommendations.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.product-recommendations.settings.image_ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "t:sections.product-recommendations.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.product-recommendations.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "t:sections.product-recommendations.settings.show_rating.label",
+      "info": "t:sections.product-recommendations.settings.show_rating.info"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+,
+    {
+      "type": "text",
+      "id": "bedrooms",
+      "label": "Bedroom"
+      
+    }
+,
+    {
+      "type": "html",
+      "id": "bedrooms_icon",
+      "label": "Bedroom Icon"
+      
+    }
+,
+    {
+      "type": "text",
+      "id": "bathroom",
+      "label": "Bathroom"
+      
+    }
+,
+    {
+      "type": "html",
+      "id": "bathroom_icon",
+      "label": "Bathroom Icon"
+      
+    }
+,
+    {
+      "type": "text",
+      "id": "area",
+      "label": "Area"
+      
+    }
+,
+    {
+      "type": "html",
+      "id": "area_icon",
+      "label": "Area Icon"
+      
+    }
+  ]
+}
+{% endschema %}

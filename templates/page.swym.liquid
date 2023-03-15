@@ -1,0 +1,50 @@
+<section class="wishlist_custom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header_col">
+          <h3>
+            Wishlist
+            <!-- <span class="wishlist_Count"></span> -->
+          </h3>
+          <div class="notes">
+            Want to save your wishist?<br>
+            Make sure to <button class="Whishlist_account">create account</button> before you leave
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="rte">
+          {{ page.content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  jQuery('.Whishlist_account').click(function(){
+      jQuery('.swym-user-login-status').trigger('click');
+  })
+  jQuery('.wishlist_Count').html('('+jQuery('.wishlist_custom .rte .swym-wishlist-grid>a').length+')');
+</script>
+
+<!--
+  <div class="page-width">
+    <div class="grid">
+      <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+        <div class="section-header text-center">
+          <h1>{{ page.title }}</h1>
+        </div>
+
+
+
+
+          <div id="wishlist-items-container"></div>
+          </div>
+
+      </div>
+    </div>
+    <script src="{{ 'swym-wishlist-page.js' | asset_url }}"></script>
+  </div>
+-->

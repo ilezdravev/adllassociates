@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "Plain_process_banner": {
+      "type": "plan_modification_banner",
+      "settings": {
+        "banner_img": "shopify:\/\/shop_images\/FrontNight-1-2.webp",
+        "main_heading": "Modify & Customize Your Home Plan",
+        "main_paragraph": "<p>Have you found a home plan that’s almost perfect, but it just needs a few tweaks to be absolutely perfect? If so, the Garrell Associates design team is here to help. <br\/><br\/>We can help with such minor things as foundation changes, garage orientations to more extensive width or depth changes, even full custom design changes. <br\/><br\/>With over 20+ years of experience designing and modifying homes you can trust our experience will be able to guide you in the process of designing your dream home. <\/p><p>Begin by printing the floor plan. Take an ink pen and draw your requests directly. Make a corresponding list explaining your requests. Make sure your desired foundation type is specified. Orientation of the home needed (As shown or reversed). Once complete, submit or email us the marked up floor plan and we will provide a quotation for the modifications. <\/p>",
+        "content_img": "shopify:\/\/shop_images\/begin-img.jpg",
+        "Section_padding_top": 30,
+        "Section_padding_bottom": 30,
+        "Section_Background": "#ffffff",
+        "Class": "modification_sec02"
+      }
+    },
+    "plan_modification_process": {
+      "type": "custom_modification_process",
+      "settings": {
+        "main_heading": "Modification Process",
+        "process_number_01": "1",
+        "process_heading_01": "Print out & Mark up the brochure with your desired modification",
+        "process_para_01": "<p>You will receive your quote by email 4-5 business days after our office receives your requested customization.<\/p>",
+        "process_icon_01": "<svg width=\"73\" height=\"73\" viewbox=\"0 0 73 73\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M31.9371 62.0501L10.9496 41.0626C8.57408 38.6871 8.57408 34.3132 10.9496 31.9376L31.9371 10.9501C34.3127 8.57457 38.6866 8.57457 41.0621 10.9501L62.0496 31.9376C64.4252 34.3132 64.4252 38.6871 62.0496 41.0626L41.0621 62.0501C38.6866 64.4257 34.3127 64.4257 31.9371 62.0501Z\" stroke=\"#FF8266\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "process_number_02": "2",
+        "process_heading_02": "Submit the marked brochure to Garrell Associates",
+        "process_para_02": "<p>You will receive your quote by email 4-5 business days after our office receives your requested customization.<\/p>",
+        "process_icon_02": "<svg width=\"73\" height=\"73\" viewbox=\"0 0 73 73\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g filter=\"url(#filter0_d_1873_53835)\">\n<path d=\"M21.2917 33.4584V57.7917C21.2917 59.4716 19.9299 60.8334 18.25 60.8334H12.1667C10.4868 60.8334 9.125 59.4716 9.125 57.7917V36.5001C9.125 34.8202 10.4868 33.4584 12.1667 33.4584H21.2917C28.0111 33.4584 33.4583 28.0112 33.4583 21.2917V18.2501C33.4583 14.8903 36.1819 12.1667 39.5417 12.1667C42.9014 12.1667 45.625 14.8903 45.625 18.2501V33.4584H54.75C58.1097 33.4584 60.8333 36.182 60.8333 39.5417L57.7917 54.7501C56.893 58.5834 54.4129 61.0635 51.7083 60.8334H30.4167C25.3771 60.8334 21.2917 56.748 21.2917 51.7084\" stroke=\"#12B06E\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/g>\n<defs>\n<filter id=\"filter0_d_1873_53835\" x=\"3.125\" y=\"10.1667\" width=\"63.708\" height=\"60.6829\" filterunits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\">\n<feflood flood-opacity=\"0\" result=\"BackgroundImageFix\"><\/feflood>\n<fecolormatrix in=\"SourceAlpha\" type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0\" result=\"hardAlpha\"><\/fecolormatrix>\n<feoffset dy=\"4\"><\/feoffset>\n<fegaussianblur stddeviation=\"2\"><\/fegaussianblur>\n<fecomposite in2=\"hardAlpha\" operator=\"out\"><\/fecomposite>\n<fecolormatrix type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0\"><\/fecolormatrix>\n<feblend mode=\"normal\" in2=\"BackgroundImageFix\" result=\"effect1_dropShadow_1873_53835\"><\/feblend>\n<feblend mode=\"normal\" in=\"SourceGraphic\" in2=\"effect1_dropShadow_1873_53835\" result=\"shape\"><\/feblend>\n<\/filter>\n<\/defs>\n<\/svg>",
+        "process_number_03": "3",
+        "process_heading_03": "Receive a quote within 4-5 business days",
+        "process_para_03": "<p>Turnaround time varies, 2-8 weeks<\/p>",
+        "process_icon_03": "<svg width=\"73\" height=\"73\" viewbox=\"0 0 73 73\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.167 54.75V63.875H60.8337V21.2917L36.5003 9.125L12.167 21.2917V30.4167\" stroke=\"#FBBC04\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M12.167 42.5833H39.542\" stroke=\"#FBBC04\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M30.417 33.4583L39.542 42.5833L30.417 51.7083\" stroke=\"#FBBC04\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "process_number_04": "4",
+        "process_heading_04": "Approve the quote and submit payment",
+        "process_para_04": "<p>Turnaround time varies, 2-8 weeks<\/p>",
+        "process_icon_04": "<svg width=\"73\" height=\"74\" viewbox=\"0 0 73 74\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g filter=\"url(#filter0_d_1873_53843)\">\n<circle cx=\"36.5\" cy=\"36.5\" r=\"27.375\" stroke=\"#4C48FF\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<path d=\"M13.9912 21.2918H59.0079\" stroke=\"#4C48FF\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.125 36.4998H63.875\" stroke=\"#4C48FF\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M13.9912 51.7083H59.0079\" stroke=\"#4C48FF\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/g>\n<defs>\n<filter id=\"filter0_d_1873_53843\" x=\"3.125\" y=\"7.125\" width=\"66.75\" height=\"66.75\" filterunits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\">\n<feflood flood-opacity=\"0\" result=\"BackgroundImageFix\"><\/feflood>\n<fecolormatrix in=\"SourceAlpha\" type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0\" result=\"hardAlpha\"><\/fecolormatrix>\n<feoffset dy=\"4\"><\/feoffset>\n<fegaussianblur stddeviation=\"2\"><\/fegaussianblur>\n<fecomposite in2=\"hardAlpha\" operator=\"out\"><\/fecomposite>\n<fecolormatrix type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0\"><\/fecolormatrix>\n<feblend mode=\"normal\" in2=\"BackgroundImageFix\" result=\"effect1_dropShadow_1873_53843\"><\/feblend>\n<feblend mode=\"normal\" in=\"SourceGraphic\" in2=\"effect1_dropShadow_1873_53843\" result=\"shape\"><\/feblend>\n<\/filter>\n<\/defs>\n<\/svg>",
+        "Section_padding_top": 30,
+        "Section_padding_bottom": 30,
+        "Section_Background": "#ffffff",
+        "Class": "modification_sec03"
+      }
+    },
+    "plan-modification-form": {
+      "type": "plan-modification-form",
+      "settings": {
+        "customize_header": "Modifcation Request-Pine Lake Cottage",
+        "customize_Content": "<p>In ordre to receive your free modification quote, please fill out the from below.  Be as detailed and descriptive as possible.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "Plain_process_banner",
+    "plan_modification_process",
+    "plan-modification-form"
+  ]
+}

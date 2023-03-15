@@ -1,0 +1,63 @@
+ <div class="content_customize plan_modification_form">
+   <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <h4>{{ section.settings.customize_header }}</h4>
+<p>{{ section.settings.customize_Content }}</p>
+<div class="form_col">
+  <ul>
+    <li>
+      <span>
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 4L28 28" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 6.66663H24C26.2091 6.66663 28 8.45749 28 10.6666V21.3333C28.0004 21.7262 27.9429 22.1171 27.8293 22.4933" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M25.16 25.1626C24.7838 25.2762 24.393 25.3337 24 25.3333H8C5.79086 25.3333 4 23.5424 4 21.3333V10.6666C4 8.86397 5.192 7.33997 6.832 6.83997" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 14.6667H14.6667" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20 14.6667H28" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M9.33334 20H9.34667" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14.6665 20H17.3332" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      No upfront payment
+    </li>
+    <li>
+      <span>
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="12" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 9.33337V16L20 20" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      Get first draft in 48 hours
+    </li>
+  </ul>
+  {ets_cf_H5m}
+</div>
+         </div>
+       </div>
+   </div>
+ </div>
+
+{% schema %}
+  {
+    "name": "Plan Modification Form",
+    "settings": [
+      {
+      "type": "text",
+      "id": "customize_header",
+      "label": "Heading",
+      "default": "Quick links"
+  },
+  {
+      "type": "richtext",
+      "id": "customize_Content",
+      "label": "Customize Plan Paragraph"
+  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

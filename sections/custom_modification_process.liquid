@@ -1,0 +1,239 @@
+<!-- MODIFICATION-PROCESS START -->
+<section class="modification_process {{ section.settings.Class}}" style="
+padding-top: {{ section.settings.Section_padding_top}}px;
+padding-bottom: {{ section.settings.Section_padding_bottom}}px;
+">
+    <div class="container custom_container">
+        <div class="text-center">
+            <h3>{{ section.settings.main_heading}}</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="modification_box">
+                    <div class="modifi_img">
+                        {{ section.settings.process_icon_01}}
+                    </div>
+                    <div class="modification_content">
+                        <h5>{{ section.settings.process_heading_01}}</h5>
+                        <p>{{ section.settings.process_para_01}}</p>
+                    </div>
+                    <ul class="list_num">
+                        <li><span>{{ section.settings.process_number_01}}</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="modification_box">
+                    <div class="modifi_img">
+                        {{ section.settings.process_icon_02}}
+                    </div>
+                    <div class="modification_content">
+                        <h5>{{ section.settings.process_heading_02}}</h5>
+
+                        <p>{{ section.settings.process_para_02}}</p>
+                    </div>
+                    <ul class="list_num">
+                        <li><span>{{ section.settings.process_number_02}}</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 half_cards">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modification_box">
+                            <div class="modifi_img process_img">
+                                {{ section.settings.process_icon_03}}
+                            </div>
+                            <div class="modification_content">
+                                <h4>{{ section.settings.process_heading_03}}</h4>
+                                <p>{{ section.settings.process_para_03}}</p>
+                            </div>
+
+                            <ul class="list_num">
+                                <li><span>{{ section.settings.process_number_03}}</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="modification_box">
+                            <div class="modifi_img process_img">
+                                {{ section.settings.process_icon_04}}
+                            </div>
+                            <div class="modification_content">
+                                <h4>{{ section.settings.process_heading_04}}</h4>
+                                <p>{{ section.settings.process_para_04}}</p>
+                            </div>
+                            <ul class="list_num">
+                                <li><span>{{ section.settings.process_number_04}}</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- MODIFICATION-PROCESS END -->
+
+{% schema %}
+  {
+    "name": "Modification Process",
+    "settings": [{
+            "type": "text",
+            "id": "main_heading",
+            "label": "Main Heading",
+            "default": "Quick links"
+        },
+        {
+            "type": "header",
+            "content": "Modification Card one"
+        },
+        {
+            "type": "text",
+            "id": "process_number_01",
+            "label": "Process Number",
+            "default": "1"
+        },
+        {
+            "type": "text",
+            "id": "process_heading_01",
+            "label": "Process Heading",
+            "default": "Lorem Ipsum"
+        },
+        {
+            "type": "richtext",
+            "id": "process_para_01",
+            "label": "Process Paragraph"
+        },
+        {
+            "type": "html",
+            "id": "process_icon_01",
+            "label": "Icon SVG"
+
+        },
+        {
+            "type": "header",
+            "content": "Modification Card Two"
+        },
+        {
+            "type": "text",
+            "id": "process_number_02",
+            "label": "Process Number",
+            "default": "1"
+        },
+        {
+            "type": "text",
+            "id": "process_heading_02",
+            "label": "Process Heading",
+            "default": "Lorem Ipsum"
+        },
+        {
+            "type": "richtext",
+            "id": "process_para_02",
+            "label": "Process Paragraph"
+        },
+        {
+            "type": "html",
+            "id": "process_icon_02",
+            "label": "Icon SVG"
+
+        },
+        {
+            "type": "header",
+            "content": "Modification Card Three"
+        },
+        {
+            "type": "text",
+            "id": "process_number_03",
+            "label": "Process Number",
+            "default": "1"
+        },
+        {
+            "type": "text",
+            "id": "process_heading_03",
+            "label": "Process Heading",
+            "default": "Lorem Ipsum"
+        },
+        {
+            "type": "richtext",
+            "id": "process_para_03",
+            "label": "Process Paragraph"
+        },
+        {
+            "type": "html",
+            "id": "process_icon_03",
+            "label": "Icon SVG"
+
+        },
+        {
+            "type": "header",
+            "content": "Modification Card Four"
+        },
+        {
+            "type": "text",
+            "id": "process_number_04",
+            "label": "Process Number",
+            "default": "1"
+        },
+        {
+            "type": "text",
+            "id": "process_heading_04",
+            "label": "Process Heading",
+            "default": "Lorem Ipsum"
+        },
+        {
+            "type": "richtext",
+            "id": "process_para_04",
+            "label": "Process Paragraph"
+        },
+        {
+            "type": "html",
+            "id": "process_icon_04",
+            "label": "Icon SVG"
+
+        },
+        {
+            "type": "header",
+            "content": "Section Settings"
+        },
+        {
+            "type": "range",
+            "id": "Section_padding_top",
+            "min": 20,
+            "max": 200,
+            "step": 10,
+            "unit": "px",
+            "label": "Section Padding Top",
+            "default": 30
+        },
+        {
+            "type": "range",
+            "id": "Section_padding_bottom",
+            "min": 20,
+            "max": 200,
+            "step": 10,
+            "unit": "px",
+            "label": "Section Padding Bottom",
+            "default": 30
+        },
+        {
+            "type": "color",
+            "id": "Section_Background",
+            "label": "Background Color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "text",
+            "id": "Class",
+            "label": "Class"
+        }
+
+    ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

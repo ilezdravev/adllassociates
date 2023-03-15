@@ -1,0 +1,11 @@
+<link rel="preload" href="{{ 'base.css' | asset_url }}" as="style">
+<link rel="preload" href="{{ 'owl.carousel.min.css' | asset_url }}" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" as="style">
+<link rel="preload" href="{{ 'owl.carousel.min.js' | asset_url }}" as="script">
+<link rel="preload" href="{{ 'jquery3.6.0.min.js' | asset_url }}" as="script">
+<link rel="preload" href="{{ 'ets_cf_config.js' | asset_url }}" as="script">
+<link rel="preconnect dns-prefetch" href="https://cdn.shopify.com" crossorigin>
+{%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}<link rel="preconnect dns-prefetch" href="https://fonts.shopifycdn.com" crossorigin>{%- endunless -%}
+{%- unless settings.type_body_font.system? -%}<link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>{%- endunless -%}
+{%- unless settings.type_header_font.system? -%}<link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>{%- endunless -%}

@@ -1,0 +1,30 @@
+<style>
+  #shop-url {
+    visibility: hidden;
+  }
+</style>
+<input
+  id="shop-url"
+  type="text"
+  value="{{ shop.url }}">
+<script>
+  $(document).ready(function() {
+
+    var siteUrl = $('#shop-url').val();
+    var currentUrl = location.href;
+    var res = ""
+    if (currentUrl.indexOf(siteUrl + "/?kw=", "") > -1) {
+      res = currentUrl.replace(siteUrl + "/?kw=", "")
+    }
+    if (currentUrl.indexOf(siteUrl + "?kw=", "") > -1) {
+      res = currentUrl.replace(siteUrl + "?kw=", "")
+    }
+    if ($('.main-heading-section').length > 0) {
+      let text = "Find your dream home plan from Americas trusted designer";
+      if (res != "") {
+        text = `Find your dream home plan in ${res} from  Americas trusted designer`;
+      }
+      $('.main-heading-section h2').eq(0).text(text)
+    }
+  })
+</script>

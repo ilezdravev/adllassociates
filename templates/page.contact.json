@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 32
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "8831ead4-3083-4d5c-be3a-b9e7e7c908ad": {
+          "type": "related-links",
+          "settings": {
+            "text-url": "shopify:\/\/pages\/return-policy",
+            "text": "Return Policy"
+          }
+        },
+        "854a6db3-c68f-4665-9d24-b267325b8e59": {
+          "type": "related-links",
+          "settings": {
+            "text-url": "shopify:\/\/pages\/privacy-policy",
+            "text": "Privacy Policy"
+          }
+        },
+        "d375f2e3-0c5b-4964-8842-e05c63d50931": {
+          "type": "related-links",
+          "settings": {
+            "text-url": "shopify:\/\/pages\/our-shipping-policy",
+            "text": "Shipping Policy"
+          }
+        },
+        "36af66fa-fb40-4d67-b2b1-2ea11719f43f": {
+          "type": "related-links",
+          "settings": {
+            "text-url": "",
+            "text": "Terms & Conditions"
+          }
+        },
+        "699d266f-e5b6-4e6f-ad4c-94fc301751e0": {
+          "type": "related-links",
+          "settings": {
+            "text-url": "shopify:\/\/pages\/copyright",
+            "text": "Copyright"
+          }
+        },
+        "ff005872-30c1-48ce-a70f-91933c073384": {
+          "type": "related-links",
+          "settings": {
+            "text-url": "shopify:\/\/pages\/help-center",
+            "text": "Help Center"
+          }
+        },
+        "0b039fa0-84cb-48d5-8370-cfe56f7fe7f7": {
+          "type": "related-links",
+          "settings": {
+            "text-url": "shopify:\/\/pages\/contact-us",
+            "text": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "8831ead4-3083-4d5c-be3a-b9e7e7c908ad",
+        "854a6db3-c68f-4665-9d24-b267325b8e59",
+        "d375f2e3-0c5b-4964-8842-e05c63d50931",
+        "36af66fa-fb40-4d67-b2b1-2ea11719f43f",
+        "699d266f-e5b6-4e6f-ad4c-94fc301751e0",
+        "ff005872-30c1-48ce-a70f-91933c073384",
+        "0b039fa0-84cb-48d5-8370-cfe56f7fe7f7"
+      ],
+      "settings": {
+        "heading": "Contact Us",
+        "content": "<p>Questions on a plan? We're here to help. Fill out the form below and we'll get you answers.<\/p>",
+        "links-heading": "Related Links",
+        "contact-info-heading": "Contact Information",
+        "contact-info": "<p><\/p><p><strong>Phone<\/strong> <a href=\"tel:1-888-814-1494\">1 (888) 814-1494<\/a><\/p><p><\/p>",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form"
+  ]
+}

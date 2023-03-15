@@ -1,0 +1,404 @@
+<section class="searchPage">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 category_carousal">
+
+                <div class="owl-carousel collection_carousel owl-theme">
+                    <div class="item">
+                        <a href="/collections" class="all_cat">
+                            <div class="collection_list">
+                                <h5>All Plans</h5>
+                            </div>
+                        </a>
+                    </div>
+                    {% for collection in collections %}
+                        <div class="item">
+                            <a href="{{ collection.url }}">
+                                <div class="collection_list">
+                                    <div class="image">
+                                        <img src="{{ collection.image | img_url : "" }}" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="name">
+                                        {{- collection.title | link_to: collection.url }}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+
+            <!-- Search Form row -->
+            <div class="col-md-12">
+                    <div class="collection-hero__text-wrapper_gird">
+        <h1 class="collection-hero__title">
+          All Plans
+        </h1>
+
+      </div>
+                <!-- <div class="Searchform_col"> -->
+                <div class="fliter_side">
+                    <div class="filter_tab">
+                        <!-- <h3 style="margin-bottom:0px;">{%if  template.name  == 'collection'%}Filter
+                                search{%elsif template.name == 'Search' %}Save this search{%else%}Refine by
+                                filters{%endif%}</h3> -->
+                        <!-- <i>Fill in only the fields you need.</i> -->
+                        <form class="search-container" onsubmit="bsl_search();return false;" action="#">
+                            <div data-v-f2320828="" class="column">
+                                <!-- <label class="form-label">Keyword</label> -->
+
+
+                                <!-- <div class="search-two">
+                                        <div class="search-form">
+                                            <input type="text" style="max-width: 100%;"
+                                                placeholder="Search by title or plan #" id="searchbox" />
+                                        </div>
+                                    </div> -->
+
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="sizes_dropdown"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="icon">{%render 'Size-icon'%}</span>
+                                        <span class="size-span">Size</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="sizes_dropdown">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="heated_area">
+                                                    <label class="form-label">
+                                                        <span class="icon">{%render 'heated-area-icon'%}</span>
+                                                        <span>Total Heated Area (SqFt.)</span>
+                                                    </label>
+                                                    <div class="search-two">
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Min</label>
+                                                            <input id="minarea" type="text" placeholder="min" value=""
+                                                                type="number">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Max</label>
+                                                            <input id="maxarea" type="text" placeholder="max" value=""
+                                                                type="number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="heated_area">
+                                                    <label class="form-label">
+                                                        <span class="icon">{%render 'garage-icon'%}</span>
+                                                        <span> Garage Size (SqFt.)</span>
+                                                    </label>
+                                                    <div class="search-two">
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Min</label>
+                                                            <input id="mingarage" type="text" placeholder="min" value=""
+                                                                type="number">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Max</label>
+                                                            <input id="maxgarage" type="text" placeholder="max" value=""
+                                                                type="number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="heated_area">
+                                                    <label class="form-label">
+                                                        <span class="icon">{%render 'width-icon'%}</span>
+                                                        <span>Width (Ft.)</span>
+                                                    </label>
+                                                    <div class="search-two">
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Min</label>
+                                                            <input id="minwidth" type="text" placeholder="min" value=""
+                                                                type="number">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Max</label>
+                                                            <input id="maxwidth" type="text" placeholder="max" value=""
+                                                                type="number">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="heated_area"><label class="form-label">
+                                                        <span class="icon">{%render 'depth-icon'%}</span>
+                                                        <span>Depth (Ft.)</span>
+                                                    </label>
+                                                    <div class="search-two">
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Min</label>
+                                                            <input id="mindepth" type="text" placeholder="min" value=""
+                                                                type="number">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="" class="form-label">Max</label>
+                                                            <input id="maxdepth" type="text" placeholder="max" value=""
+                                                                type="number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 dropdown_footer">
+                                                <span class="btn clear_btn">Clear Selection x</span>
+                                                <span class="btn apply_btn">Apply</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="floor_dropdown"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="icon">{%render 'floor-icon'%}</span>
+                                        <span class="floor-span">Floor</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="floor_dropdown">
+                                        <div id="floor">
+
+                                        </div>
+                                        <div class="col-md-12 dropdown_footer">
+                                            <span class="btn clear_btn">Clear Selection x</span>
+                                            <span class="btn apply_btn">Apply</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="beds_dropdown"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="icon">{%render 'bed-icon'%}</span>
+                                        <span class="bed-span">Beds</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="beds_dropdown">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="beds">
+                                                    <div id="beds"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="master_beds">
+                                                    <div id="masterbeds"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 dropdown_footer">
+                                                <span class="btn clear_btn">Clear Selection x</span>
+                                                <span class="btn apply_btn">Apply</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="baths_dropdown"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="icon">{%render 'bath-icon'%}</span>
+                                        <span class="bath-span">Baths</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="baths_dropdown">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="baths">
+                                                    <div id="baths"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="half_baths">
+                                                    <div id="halfbaths"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 dropdown_footer">
+                                                <span class="btn clear_btn">Clear Selection x</span>
+                                                <span class="btn apply_btn">Apply</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <Button action="submit" class="custom-search-button">GO</Button>
+                            </div>
+                            <a href="#!" class="Clear_All_Filter">Clear X</a>
+                        </form>
+                    </div>
+                    <!-- 
+                        <hr />
+                        <div id="options">
+
+                        </div> -->
+                </div>
+            </div>
+
+            <!-- Search Result row -->
+            <div class="col-md-12">
+                <div class="Searchresult_col">
+                    <div id="searchresults">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    var collection = null;
+
+  window.onload = function() {
+    const sizeDropdownSpan = document.querySelector('#sizes_dropdown .size-span')
+    const floorDropdownSpan = document.querySelector('#floor_dropdown .floor-span')
+    const bedDropdownSpan = document.querySelector('#beds_dropdown .bed-span')
+    const bathDropdownSpan = document.querySelector('#baths_dropdown .bath-span')
+
+    const heatedMinArea = document.querySelector('#minarea')
+    const heatedMaxArea = document.querySelector('#maxarea')
+
+    const garageMinNo = document.querySelector('#mingarage')
+    const garageMaxNo = document.querySelector('#maxgarage')
+
+    const widthMin = document.querySelector('#minwidth')
+    const widthMax = document.querySelector('#maxwidth')
+
+    const depthMin = document.querySelector('#mindepth')
+    const depthMax = document.querySelector('#maxdepth')
+
+    const sizeApplyBtn = document.querySelector('#sizes_dropdown').nextElementSibling.querySelector('.apply_btn')
+    const floorApplyBtn = document.querySelector('#floor_dropdown').nextElementSibling.querySelector('.apply_btn')
+    const bedApplyBtn = document.querySelector('#beds_dropdown').nextElementSibling.querySelector('.apply_btn')
+    const bathApplyBtn = document.querySelector('#baths_dropdown').nextElementSibling.querySelector('.apply_btn')
+
+    const sizeclear_btn = document.querySelector('#sizes_dropdown').nextElementSibling.querySelector('.clear_btn')
+    const floorclear_btn = document.querySelector('#floor_dropdown').nextElementSibling.querySelector('.clear_btn')
+    const bedclear_btn = document.querySelector('#beds_dropdown').nextElementSibling.querySelector('.clear_btn')
+    const bathclear_btn = document.querySelector('#baths_dropdown').nextElementSibling.querySelector('.clear_btn')
+
+    const floorCheckboxes = document.querySelector('#floor_dropdown').nextElementSibling.querySelectorAll('input[type="checkbox"]')
+    const bedCheckboxes = document.querySelector('#beds_dropdown').nextElementSibling.querySelectorAll('input[type="checkbox"]')
+    const bathCheckboxes = document.querySelector('#baths_dropdown').nextElementSibling.querySelectorAll('input[type="checkbox"]')
+    const clearAllFilters = document.querySelector('.Clear_All_Filter')
+
+    // console.log(floorCheckboxes);
+    // console.log(bedCheckboxes);
+    // console.log(bathCheckboxes);
+
+    let floorSelected = 0;
+    let bedSelected = 0;
+    let bathSelected = 0;
+
+    floorCheckboxes.forEach(e => {
+        e.addEventListener('change', function () {
+        if (this.checked == true) {
+            floorSelected++
+        } else {
+            floorSelected--
+        }
+        })
+    })
+    bedCheckboxes.forEach(e => {
+        e.addEventListener('change', function () {
+        if (this.checked == true) {
+            bedSelected++
+        } else {
+            bedSelected--
+        }
+        })
+    })
+    bathCheckboxes.forEach(e => {
+        e.addEventListener('change', function () {
+        if (this.checked == true) {
+            bathSelected++
+        } else {
+            bathSelected--
+        }
+        })
+    })
+    sizeApplyBtn.addEventListener('click', function () {
+        let sizesSelected = 0;
+
+        if (heatedMinArea.value || heatedMaxArea.value) {
+        sizesSelected++
+        }
+        if (garageMinNo.value || garageMaxNo.value) {
+        sizesSelected++
+        }
+        if (widthMin.value || widthMax.value) {
+        sizesSelected++
+        }
+        if (depthMin.value || depthMax.value) {
+        sizesSelected++
+        }
+        let sizeText = sizeDropdownSpan.textContent
+        sizeDropdownSpan.textContent = `Size ( ${sizesSelected} Selected )`
+    })
+    
+    floorApplyBtn.addEventListener('click', function () {
+        floorDropdownSpan.textContent = `Floor (${floorSelected} Selected )`
+    })
+    bedApplyBtn.addEventListener('click', function () {
+        bedDropdownSpan.textContent = `Bed (${bedSelected} Selected )`
+    })
+    bathApplyBtn.addEventListener('click', function () {
+        bathDropdownSpan.textContent = `Bed (${bathSelected} Selected )`
+    })
+
+    sizeclear_btn.addEventListener('click', function () {
+        document.querySelectorAll('.dropdown-menu[aria-labelledby=sizes_dropdown] input').forEach(e => {
+            e.value = ''
+        })
+        sizeDropdownSpan.textContent = `Sizes`
+    })
+
+    floorclear_btn.addEventListener('click', function () {
+        floorCheckboxes.forEach(e => {
+            e.checked = false
+        })
+        floorDropdownSpan.textContent = `Floor`
+        floorSelected = 0;
+    })
+    bedclear_btn.addEventListener('click', function () {
+        bedCheckboxes.forEach(e => {
+            e.checked = false
+        })
+        bedDropdownSpan.textContent = `Beds`
+        bedSelected = 0;
+    })
+    bathclear_btn.addEventListener('click', function () {
+        bathCheckboxes.forEach(e => {
+            e.checked = false
+        })
+        bathDropdownSpan.textContent = `Baths`
+        bathSelected = 0;
+    })
+
+    clearAllFilters.addEventListener('click', function () {
+        document.querySelectorAll('input[type=checkbox]').forEach(e => {
+            e.checked = false
+        })
+        document.querySelectorAll('.dropdown-menu[aria-labelledby=sizes_dropdown] input').forEach(e => {
+            e.value = ''
+        })
+        bathDropdownSpan.textContent = `Baths`
+        bedDropdownSpan.textContent = `Beds`
+        floorDropdownSpan.textContent = `Floor`
+        sizeDropdownSpan.textContent = `Sizes`
+        floorSelected = 0;
+        bedSelected = 0;
+        bathSelected = 0;
+    })
+
+
+    
+  };
+</script>
+<script src="{{ 'custom-search-bsl.js' | asset_url }}" defer="defer"></script>
+
+
+{% render 'collection-sparq' %}

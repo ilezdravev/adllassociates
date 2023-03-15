@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "product-collection": {
+      "type": "collection-list",
+      "blocks": {
+        "76bde199-e4d0-4700-a782-71a39a58a2d3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "craftsman-house-plans"
+          }
+        },
+        "c711fcbc-17b9-4e75-b719-c5d8790a11f6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "luxury-house-plans"
+          }
+        },
+        "66657ca0-cdec-4eca-b85b-ec1145b02622": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coastal"
+          }
+        },
+        "0360a11b-f573-4a62-86ed-56fc0d94482f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cabin-house-plans"
+          }
+        },
+        "b569378d-74bb-451c-a8ce-6f77ae485d0c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "active-adult-house-plans"
+          }
+        },
+        "f4a13fd9-28f4-4b79-8380-ac48f1aa5478": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "modern-farmhouse-plans"
+          }
+        },
+        "f9fd4913-13ba-4b99-bef9-298e1be70abf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "french-country-house-plans"
+          }
+        },
+        "7fe505a2-a96d-4385-bcdc-cec4a12e0d73": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "colonial-house-plans"
+          }
+        },
+        "f59e4b24-cc43-4810-8f42-e12317406f5b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "european-manor-house-plans"
+          }
+        },
+        "183dc971-2040-426e-aca3-b6032a6c7f9c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "traditional-house-plans"
+          }
+        },
+        "29d5d509-8e68-4e3a-81db-e964254744b0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lake-house-plans"
+          }
+        },
+        "563ba615-5630-436f-bce4-403a01f56ec9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ranch-house-plans"
+          }
+        },
+        "df9170ba-75f2-4ef2-953a-986eefcd06d5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "detached-garage-plans"
+          }
+        }
+      },
+      "block_order": [
+        "76bde199-e4d0-4700-a782-71a39a58a2d3",
+        "c711fcbc-17b9-4e75-b719-c5d8790a11f6",
+        "66657ca0-cdec-4eca-b85b-ec1145b02622",
+        "0360a11b-f573-4a62-86ed-56fc0d94482f",
+        "b569378d-74bb-451c-a8ce-6f77ae485d0c",
+        "f4a13fd9-28f4-4b79-8380-ac48f1aa5478",
+        "f9fd4913-13ba-4b99-bef9-298e1be70abf",
+        "7fe505a2-a96d-4385-bcdc-cec4a12e0d73",
+        "f59e4b24-cc43-4810-8f42-e12317406f5b",
+        "183dc971-2040-426e-aca3-b6032a6c7f9c",
+        "29d5d509-8e68-4e3a-81db-e964254744b0",
+        "563ba615-5630-436f-bce4-403a01f56ec9",
+        "df9170ba-75f2-4ef2-953a-986eefcd06d5"
+      ],
+      "settings": {
+        "title": "House Plan Styles",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "product-collection"
+  ]
+}

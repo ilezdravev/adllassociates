@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "scratch_banner": {
+      "type": "plan_modification_banner",
+      "settings": {
+        "banner_img": "shopify:\/\/shop_images\/FrontNight-1-2.webp",
+        "main_heading": "Design & Customize Your New Home From Scratch",
+        "main_paragraph": "<p>Have you browsed our collection, loved the designs but just haven’t quite found a design that perfectly fits your family’s needs? <\/p><p>Work with Mike Garrell, the Founder of Garrell Associates directly and take advantage of his 20+ years of experience in designing thousands of new custom homes. Take designs directly from your imagination and put them to paper. <\/p><p><br\/>If you prefer a closer relationship with your designer and the ability to have a direct line of communication with the designer, this is the premier solution for designing your home. <\/p>",
+        "content_img": "shopify:\/\/shop_images\/planner-img.png",
+        "Section_padding_top": 60,
+        "Section_padding_bottom": 110,
+        "Section_Background": "#ffffff",
+        "Class": "Build_scrach_plan"
+      }
+    },
+    "scratch-modification-form": {
+      "type": "plan-modification-form",
+      "settings": {
+        "customize_header": "Modifcation Request-Pine Lake Cottage",
+        "customize_Content": "<p>In order to receive your free modification quote, please fill out the from below.  Be as detailed and descriptive as possible.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "scratch_banner",
+    "scratch-modification-form"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "Shipment_Policy_Content": {
+      "type": "privacy-policy-content",
+      "settings": {
+        "Banner-Image": "shopify:\/\/shop_images\/shipment_policy_banner.png",
+        "banner_height": 300,
+        "Banner_padding_Bottom": 50,
+        "main_heading": "Shipment Policy",
+        "show_update_date": false,
+        "Update_date_Time": "Quick links",
+        "main_paragraph": "<p>We do not ship physical paper copies of our plans.<br\/>All of our products are shipped via email in a digital format, either PDF or CAD. You will receive your plans digitally, within 1-2 business days. If the foundation option you selected needs to be developed, then it can take up to 5 business days to deliver the plans. If you have requested modifications, we will send you a quote within 5-10 business days. <br\/><\/p>",
+        "Section_padding_top": 30,
+        "Section_padding_bottom": 30,
+        "Class": "Shipment_policy_Content"
+      }
+    }
+  },
+  "order": [
+    "Shipment_Policy_Content"
+  ]
+}

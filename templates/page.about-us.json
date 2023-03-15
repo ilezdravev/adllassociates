@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "main": {
+      "type": "about-us",
+      "settings": {
+        "About_banner_img": "shopify:\/\/shop_images\/unsplash_Dr6VBM0KNsw.png",
+        "Slider_banner_activate": false,
+        "about_banner_heading": "About Us",
+        "about_Banner_Para": "Building someone’s own special “castle” is an intensely personal journey, and the company has a profound respect for the process. The firm’s consultants meet with each client and review their lifestyle, needs, dreams, and desires. Ideas from these brainstorming sessions evolve into home designs that are livable and functional.\n<br><br>\nBy conservative estimate, numerous families move into a new Garrell Associates home design every day across the country and beyond. Nearly a decade and a half of designing has yielded a portfolio of over 3000 home plans. To date, this prolific output has garnered the firm more than 200 professional awards.",
+        "Banner_Awards_Display": true,
+        "review_images01": "shopify:\/\/shop_images\/image_38_ff44e7e2-8480-48d2-b304-9d66146b723a.png",
+        "review_images02": "shopify:\/\/shop_images\/image_39_ec4f5167-533e-4040-9225-9ee876c2f66d.png",
+        "Section_padding_top": 90,
+        "Section_padding_bottom": 30,
+        "Class": "About_us_banner about_us_main_banner"
+      }
+    },
+    "About-me": {
+      "type": "home-about-us-section",
+      "blocks": {
+        "285123fe-fbb3-4bc3-a3b6-0e8b2cf3280a": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/Review_0ne.png"
+          }
+        },
+        "f3aac826-70fd-4758-9b18-8228c9f4adee": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/Review_two.png"
+          }
+        }
+      },
+      "block_order": [
+        "285123fe-fbb3-4bc3-a3b6-0e8b2cf3280a",
+        "f3aac826-70fd-4758-9b18-8228c9f4adee"
+      ],
+      "settings": {
+        "Home_about_us_Quote": "Michael W. <span>Garrell<\/span>",
+        "Home_about_us_para": "Michael W. Garrell is an Architectural graduate of Southern Technical Institute (Southern Poly). In the 1980s, Mike honed his skills working in construction-related energy initiatives as well as for local architects and builders. In 1993 Mike launched his own firm with no pre-designed plans,the firm’s early days were both exciting and daunting. In every design meeting with builders, Mike would take careful notes, and then go off to transform what he had learned into practical yet compelling residential products. Armed with his new creations, they would go to work convincing those same builders and developers that his designs would outsell the competition. They did.",
+        "Show_paragraph_images": true,
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#ffffff",
+        "Class": "About_us_sec2",
+        "image": "shopify:\/\/shop_images\/49721694_architecture-is-an-art-form-an-unrecognizable-architect-working-on-her-drafting-table.jpg",
+        "youtube_video": ""
+      }
+    },
+    "About-Qoute": {
+      "type": "home-about-us-section",
+      "settings": {
+        "Home_about_us_Quote": "Every day is another opportunity to create ever better, more distinctive, and more livable designs – designs that make \na home a joy and a treasure",
+        "Home_about_us_para": "Michael cares about each client and becomes a faithful steward of their dreams, keeping loyal clients coming back. That caring extends to their community as well. Thousands of Garrell Associates clients would agree.",
+        "Show_paragraph_images": false,
+        "Section_padding_top": 20,
+        "Section_padding_bottom": 60,
+        "Section_Background": "#ffffff",
+        "Class": "About_us_sec3",
+        "image": "shopify:\/\/shop_images\/45978952_architect-making-plan-with-loupe.jpg",
+        "youtube_video": ""
+      }
+    },
+    "About-Blog-post": {
+      "type": "main-blog",
+      "settings": {
+        "heading": "Blog",
+        "blog": "blog",
+        "post_limit": 9,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": true,
+        "show_view_all": false,
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Class": "About_us_Blogs"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "About-me",
+    "About-Qoute",
+    "About-Blog-post"
+  ]
+}

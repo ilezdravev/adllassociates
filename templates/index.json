@@ -1,0 +1,548 @@
+{
+  "sections": {
+    "164784721427722522": {
+      "type": "main-hero-section",
+      "blocks": {
+        "ba430f77-71fc-4983-8ac4-604dea46b862": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E1sunset.webp",
+            "mobile_image": "shopify:\/\/shop_images\/E1sunset.webp",
+            "url": "shopify:\/\/products\/37-182"
+          }
+        },
+        "1aa37a93-d726-4ea8-8533-c9e2a4446710": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FrontNight-1-2.webp",
+            "mobile_image": "shopify:\/\/shop_images\/FrontNight-1-2.webp",
+            "url": "https:\/\/garrellassociates.com\/products\/seaside-lodge"
+          }
+        },
+        "450398c2-c311-41e5-9c25-0637b561123f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FrontRightDay-1_ed016496-1c41-414d-a23c-be0d7dff2be4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/FrontRightDay-1_ed016496-1c41-414d-a23c-be0d7dff2be4.jpg",
+            "url": "https:\/\/garrellassociates.com\/products\/pine-lake-cottage"
+          }
+        }
+      },
+      "block_order": [
+        "ba430f77-71fc-4983-8ac4-604dea46b862",
+        "1aa37a93-d726-4ea8-8533-c9e2a4446710",
+        "450398c2-c311-41e5-9c25-0637b561123f"
+      ],
+      "settings": {
+        "text_1": "Find your dream home plan from Americas trusted designer",
+        "text_2": "",
+        "Banner_advance_Search": "https:\/\/garrellassociates.com\/pages\/search"
+      }
+    },
+    "Counter-Section": {
+      "type": "main-counter-section",
+      "settings": {
+        "counter_Homes_Designed": 2858,
+        "counter_Homes_Built": 10431,
+        "counter_Years_Exp": 31,
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#f3e8d1"
+      }
+    },
+    "Home-About-Me": {
+      "type": "home-about-us-section",
+      "blocks": {
+        "2611ef56-1281-47ec-a87b-a70e55337b0a": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_34.png"
+          }
+        },
+        "deb56441-54e0-421d-88c7-0167c3f127bf": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_35.png"
+          }
+        },
+        "a7b77070-1725-457b-97f3-d936d8c3c5df": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_38.png"
+          }
+        },
+        "aeb6d425-4b2a-4fdb-bb4a-ba793f0927b9": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_39.png"
+          }
+        }
+      },
+      "block_order": [
+        "2611ef56-1281-47ec-a87b-a70e55337b0a",
+        "deb56441-54e0-421d-88c7-0167c3f127bf",
+        "a7b77070-1725-457b-97f3-d936d8c3c5df",
+        "aeb6d425-4b2a-4fdb-bb4a-ba793f0927b9"
+      ],
+      "settings": {
+        "Home_about_us_Quote": "I design the homes that <span>my clients want<\/span> to build, not the home I want them to build",
+        "Home_about_us_para": "Have your home plans customised by award winning designer and Garrell Associates Inc, Founder, Michael W. Garrell.\n<br><br>\nMike has earned the firm more than 200 professional awards, with numerous Street of Dreams® honers. His “Tranquility” show home earned the firm the prestigious “Best in American Living Award” (BALA) from Professional Builder magazine.",
+        "Show_paragraph_images": false,
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#ffffff",
+        "Class": "",
+        "image": "shopify:\/\/shop_images\/mike-g.png",
+        "youtube_video": "https:\/\/www.youtube.com\/watch?v=LvMQDAp9Xqk"
+      }
+    },
+    "9a2742ae-d84d-41d8-ab82-b4d98364e3da": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14850730688601__9a2742ae-d84d-41d8-ab82-b4d98364e3da-1668595552e784c864-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group.png",
+            "title": "First time home buyers",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14850730688601__9a2742ae-d84d-41d8-ab82-b4d98364e3da-1668595552e784c864-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arrows-maximize.png",
+            "title": "Upgrading to a bigger home",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14850730688601__9a2742ae-d84d-41d8-ab82-b4d98364e3da-1668595552e784c864-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arrows-minimize.png",
+            "title": "Downsizing to a smaller home",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e1dfb876-fcb9-4ef9-94f2-6336c68be01c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bulldozer.png",
+            "title": "Building an Investment property",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14850730688601__9a2742ae-d84d-41d8-ab82-b4d98364e3da-1668595552e784c864-0",
+        "template--14850730688601__9a2742ae-d84d-41d8-ab82-b4d98364e3da-1668595552e784c864-1",
+        "template--14850730688601__9a2742ae-d84d-41d8-ab82-b4d98364e3da-1668595552e784c864-2",
+        "e1dfb876-fcb9-4ef9-94f2-6336c68be01c"
+      ],
+      "settings": {
+        "title": "Who we design for?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-2",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "Main_Class": "Home_sec4",
+        "Section_Background": "#ffffff"
+      }
+    },
+    "164810033599f3d556": {
+      "type": "Home-Recent-Viewed",
+      "settings": {
+        "heading": "Welcome Back! Here is what you recently viewed:"
+      }
+    },
+    "164794653927366827": {
+      "type": "Home-custom-feature-product",
+      "settings": {
+        "title": "Most popular",
+        "collection": "popular-house-plans",
+        "products_to_show": 6,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "show_price": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "bedrooms": "BEDS",
+        "bedrooms_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M3 7V18\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M3 14H21\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M21 18V10C21 8.89543 20.1046 8 19 8H11V14\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"7\" cy=\"10\" r=\"1\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>",
+        "bathroom": "BATHS",
+        "bathroom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 12H20C20.5523 12 21 12.4477 21 13V16C21 18.2091 19.2091 20 17 20H7C4.79086 20 3 18.2091 3 16V13C3 12.4477 3.44772 12 4 12Z\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M6 12V5C6 3.89543 6.89543 3 8 3H11V5.25\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 21L5 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M20 21L19 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "area": "SQ FT",
+        "area_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M4 8V6C4 4.89543 4.89543 4 6 4H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 16V18C4 19.1046 4.89543 20 6 20H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 4H18C19.1046 4 20 4.89543 20 6V8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 20H18C19.1046 20 20 19.1046 20 18V16\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"12\" cy=\"12\" r=\"3\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>",
+        "width_depth": "WIDTH\/DEPTH",
+        "width_depth_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M3 17L7 21L11 17\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M7 21V10C7 8.34315 8.34315 7 10 7H21\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M17 11L21 7L17 3\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "Section_Class": "Most_popular_sec"
+      }
+    },
+    "164801817278d99008": {
+      "type": "Home-Custom-Feature-product-new-plans",
+      "settings": {
+        "title": "New Plans",
+        "collection": "new-plans",
+        "products_to_show": 6,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "show_price": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 64,
+        "padding_bottom": 100,
+        "bedrooms": "BEDS",
+        "bedrooms_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M3 7V18\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M3 14H21\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M21 18V10C21 8.89543 20.1046 8 19 8H11V14\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"7\" cy=\"10\" r=\"1\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>",
+        "bathroom": "BATHS",
+        "bathroom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 12H20C20.5523 12 21 12.4477 21 13V16C21 18.2091 19.2091 20 17 20H7C4.79086 20 3 18.2091 3 16V13C3 12.4477 3.44772 12 4 12Z\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M6 12V5C6 3.89543 6.89543 3 8 3H11V5.25\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 21L5 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M20 21L19 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "area": "SQ FT",
+        "area_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M4 8V6C4 4.89543 4.89543 4 6 4H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 16V18C4 19.1046 4.89543 20 6 20H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 4H18C19.1046 4 20 4.89543 20 6V8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 20H18C19.1046 20 20 19.1046 20 18V16\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"12\" cy=\"12\" r=\"3\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>",
+        "width_depth": "WIDTH\/DEPTH",
+        "width_depth_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M3 17L7 21L11 17\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M7 21V10C7 8.34315 8.34315 7 10 7H21\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M17 11L21 7L17 3\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "Section_Class": "Most_popular_sec my_plans_sec"
+      }
+    },
+    "multicolumn-with-image": {
+      "type": "multicolumn-with-image",
+      "blocks": {
+        "b21092b2-43e2-4082-b9d3-4c1fa10730d6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Buy_us1.png",
+            "title": "Master of design - 31 years  of experience",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a786ecf9-4d65-4108-9585-588d6e3aa282": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Buy_us2.png",
+            "title": "Lot fit guarantee",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4c8d53f1-8743-4fd6-8db3-0668a45b914b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Buy_us3.png",
+            "title": "Customize the house till its just right for you and your family",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "270e97d6-de29-42df-ade0-289172d0f4c6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Buy_us4.png",
+            "title": "Buy direct from the one of America's trusted designers",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b21092b2-43e2-4082-b9d3-4c1fa10730d6",
+        "a786ecf9-4d65-4108-9585-588d6e3aa282",
+        "4c8d53f1-8743-4fd6-8db3-0668a45b914b",
+        "270e97d6-de29-42df-ade0-289172d0f4c6"
+      ],
+      "settings": {
+        "title": "Why buy from us?",
+        "multicolumn_side_image": "shopify:\/\/shop_images\/image_5.png",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#ffffff"
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_9843_47a18396-5408-4a77-8cf4-1b29b81335cd.png",
+            "title": "29+ Years History & Award Winning Plans",
+            "text": "<p>Our home plans are trusted by new home buyers and builders alike. Expect amazing service, high-quality home plans, reliable turnaround times & trust in our 29+ years of house floor plan design experience.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_9844_9dd2e1b9-55db-4d55-b498-c24a65258d76.png",
+            "title": "Customize  Your Plan",
+            "text": "<p>Hire Michael W. Garrell, an award winning designer, directly for best-in-class designs and custom modifications. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_9900_8c80f6bd-19f6-4b78-bf8d-0ac867f145bf.png",
+            "title": "Low price Guarantee",
+            "text": "<p>By shopping directly with the original designers, you are ensured the best floor plan purchase price. If you find our plans or a similar plan for sale elsewhere with a better price, we will match it and give you an additional 10% off the matched price. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column3",
+        "column2"
+      ],
+      "settings": {
+        "title": "Why Buy From Us",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "Main_Class": "Multicolumn",
+        "Section_Background": "#ffffff"
+      }
+    },
+    "1647841815c1875195": {
+      "type": "collection-list",
+      "blocks": {
+        "1647841815aec87c72-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "craftsman-house-plans"
+          }
+        },
+        "1647841815aec87c72-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "luxury-house-plans"
+          }
+        },
+        "1647841815aec87c72-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coastal"
+          }
+        },
+        "2b5e7514-6f1e-44ff-a76b-aa8f7e666d11": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "modern-farmhouse-plans"
+          }
+        },
+        "61fff4ce-fa05-4ec2-9356-2e7c4a8fd532": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "french-country-house-plans"
+          }
+        },
+        "733ab5d5-730e-49c5-85ef-cd4a094e0a2d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "colonial-house-plans"
+          }
+        },
+        "f1e05c6f-1cf9-43e3-be2e-5bcb4a024fb7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "european-manor-house-plans"
+          }
+        },
+        "baf4f906-5a70-4f38-803b-8a5e179d4c79": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "traditional-house-plans"
+          }
+        },
+        "009ec445-6d6c-445c-8a7d-5e1cdf1dd2a5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lake-house-plans"
+          }
+        },
+        "1f498177-f151-4ba3-8cbe-5444966f3707": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ranch-house-plans"
+          }
+        },
+        "dd058a9c-88c1-498f-acac-0802fccf2f00": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "barndominium-house-plans"
+          }
+        },
+        "1e2d0bf8-2cb9-4efc-a254-fac7f6a35bbe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "detached-garage-plans"
+          }
+        },
+        "c4c10d53-1995-4702-b5ba-af6320455e3a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647841815aec87c72-0",
+        "1647841815aec87c72-1",
+        "1647841815aec87c72-2",
+        "2b5e7514-6f1e-44ff-a76b-aa8f7e666d11",
+        "61fff4ce-fa05-4ec2-9356-2e7c4a8fd532",
+        "733ab5d5-730e-49c5-85ef-cd4a094e0a2d",
+        "f1e05c6f-1cf9-43e3-be2e-5bcb4a024fb7",
+        "baf4f906-5a70-4f38-803b-8a5e179d4c79",
+        "009ec445-6d6c-445c-8a7d-5e1cdf1dd2a5",
+        "1f498177-f151-4ba3-8cbe-5444966f3707",
+        "dd058a9c-88c1-498f-acac-0802fccf2f00",
+        "1e2d0bf8-2cb9-4efc-a254-fac7f6a35bbe",
+        "c4c10d53-1995-4702-b5ba-af6320455e3a"
+      ],
+      "settings": {
+        "title": "Categories",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "Section_Class": "Home_Categories",
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#ffffff"
+      }
+    },
+    "164793604205cacbf4": {
+      "type": "home-design-modified",
+      "settings": {
+        "heading": "Need a change ?",
+        "subheading": "<p>Our team can quickly modify any of our plans to match your needs OR even design one from scratch!<\/p>",
+        "Modify_button_label": "Modify my plan",
+        "Modify_button_url": "shopify:\/\/pages\/plan-modification",
+        "Build_button_label": "Build from scratch",
+        "Build_button_url": "shopify:\/\/pages\/plan-from-scratch",
+        "main_image": "shopify:\/\/shop_images\/Mask_group_6.png",
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#ffffff"
+      }
+    },
+    "68a50992-3f62-4fcc-bd4f-c8db4a4b4c1c": {
+      "type": "home-building-map",
+      "settings": {
+        "heading": "Where <span>our homes<\/span> have been built?",
+        "mapbox_access_token": "pk.eyJ1IjoieWFzMTIzNjQiLCJhIjoiY2xjeDlwdjIzMW1jazNvbXhkZ2dlODBhNiJ9.51YATyD-rbdzTXjxuJo9-w",
+        "Section_padding_top": 30,
+        "map_height": 500,
+        "Section_padding_bottom": 30,
+        "Section_Background": "#ffffff"
+      }
+    },
+    "1647864437a462762d": {
+      "type": "home-testimonial",
+      "blocks": {
+        "295a346e-0b86-4550-bfb3-619d01cfa09d": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John-Rippie.png",
+            "content": "In working with Garrell Associates, it feeds into my wife's and I vision of what we wanted for our forever home. We would not only work with Garrell Associates again, we would recommend that anybody out there looking for a home plan or a custom home plan with would with Garrell Associates. They have been wonderful to work with.",
+            "youtube_video": "https:\/\/www.youtube.com\/watch?v=yrvxMmkhLGA",
+            "author": "John Rippie",
+            "text": "Nov 30, 2022"
+          }
+        },
+        "700ff90e-8ebb-41e7-bf7c-7f3ad583647b": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/house2.png",
+            "content": "We've purchased 2 different plans from Garrell and couldn't be happier. We asked that one set be reversed and that was handled easily. Both homes we built came out beautifully. What was really nice is that the plans can actually be built as drawn. We seen plans from other companies that included architectural details that were un workable or wouldn't meet code. I'd heartily recommend Garrell Associates.",
+            "youtube_video": "",
+            "author": "Gregg Heath",
+            "text": "August, 2022"
+          }
+        },
+        "b11fd104-f364-48f6-bcfc-3d3bf618c23a": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/house3.png",
+            "content": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.  That's what drew me to them in the first place.  Other house designs that I looked at online had very questionable layouts. Some were just a collection of boxes they called rooms and many just didn't seem to flow right. Garrell plans have a good flow to them.\n\nI have built two houses with Garrell plans.  Both were different designs and each turned out beautifully.  One was a traditional house and my current one is a mountain house.\n\nI built my latest Garrell house on top of a mountain.  I've attached a couple of photos to show you the quality and how it turned out. My wife and I are really pleased with the result.",
+            "youtube_video": "",
+            "author": "David Sampson",
+            "text": "May, 2022"
+          }
+        }
+      },
+      "block_order": [
+        "295a346e-0b86-4550-bfb3-619d01cfa09d",
+        "700ff90e-8ebb-41e7-bf7c-7f3ad583647b",
+        "b11fd104-f364-48f6-bcfc-3d3bf618c23a"
+      ],
+      "settings": {
+        "testimonial_Heading": "Our <span>5 Star Reviews<\/span> speak for themselves",
+        "buttontext": "",
+        "buttonurl": "#",
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "164784721427722522",
+    "Counter-Section",
+    "Home-About-Me",
+    "9a2742ae-d84d-41d8-ab82-b4d98364e3da",
+    "164810033599f3d556",
+    "164794653927366827",
+    "164801817278d99008",
+    "multicolumn-with-image",
+    "multicolumn",
+    "1647841815c1875195",
+    "164793604205cacbf4",
+    "68a50992-3f62-4fcc-bd4f-c8db4a4b4c1c",
+    "1647864437a462762d"
+  ]
+}

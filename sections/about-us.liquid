@@ -1,0 +1,140 @@
+<section class="About_us_banner {{ section.settings.Class }}" style=" {% if section.settings.Slider_banner_activate == false %} background-image: url('{{ section.settings.About_banner_img | img_url : "" }}'); background-size: cover; background-position: center; {% endif %} padding: {{ section.settings.Section_padding_top }}px 0 {{ section.settings.Section_padding_bottom }}px 0; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {% if section.settings.Slider_banner_activate == true %}
+                  <div class="owl-carousel banner_carousal owl-theme">
+                    {% for block in section.blocks  %}
+                      <div class="item">
+                        <img src="{{ block.settings.Slider_images | img_url : "" }}" alt="" class="img-fluid">
+                      </div>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+                <div class="inner_col">
+                    <h2 class="banner_heading">{{ section.settings.about_banner_heading }}</h2>
+                    {% if section.settings.about_Banner_Para != blank %}
+                    <p>{{ section.settings.about_Banner_Para }}</p>
+                    {% endif %}
+                    {% if section.settings.Banner_Awards_Display == true %}
+                      <div class="review_images">
+                          {% if section.settings.review_images01 != blank %}
+                            <img src="{{ section.settings.review_images01 | img_url : "" }}" alt="" class="img-fluid">
+                          {% endif %}
+                          {% if section.settings.review_images02 != blank %}
+                            <img src="{{ section.settings.review_images02 | img_url : "" }}" alt="" class="img-fluid">
+                          {% endif %}
+                      </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+  $('.banner_carousal').owlCarousel({
+    loop: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+})
+</script>
+
+{% schema %}
+  {
+    "name": "About-Us Banner",
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "About_banner_img",
+          "label": "Image"
+        },
+      {
+        "type": "checkbox",
+        "id": "Slider_banner_activate",
+        "label": "Slider Background",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "about_banner_heading",
+        "label": "Heading",
+        "default": "About Us"
+      },
+      {
+        "type": "textarea",
+        "id": "about_Banner_Para",
+        "label": "Banner Paragraph",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "type": "checkbox",
+        "id": "Banner_Awards_Display",
+        "label": "Display Awards Images",
+        "default": true
+      },
+      {
+       "type": "image_picker",
+       "id": "review_images01",
+       "label": "Review Image One"
+       },
+      {
+       "type": "image_picker",
+       "id": "review_images02",
+       "label": "Review Image Two"
+       },
+      {
+        "type": "range",
+        "id": "Section_padding_top",
+        "min": 0,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Section Padding Top",
+        "default": 30
+      },
+      {
+        "type": "range",
+        "id": "Section_padding_bottom",
+        "min": 0,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Section Padding Bottom",
+        "default": 30
+      },
+      {
+        "type": "text",
+        "id": "Class",
+        "label": "Class"
+      }
+	],
+    "blocks":[
+      {
+       "name": "Slider Images",
+       "type": "image",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "Slider_images",
+           "label": "Slider Image"
+         }
+       ]
+     }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+

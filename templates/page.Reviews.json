@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "review-Banner": {
+      "type": "about-us",
+      "blocks": {
+        "d0c078ec-895e-44b1-a7b3-3e3622b23161": {
+          "type": "image",
+          "settings": {
+            "Slider_images": "shopify:\/\/shop_images\/unsplash_Dr6VBM0KNsw-2.png"
+          }
+        },
+        "34d97afb-b055-47dc-8650-b7d3475a05ad": {
+          "type": "image",
+          "settings": {
+            "Slider_images": "shopify:\/\/shop_images\/unsplash_Dr6VBM0KNsw_b1f7f84a-9df3-4087-9021-da8ee463aabd.png"
+          }
+        },
+        "e23559ba-3d5d-4aed-87d1-ef98663919f4": {
+          "type": "image",
+          "settings": {
+            "Slider_images": "shopify:\/\/shop_images\/unsplash_Dr6VBM0KNsw-1.png"
+          }
+        }
+      },
+      "block_order": [
+        "d0c078ec-895e-44b1-a7b3-3e3622b23161",
+        "34d97afb-b055-47dc-8650-b7d3475a05ad",
+        "e23559ba-3d5d-4aed-87d1-ef98663919f4"
+      ],
+      "settings": {
+        "Slider_banner_activate": true,
+        "about_banner_heading": "Our 5 Star Reviews speak for themselves",
+        "about_Banner_Para": "",
+        "Banner_Awards_Display": false,
+        "Section_padding_top": 0,
+        "Section_padding_bottom": 0,
+        "Class": "review_banner"
+      }
+    },
+    "Review_section2": {
+      "type": "reviews-grid",
+      "blocks": {
+        "da9dd3c9-a8d8-4452-adc6-6eac45210f13": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        },
+        "ec3a13ff-9878-4ee3-8ef3-c367d743b381": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        },
+        "ee1f0ae0-01ce-47b3-a504-0eb8c5418faa": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        },
+        "24a8ba29-d49f-4001-b590-2b506c0eec58": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        },
+        "b8649535-3c44-4b24-b95f-0adaa2c89473": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        },
+        "26bca86c-4dea-4e2e-8fae-3f00df49982c": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        },
+        "f8f0063c-0d9f-4624-9680-cc726338df71": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        },
+        "a0bd7f20-b6c8-4fb7-9c3d-401e12aee7f9": {
+          "type": "Review_Card",
+          "settings": {
+            "review_Image": "shopify:\/\/shop_images\/Rectangle_39942.png",
+            "Review_Heading": "I really liked service...",
+            "review_paragraph": "Garrell stands out from other designers in that ALL of their plans are aesthetically pleasing to the eye.  They have great floor plans that you can use as-is or tweak to your needs.  No wasted space or undefined uses for rooms.",
+            "author_name": "Ginny Justice",
+            "Review_Date": "July 23, 2022"
+          }
+        }
+      },
+      "block_order": [
+        "da9dd3c9-a8d8-4452-adc6-6eac45210f13",
+        "ec3a13ff-9878-4ee3-8ef3-c367d743b381",
+        "ee1f0ae0-01ce-47b3-a504-0eb8c5418faa",
+        "24a8ba29-d49f-4001-b590-2b506c0eec58",
+        "b8649535-3c44-4b24-b95f-0adaa2c89473",
+        "26bca86c-4dea-4e2e-8fae-3f00df49982c",
+        "f8f0063c-0d9f-4624-9680-cc726338df71",
+        "a0bd7f20-b6c8-4fb7-9c3d-401e12aee7f9"
+      ],
+      "settings": {
+        "main_Heading": "Customer Reviews",
+        "sub_Heading": "Base on 32 Reviews",
+        "slider_mobile_check": true,
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 120,
+        "Section_Background": "#f9f9f9",
+        "Class": "review_section02"
+      }
+    },
+    "Review_slider": {
+      "type": "review-slider",
+      "blocks": {
+        "d5421446-6610-4a44-a526-42a730bdfa37": {
+          "type": "Review-Slide",
+          "settings": {
+            "Author_image": "shopify:\/\/shop_images\/avatar.webp",
+            "Author_name": "Leo",
+            "Author_designation": "Lead Designer",
+            "review_slider": 4,
+            "review_heading": "It was a very good experience",
+            "review_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis."
+          }
+        },
+        "661413ec-fcb0-477f-a40e-1a361d8dd0f4": {
+          "type": "Review-Slide",
+          "settings": {
+            "Author_image": "shopify:\/\/shop_images\/avatar.webp",
+            "Author_name": "Leo",
+            "Author_designation": "Lead Designer",
+            "review_slider": 4,
+            "review_heading": "It was a very good experience",
+            "review_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis."
+          }
+        },
+        "c5b66ee8-9339-4ebe-845b-cdd32e729d1b": {
+          "type": "Review-Slide",
+          "settings": {
+            "Author_image": "shopify:\/\/shop_images\/avatar.webp",
+            "Author_name": "Leo",
+            "Author_designation": "Lead Designer",
+            "review_slider": 4,
+            "review_heading": "It was a very good experience",
+            "review_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis."
+          }
+        }
+      },
+      "block_order": [
+        "d5421446-6610-4a44-a526-42a730bdfa37",
+        "661413ec-fcb0-477f-a40e-1a361d8dd0f4",
+        "c5b66ee8-9339-4ebe-845b-cdd32e729d1b"
+      ],
+      "settings": {
+        "main_heading": "What Our Clients Say About Us",
+        "Section_padding_top": 80,
+        "Section_padding_bottom": 80,
+        "Section_Background": "#f9f9f9",
+        "Class": "Review_section03"
+      }
+    }
+  },
+  "order": [
+    "review-Banner",
+    "Review_section2",
+    "Review_slider"
+  ]
+}

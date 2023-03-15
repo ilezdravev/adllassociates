@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": ""
+          }
+        },
+        "a20891c4-eecd-4688-a966-c6bf53878648": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share",
+        "a20891c4-eecd-4688-a966-c6bf53878648"
+      ],
+      "settings": {
+        "custom_heading": "Customize this plan to make it perfect for you, Risk-Free!",
+        "custom_text": "<p>Need to make changes to this home plan? We will deliver you a free price quote within 2 to 4 business days. <\/p>",
+        "custom_button": "Edit Your Plan",
+        "custom_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"7.166\" height=\"12.535\" viewbox=\"0 0 7.166 12.535\">\n  <path id=\"Icon_ionic-ios-arrow-back\" data-name=\"Icon ionic-ios-arrow-back\" d=\"M2.16,6.266,6.9,1.527A.9.9,0,1,0,5.635.262L.261,5.632A.894.894,0,0,0,.235,6.867l5.4,5.407A.9.9,0,1,0,6.9,11.009Z\" transform=\"translate(7.166 12.535) rotate(180)\" fill=\"#fff\"><\/path>\n<\/svg>",
+        "enable_sticky_info": false,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12,
+        "bedrooms": "Bedrooms",
+        "bedrooms_icon": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M3 7V18\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M3 14H21\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M21 18V10C21 8.89543 20.1046 8 19 8H11V14\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"7\" cy=\"10\" r=\"1\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>",
+        "bathroom": "Bathrooms",
+        "bathroom_icon": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 12H20C20.5523 12 21 12.4477 21 13V16C21 18.2091 19.2091 20 17 20H7C4.79086 20 3 18.2091 3 16V13C3 12.4477 3.44772 12 4 12Z\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M6 12V5C6 3.89543 6.89543 3 8 3H11V5.25\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 21L5 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M20 21L19 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "area": "Square Ft",
+        "area_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M4 8V6C4 4.89543 4.89543 4 6 4H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 16V18C4 19.1046 4.89543 20 6 20H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 4H18C19.1046 4 20 4.89543 20 6V8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 20H18C19.1046 20 20 19.1046 20 18V16\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"12\" cy=\"12\" r=\"3\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>",
+        "stories": "Stories",
+        "stories_icon": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M4 20H8V16H12V12H16V8H20\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 11L11 4M11 4V8M11 4H7\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "badges_text": "<p><strong>Low price guarantee<\/strong><\/p><p>Find A Lower Price And We'll Beat It By 10% <\/p>",
+        "magnification_url": "shopify:\/\/pages\/modifcation-request",
+        "magnification_Text": "Modify Plan",
+        "buy_url": "\/account",
+        "mobile_url": "tel:1-888-814-1494",
+        "heading": "Modification Request",
+        "subheading": "In order to receive your free modification quote, please fill out the form below. Be as detailed and descriptive as possible.",
+        "FAQS_text": "<p><strong>1. How much does it cost to have modifications done to home plans?<\/strong><\/p><p>Costs to modify a home plan can vary a lot, depending on the particular plan and the kinds of changes you are looking for. Simple modifications like: Enlarging a bathroom or Removing a wall to create an open floor plan would cost a few hundred dollars, to more complex ones like: adding extra bedrooms or adding a second story to a single-story home can be thousands of dollars. <\/p><p><strong>2. Do you modify plans and what is your procedure?<\/strong><\/p><p>Yes, we modify plans according to your requirements and needs. Its risk free, and we provide quotes within 48 hours. Please click on the orange \"Customize this Plan\" button below to start.<\/p><p><strong>3. Are there photographs available of the home I am interested in?<\/strong><\/p><p>Many of the homes featured have accompanying photographs. If there are no photographs posted on the plan page for a particular home, a render is available. New photos are added to the site regularly as they become available. (Note: The photographs displayed online may differ slightly from the actual plans, depending on modifications made by the owner\/builder. Please refer to the floor plan for the accurate layout of the home.)<\/p><p><strong>4. Can I get an address where this home plan has been built, so I can see the finished home?<\/strong><\/p><p>In order to maintain our customers' privacy, we do not track this information. However, we have photographs for many of our home plans. <\/p><p><strong>5. How is the living square footage of a home plan calculated?<\/strong><\/p><p>We typically calculate square footage from outside the exterior frame wall, not including features like decks, porches, patios, screened porches, verandas, fireplaces, garages, basements, attics, future space, or bonus rooms. This means a livable space that is heated and finished (with drywall, paint, and carpeting, for example).  If you need to clarify the square footage of a particular home plan, please contact us.<\/p><p><strong>6. Will your plans be signed or stamped by an architect or engineer? <br\/><\/strong>Our plans, as all architectural plans sold, will not be signed\/stamped by the engineer or architect due to variations in site conditions and different local building codes and zoning regulations for each region. For your own safety, your builder or local engineer is responsible for following codes addressing: site conditions, Wind, Storm Surge, Snow Loads, Seismic and Soil Stability, etc. The builder must be responsible for this procedure. <\/p>",
+        "Plan_Details": "<p><strong>Here is what is included with your Plan purchase:<\/strong><\/p><p><strong>1. Exterior elevations<\/strong> – Included are front, rear, left and right side views of the exterior of the house. Exterior materials, construction details and measurements are also noted.<\/p><p><br\/><strong>2. Foundation Plan <\/strong>– Includes layout of foundation support walls, plus excavated and unexcavated areas, if applicable.<br\/><\/p><p><strong>3. Detailed Floor Plans <\/strong>– These plans show the layout of each floor of the house, including room dimensions, window and doors sizes and keys for cross section details provided later in the plans. Engineered floor joist, ceiling joist and roof plans are not included in some plans. Local engineers or manufacturing engineers are widely available to supply the services that apply to local geographic conditions.<br\/><\/p><p><strong>4. Interior Details <\/strong>– These drawings show the specific details and design of special interior features.<br\/><\/p><p><strong>5. Roof Plan <\/strong>– Includes the overall layout for roof construction. If trusses are used, we recommend using a local truss manufacturer to ensure compliance with local codes and regulations.<br\/><\/p><p><strong>6. Cross Section Details <\/strong>– Important changes in floor, ceiling and roof heights or the relationship of one level to another are called out. Exterior details such as railing and banding may also be shown.<br\/><\/p><p><strong>7. Electrical <\/strong>– Electrical floor plan schematics for 1st and 2nd floors.<\/p>",
+        "Step_info_01": "<p><strong>PDF (Single License)<\/strong><\/p><p>PDF package includes working drawings, license to build once, and copyright release for minor changes. PDF file will be emailed promptly after purchase.<\/p><p><strong>CAD (Single License)<\/strong><\/p><p>CAD package includes working drawings in AutoCAD format, license to build once, and necessary files for more significant modifications. It is the preferred file format for builders. CAD file will be emailed promptly after purchase.<\/p>",
+        "Step_info_02": "<p>Choose a building foundation for your home. Foundation provides the stability of the home’s structure from the ground.<\/p><p><strong>Basement <\/strong>- This is the deepest form of foundation for a house and can be converted to storage or living areas.<\/p><p><strong>Slab<\/strong> - This foundation is made of concrete poured directly on a solid ground and reinforced with steel rods.<\/p><p><strong>Crawlspace<\/strong> - This consists of short foundation walls that stand on footing to elevate the house from the ground. The space can be used for wiring, plumbing and storage.<\/p>",
+        "Step_info_03": "<p><strong>Right-Reading Reverse<\/strong><\/p><p>An option to reverse the plan including texts and dimensions to make them readable.<\/p><p><strong>2x4 or 2x6 Conversion<\/strong><\/p><p>Convert the exterior framing other than the standard framing included in the plan.<\/p>"
+      }
+    },
+    "product-plan-details": {
+      "type": "Product-Plan-Details",
+      "settings": {
+        "customiz_main_heading": "Customize this plan to make it <span class=\"orange\">perfect for you<\/span>",
+        "customiz_icon01": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                  <path d=\"M4 4L28 28\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M12 6.66663H24C26.2091 6.66663 28 8.45749 28 10.6666V21.3333C28.0004 21.7262 27.9429 22.1171 27.8293 22.4933\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M25.16 25.1626C24.7838 25.2762 24.393 25.3337 24 25.3333H8C5.79086 25.3333 4 23.5424 4 21.3333V10.6666C4 8.86397 5.192 7.33997 6.832 6.83997\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M4 14.6667H14.6667\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M20 14.6667H28\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M9.33334 20H9.34667\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M14.6665 20H17.3332\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                <\/svg>",
+        "customiz_icon01_text": "No upfront payment",
+        "customiz_icon02": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                  <circle cx=\"16\" cy=\"16\" r=\"12\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n                  <path d=\"M11.9998 12H12.0132\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M19.9998 12H20.0132\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M10.6665 17.3334C10.6665 20.2789 13.0543 22.6667 15.9998 22.6667C18.9454 22.6667 21.3332 20.2789 21.3332 17.3334\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\"><\/path>\n                  <path d=\"M21.3332 17.3333H10.6665\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\"><\/path>\n                <\/svg>",
+        "customiz_icon02_text": "Risk-free",
+        "customiz_icon03": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                  <circle cx=\"16\" cy=\"16\" r=\"12\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n                  <path d=\"M16 9.33337V16L20 20\" stroke=\"#FF8266\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                <\/svg>",
+        "customiz_icon03_text": "Get your quote in 48 hours!",
+        "customize_header": "Modification Request",
+        "customize_Content": "<p>In order to receive your free modification quote, please fill out the from below.  Be as detailed and descriptive as possible.<\/p><p><strong>You have 2 options:<\/strong><\/p><p>1. Provide the request in text form, if the modifications are simple.<\/p><p>for example: add a jack-and-jill sink in bedroom 2<\/p><p>2. Provide a sketch, using the floorplan, of your requested modifications, if the modifications are more complex.<\/p>",
+        "get_cost_main_heading": "Cost to build <span class=\"blue\"> your dream home<\/span>",
+        "get_cost_icon01": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                  <path d=\"M7.99984 27.6467C7.17355 27.1696 6.6651 26.2874 6.66651 25.3333V6.66667C6.66651 5.19391 7.86041 4 9.33317 4H18.6665L25.3332 10.6667V25.3333C25.3332 26.8061 24.1393 28 22.6665 28H21.3332\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.6667 22.6666C16.1394 22.6666 17.3333 23.8605 17.3333 25.3333V28C17.3333 28.7363 16.7364 29.3333 16 29.3333H13.3333C12.597 29.3333 12 28.7363 12 28V25.3333C12 23.8605 13.1939 22.6666 14.6667 22.6666Z\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M14.6668 6.66667H13.3335\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M17.3333 9.33329H16\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M14.6668 12H13.3335\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M17.3333 14.6667H16\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M14.6668 17.3333H13.3335\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M17.3333 20H16\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                <\/svg>",
+        "get_cost_icon01_text": "Give us zip\/postal code",
+        "get_cost_icon02": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                  <path d=\"M18.6665 4V9.33333C18.6665 10.0697 19.2635 10.6667 19.9998 10.6667H25.3332\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M22.6665 28H9.33317C7.86041 28 6.6665 26.8061 6.6665 25.3333V6.66667C6.6665 5.19391 7.86041 4 9.33317 4H18.6665L25.3332 10.6667V25.3333C25.3332 26.8061 24.1393 28 22.6665 28Z\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M18.6668 14.6666H15.3335C14.2289 14.6666 13.3335 15.5621 13.3335 16.6666C13.3335 17.7712 14.2289 18.6666 15.3335 18.6666H16.6668C17.7714 18.6666 18.6668 19.5621 18.6668 20.6666C18.6668 21.7712 17.7714 22.6666 16.6668 22.6666H13.3335\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M17.0002 22.6668C17.0002 22.1145 16.5524 21.6668 16.0002 21.6668C15.4479 21.6668 15.0002 22.1145 15.0002 22.6668H17.0002ZM15.0002 24.0001C15.0002 24.5524 15.4479 25.0001 16.0002 25.0001C16.5524 25.0001 17.0002 24.5524 17.0002 24.0001H15.0002ZM17.0002 13.3334C17.0002 12.7811 16.5524 12.3334 16.0002 12.3334C15.4479 12.3334 15.0002 12.7811 15.0002 13.3334H17.0002ZM15.0002 14.6667C15.0002 15.219 15.4479 15.6667 16.0002 15.6667C16.5524 15.6667 17.0002 15.219 17.0002 14.6667H15.0002ZM15.0002 22.6668V24.0001H17.0002V22.6668H15.0002ZM15.0002 13.3334V14.6667H17.0002V13.3334H15.0002Z\" fill=\"#4CB0BA\"><\/path>\n                <\/svg>",
+        "get_cost_icon02_text": "Get a FREE Instant quote !",
+        "get_cost_icon03": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                  <path d=\"M11.3738 11.2929C10.9832 10.9024 10.3501 10.9024 9.95956 11.2929C9.56904 11.6834 9.56904 12.3166 9.95956 12.7071L11.3738 11.2929ZM17.3333 18.6667H18.3333C18.3333 18.4015 18.228 18.1471 18.0404 17.9596L17.3333 18.6667ZM17.3333 28V29C17.8856 29 18.3333 28.5523 18.3333 28H17.3333ZM10.6667 28H9.66667C9.66667 28.5523 10.1144 29 10.6667 29V28ZM11.6667 22.6667C11.6667 22.1144 11.219 21.6667 10.6667 21.6667C10.1144 21.6667 9.66667 22.1144 9.66667 22.6667H11.6667ZM10.6667 29C11.219 29 11.6667 28.5523 11.6667 28C11.6667 27.4477 11.219 27 10.6667 27V29ZM4 28H3C3 28.5523 3.44772 29 4 29V28ZM4 18.6667L3.29289 17.9596C3.10536 18.1471 3 18.4015 3 18.6667H4ZM11.3738 12.7071C11.7643 12.3166 11.7643 11.6834 11.3738 11.2929C10.9832 10.9024 10.3501 10.9024 9.95956 11.2929L11.3738 12.7071ZM11 13.3333C11 13.8856 11.4477 14.3333 12 14.3333C12.5523 14.3333 13 13.8856 13 13.3333H11ZM28 28V29C28.5523 29 29 28.5523 29 28H28ZM17.3333 27C16.781 27 16.3333 27.4477 16.3333 28C16.3333 28.5523 16.781 29 17.3333 29V27ZM9.95956 12.7071L16.6262 19.3738L18.0404 17.9596L11.3738 11.2929L9.95956 12.7071ZM16.3333 18.6667V28H18.3333V18.6667H16.3333ZM17.3333 27H10.6667V29H17.3333V27ZM11.6667 28V22.6667H9.66667V28H11.6667ZM10.6667 27H4V29H10.6667V27ZM5 28V18.6667H3V28H5ZM4.70711 19.3738L11.3738 12.7071L9.95956 11.2929L3.29289 17.9596L4.70711 19.3738ZM13 13.3333V5.33333H11V13.3333H13ZM13 5.33333C13 5.14924 13.1492 5 13.3333 5V3C12.0447 3 11 4.04467 11 5.33333H13ZM13.3333 5H26.6667V3H13.3333V5ZM26.6667 5C26.8508 5 27 5.14924 27 5.33333H29C29 4.04467 27.9553 3 26.6667 3V5ZM27 5.33333V28H29V5.33333H27ZM28 27H17.3333V29H28V27Z\" fill=\"#4CB0BA\"><\/path>\n                  <path d=\"M17.3332 9.33383V9.34716\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M22.6667 9.33383V9.34716\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M22.6667 14.6659V14.6792\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                  <path d=\"M22.6667 20V20.0133\" stroke=\"#4CB0BA\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                <\/svg>",
+        "get_cost_icon03_text": "Sent to your email",
+        "cost_build_Content": "<p><strong>Cost to Build of your dream<\/strong><\/p><p>Say goodbye to the guesswork of construction costs with our custom cost estimator.<\/p><p><strong>It's Accurate & Up to date.<\/strong><\/p><p>Our estimator accounts for the house plan, location, and building materials you choose, with current market costs for labor and materials.<\/p><p><strong>It's Fast & Flexible.<\/strong><\/p><p>Receive a personal estimate in two minutes instead of 2 days as many competitors offer.<\/p><p><strong>It's Inexpensive.<\/strong><\/p><p>Why pay up to $50 for a cost estimate when you can get it for free with our website? We believe in empowering our customers with knowledge and providing them with the tools they need to make informed decisions. That's why we offer our cost estimator at no charge.<\/p>",
+        "get_cost_link": "#!",
+        "Question_main_heading": "Questions about <span class=\"blue\">this plan?<\/span>",
+        "Question_icon01": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                  <path d=\"M6.66667 5.33337H12L14.6667 12L11.3333 14C12.7613 16.8954 15.1046 19.2388 18 20.6667L20 17.3334L26.6667 20V25.3334C26.6667 26.8061 25.4728 28 24 28C13.2369 27.346 4.65408 18.7632 4 8.00004C4 6.52728 5.19391 5.33337 6.66667 5.33337\" stroke=\"#7476ED\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n                <\/svg>",
+        "Question_icon01_text": "Contact us by phone:  1 (888) 814-1494",
+        "phone_no": ""
+      }
+    },
+    "product_Counter": {
+      "type": "main-counter-section",
+      "settings": {
+        "counter_Homes_Designed": 2858,
+        "counter_Homes_Built": 10431,
+        "counter_Years_Exp": 31,
+        "Section_padding_top": 30,
+        "Section_padding_bottom": 30,
+        "Section_Background": "#f3e8d1"
+      }
+    },
+    "product_Home-About-Me": {
+      "type": "home-about-us-section",
+      "blocks": {
+        "baaf0a87-ceb2-4948-a452-9ef5e0dc0055": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_34.png"
+          }
+        },
+        "7e6e505d-15dc-40c5-89d0-6d0778a386c1": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_35.png"
+          }
+        },
+        "9edda250-9c33-4f46-9771-a9fb303e8689": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_38_ff44e7e2-8480-48d2-b304-9d66146b723a.png"
+          }
+        },
+        "d0908221-e017-4acc-8733-660b28357546": {
+          "type": "image",
+          "settings": {
+            "Home_about_us_Award_images": "shopify:\/\/shop_images\/image_39_ec4f5167-533e-4040-9225-9ee876c2f66d.png"
+          }
+        }
+      },
+      "block_order": [
+        "baaf0a87-ceb2-4948-a452-9ef5e0dc0055",
+        "7e6e505d-15dc-40c5-89d0-6d0778a386c1",
+        "9edda250-9c33-4f46-9771-a9fb303e8689",
+        "d0908221-e017-4acc-8733-660b28357546"
+      ],
+      "settings": {
+        "Home_about_us_Quote": "I design the homes that <span>my clients want <\/span> to build, not the home I want them to build",
+        "Home_about_us_para": "Have your home plans customised by award winning designer and Garrell Associates Inc, Founder, Michael W. Garrell.\n\nMike has earned the firm more than 200 professional awards, with numerous Street of Dreams® honers. His “Tranquility” show home earned the firm the prestigious “Best in American Living Award” (BALA) from Professional Builder magazine.",
+        "Show_paragraph_images": false,
+        "Section_padding_top": 30,
+        "Section_padding_bottom": 30,
+        "Section_Background": "#ffffff",
+        "Class": "",
+        "image": "shopify:\/\/shop_images\/mike-g.png",
+        "youtube_video": "https:\/\/www.youtube.com\/watch?v=LvMQDAp9Xqk"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_related_products": true,
+        "related_title": "You may also like",
+        "related_grid_num": "5",
+        "related_grid_row": "1",
+        "heading": "You may also like",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "bedrooms": "Beds",
+        "bedrooms_icon": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M3 7V18\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M3 14H21\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M21 18V10C21 8.89543 20.1046 8 19 8H11V14\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"7\" cy=\"10\" r=\"1\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>",
+        "bathroom": "Baths",
+        "bathroom_icon": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 12H20C20.5523 12 21 12.4477 21 13V16C21 18.2091 19.2091 20 17 20H7C4.79086 20 3 18.2091 3 16V13C3 12.4477 3.44772 12 4 12Z\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M6 12V5C6 3.89543 6.89543 3 8 3H11V5.25\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 21L5 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M20 21L19 19.5\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+        "area": "SQFT",
+        "area_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M4 8V6C4 4.89543 4.89543 4 6 4H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4 16V18C4 19.1046 4.89543 20 6 20H8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 4H18C19.1046 4 20 4.89543 20 6V8\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 20H18C19.1046 20 20 19.1046 20 18V16\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<circle cx=\"12\" cy=\"12\" r=\"3\" stroke=\"#FF8266\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/circle>\n<\/svg>"
+      }
+    },
+    "recent-products": {
+      "type": "Home-Recent-Viewed",
+      "disabled": true,
+      "settings": {
+        "heading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-plan-details",
+    "product_Counter",
+    "product_Home-About-Me",
+    "product-recommendations",
+    "recent-products"
+  ]
+}

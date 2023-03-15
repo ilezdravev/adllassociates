@@ -1,0 +1,182 @@
+
+{%- style -%}
+  .affiliate_icons_sec .col-md-4:last-child .arrorw-img::before { background: unset;}
+  
+  .arrorw-img{
+      position: relative;
+  } 
+  .arrorw-img::before {
+      position: absolute;
+      background-image: url('{{ section.settings.After-Image | img_url: "" }}');
+      content: '';
+      width: 145px;
+      height: 95px;
+      left: 80%;
+      top: -3%;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+  
+  }
+{%- endstyle -%}
+
+
+ 
+ <section class="affiliate_icons_sec {{ section.settings.Class }}" style=" padding: {{ section.settings.Section_padding_top }}px 0 {{ section.settings.Section_padding_bottom }}px 0; ">
+    <div class="container">
+        <div class="row affiliated_box_row">
+            {% for block in section.blocks %}
+                <div class="col-md-4">
+                    <div class="arrorw-img">
+                        <div class="image_wrapper">
+                            <img src="{{ block.settings.icon_image | img_url : "" }}" alt="">
+                        </div>
+                        <div class="desc">
+                            <{{ block.settings.Main_heading_tag }}>{{ block.settings.Main_heading }}</{{ block.settings.Main_heading_tag }}>
+                            <{{ block.settings.Sub_heading_tag }}>{{ block.settings.Sub_heading }}</{{ block.settings.Sub_heading_tag }}>
+                            <p>{{ block.settings.Icon_paragraph }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Custom Icon Boxs",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "After-Image",
+        "label": "Icon After Image"
+      },
+      {
+        "type": "range",
+        "id": "Section_padding_top",
+        "min": 20,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Section Padding Top",
+        "default": 30
+      },
+      {
+        "type": "range",
+        "id": "Section_padding_bottom",
+        "min": 20,
+        "max": 200,
+        "step": 10,
+        "unit": "px",
+        "label": "Section Padding Bottom",
+        "default": 30
+      },
+      {
+        "type": "text",
+        "id": "Class",
+        "label": "Class"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Icon-box",
+        "name": "t:sections.Custom-icon-box.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon_image",
+            "label": "Icon Image"
+          },
+          {
+            "type": "text",
+            "id": "Main_heading",
+            "label": "Main Heading",
+            "default": "Main Heading"
+          },
+          {
+            "type": "text",
+            "id": "Sub_heading",
+            "label": "Sub Heading",
+            "default": "Sub Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "Icon_paragraph",
+            "label": "Paragraph",
+            "default": "Welcome to my shop!"
+          },
+          {
+            "type": "select",
+            "id": "Main_heading_tag",
+            "label": "Main Heading Tag",
+            "options": [
+              {
+                "value": "h1",
+                "label": "Heading 01"
+              },
+              {
+                "value": "h2",
+                "label": "Heading 02"
+              },
+              {
+                "value": "h3",
+                "label": "Heading 03"
+              },
+              {
+                "value": "h4",
+                "label": "Heading 04"
+              },
+              {
+                "value": "h5",
+                "label": "Heading 05"
+              },
+              {
+                "value": "p",
+                "label": "Paragraph"
+              }
+            ],
+            "default": "h5"
+          },
+          {
+            "type": "select",
+            "id": "Sub_heading_tag",
+            "label": "Sub Heading Tag",
+            "options": [
+              {
+                "value": "h1",
+                "label": "Heading 01"
+              },
+              {
+                "value": "h2",
+                "label": "Heading 02"
+              },
+              {
+                "value": "h3",
+                "label": "Heading 03"
+              },
+              {
+                "value": "h4",
+                "label": "Heading 04"
+              },
+              {
+                "value": "h5",
+                "label": "Heading 05"
+              },
+              {
+                "value": "p",
+                "label": "Paragraph"
+              }
+            ],
+            "default": "h5"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

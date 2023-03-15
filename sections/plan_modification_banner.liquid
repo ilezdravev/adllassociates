@@ -1,0 +1,121 @@
+<div class="{{ section.settings.Class}}">
+<!-- PAGE-PROCESS-BANNER START  -->
+<section class="page_banner_sec " style="
+background: url('{{ section.settings.banner_img | img_url : "" }}');
+background-size: cover;
+background-position: center;
+height: 400px;
+padding-top: {{ section.settings.Section_padding_top}}px;
+padding-bottom: {{ section.settings.Section_padding_bottom}}px;
+">
+    <div class="container custom_container">
+        <div class="row">
+            <div class="col-md-12 col-12">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PAGE-PROCESS-BANNER END  -->
+
+<!-- HOW-TO-BEGIN SECTION START -->
+<section class="how_to_beginSec">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="begin_description">
+                    <h3>{{ section.settings.main_heading}}</h3>
+                    <br>
+                    <div>
+                        {{ section.settings.main_paragraph}}                        
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-lg-6" style="
+                background: url('{{ section.settings.content_img | img_url : "" }}');
+                background-size: cover;
+                background-position: center;
+                ">
+                <div class="begin_img" >
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!-- HOW-TO-BEGIN SECTION END -->
+
+{% schema %}
+  {
+    "name": "Plan Process Main",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner_img",
+            "label": "Banner Image"
+        },
+        {
+            "type": "header",
+            "content": "Content Section"
+        },
+        {
+            "type": "text",
+            "id": "main_heading",
+            "label": "Main Heading",
+            "default": "Quick links"
+        },
+        {
+            "type": "richtext",
+            "id": "main_paragraph",
+            "label": "Main Paragraph"
+        },
+        {
+            "type": "image_picker",
+            "id": "content_img",
+            "label": "Content Image"
+        },
+        {
+            "type": "header",
+            "content": "Section Settings"
+        },
+        {
+            "type": "range",
+            "id": "Section_padding_top",
+            "min": 20,
+            "max": 200,
+            "step": 10,
+            "unit": "px",
+            "label": "Section Padding Top",
+            "default": 30
+        },
+        {
+            "type": "range",
+            "id": "Section_padding_bottom",
+            "min": 20,
+            "max": 200,
+            "step": 10,
+            "unit": "px",
+            "label": "Section Padding Bottom",
+            "default": 30
+        },
+        {
+            "type": "color",
+            "id": "Section_Background",
+            "label": "Background Color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "text",
+            "id": "Class",
+            "label": "Class"
+        }
+
+    ]
+} {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

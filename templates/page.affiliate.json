@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "affiliate-Banner": {
+      "type": "about-us",
+      "settings": {
+        "About_banner_img": "shopify:\/\/shop_images\/unsplash_Dr6VBM0KNsw_a238dacf-f9a6-4fce-af1f-7240c9e69708.png",
+        "Slider_banner_activate": false,
+        "about_banner_heading": "Affiliate Program",
+        "about_Banner_Para": "",
+        "Banner_Awards_Display": false,
+        "Section_padding_top": 120,
+        "Section_padding_bottom": 30,
+        "Class": "affiliate_banner"
+      }
+    },
+    "affiliate-section": {
+      "type": "affiliate-section",
+      "blocks": {
+        "36834765-a310-4948-96e6-73170639d047": {
+          "type": "slider-Images",
+          "settings": {
+            "Slider_image": "shopify:\/\/shop_images\/Picture.png"
+          }
+        },
+        "209e6c39-e468-45e6-9fda-ba4bd8be0497": {
+          "type": "slider-Images",
+          "settings": {
+            "Slider_image": "shopify:\/\/shop_images\/Picture-1.png"
+          }
+        },
+        "5b03b48c-fe7d-45c2-8c72-1613e55e7361": {
+          "type": "slider-Images",
+          "settings": {
+            "Slider_image": "shopify:\/\/shop_images\/Picture-2.png"
+          }
+        }
+      },
+      "block_order": [
+        "36834765-a310-4948-96e6-73170639d047",
+        "209e6c39-e468-45e6-9fda-ba4bd8be0497",
+        "5b03b48c-fe7d-45c2-8c72-1613e55e7361"
+      ],
+      "settings": {
+        "heading": "Sell Home Plans with us as a Garrell Associates Affiliate",
+        "slider_text": "Do you have a website or social media following where you would like to promote our home plans and receive a commission on every sale?",
+        "Section_padding_top": 50,
+        "Section_padding_bottom": 50,
+        "Class": "affiliate_section02"
+      }
+    },
+    "affiliate-icon-box": {
+      "type": "custom-icon-box",
+      "blocks": {
+        "fa12b49a-f42b-458b-be0a-8872c720fd86": {
+          "type": "Icon-box",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Group_98.png",
+            "Main_heading": "Step 1:",
+            "Sub_heading": "Apply Through Shareasale.com",
+            "Icon_paragraph": "Sign up for a shareasale affiliate link, and apply for the Garrell Associates program (LINK ) https:\/\/www.shareasale.com\/shareasale.cfm?merchantID=134759 (LINK)",
+            "Main_heading_tag": "h5",
+            "Sub_heading_tag": "h5"
+          }
+        },
+        "7c352cf3-b7ce-461d-b056-a783c2d83c77": {
+          "type": "Icon-box",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Group_100.png",
+            "Main_heading": "Step 2:",
+            "Sub_heading": "Approval Process by Garrell Associates for our 10% commission",
+            "Icon_paragraph": "Receive instant approval. Use the link found in your account for your website and social media posts.",
+            "Main_heading_tag": "h5",
+            "Sub_heading_tag": "h5"
+          }
+        },
+        "12dc9f35-6646-4332-b578-b9c54015808c": {
+          "type": "Icon-box",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Group_102.png",
+            "Main_heading": "Step 3:",
+            "Sub_heading": "Feature our home plans on your website or social media!",
+            "Icon_paragraph": "Create content, take image and text from our website or our pinterest account (LINK https:\/\/www.pinterest.com\/garrellassociate\/), promote the home plans using your affiliate link.",
+            "Main_heading_tag": "h5",
+            "Sub_heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "fa12b49a-f42b-458b-be0a-8872c720fd86",
+        "7c352cf3-b7ce-461d-b056-a783c2d83c77",
+        "12dc9f35-6646-4332-b578-b9c54015808c"
+      ],
+      "settings": {
+        "After-Image": "shopify:\/\/shop_images\/arrow-img.png",
+        "Section_padding_top": 30,
+        "Section_padding_bottom": 30,
+        "Class": "afiliate_iconbox"
+      }
+    }
+  },
+  "order": [
+    "affiliate-Banner",
+    "affiliate-section",
+    "affiliate-icon-box"
+  ]
+}

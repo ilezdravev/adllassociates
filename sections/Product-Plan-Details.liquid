@@ -1,0 +1,459 @@
+<section class="customization_tabs desktop_tabs">
+  <div class="container">
+    <div class="row customize_tabs">
+      <div class="col-md-4">
+        <div class="card customize_tab">
+          <h4>{{ section.settings.customiz_main_heading }}</h4>
+          <ul>
+            <li>
+              <span>{{ section.settings.customiz_icon01 }}</span>
+              {{ section.settings.customiz_icon01_text }}
+            </li>
+            <li>
+              <span>{{ section.settings.customiz_icon02 }}</span>
+              {{ section.settings.customiz_icon02_text }}
+            </li>
+            <li>
+              <span>{{ section.settings.customiz_icon03 }}</span>
+              {{ section.settings.customiz_icon03_text }}
+            </li>
+          </ul>
+          <a class="btn" data_tabs="Customize_plan">Customize this plan!</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card build_tab">
+          <h4>{{ section.settings.get_cost_main_heading }}</h4>
+          <ul>
+            <li>
+              <span>{{ section.settings.get_cost_icon01 }}</span>
+              {{ section.settings.get_cost_icon01_text }}
+            </li>
+            <li>
+              <span>{{ section.settings.get_cost_icon02 }}</span>
+              {{ section.settings.get_cost_icon02_text }}
+            </li>
+            <li>
+              <span>{{ section.settings.get_cost_icon03 }}</span>
+              {{ section.settings.get_cost_icon03_text }}
+            </li>
+          </ul>
+          <a class="btn" data_tabs="Cost_to_build">Cost to build</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card contact_tab">
+          <h4>{{ section.settings.Question_main_heading }}</h4>
+          <ul>
+            <li>
+              <span>{{ section.settings.Question_icon01 }}</span>
+              {{ section.settings.Question_icon01_text }}
+            </li>
+          </ul>
+          <p>OR</p>
+          <p>{{ section.settings.phone_no }}</p>
+          <a class="btn" data_tabs="Send_a_message">Send a message</a>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="tabs-content" class="tabs-content">
+          <div id="Customize_plan" class="tab-content Customize_plan">
+            <div class="content_customize">
+              <h4>{{ section.settings.customize_header }}</h4>
+              <p>{{ section.settings.customize_Content }}</p>
+              <div class="form_col">
+                <ul>
+                  <li>
+                    <span>
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 4L28 28" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 6.66663H24C26.2091 6.66663 28 8.45749 28 10.6666V21.3333C28.0004 21.7262 27.9429 22.1171 27.8293 22.4933" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25.16 25.1626C24.7838 25.2762 24.393 25.3337 24 25.3333H8C5.79086 25.3333 4 23.5424 4 21.3333V10.6666C4 8.86397 5.192 7.33997 6.832 6.83997" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4 14.6667H14.6667" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 14.6667H28" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.33334 20H9.34667" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14.6665 20H17.3332" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                    No upfront payment
+                  </li>
+                  <li>
+                    <span>
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="12" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 9.33337V16L20 20" stroke="#FF8266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                    Get fist draft in 48 hours
+                  </li>
+                </ul>
+                {ets_cf_H5m}
+              </div>
+            </div>
+          </div>
+          <div id="Cost_to_build" class="tab-content row">
+            <div class="desc col-md-6 col-sm-12">
+              {{ section.settings.cost_build_Content }}
+            </div>
+            <div class="col-md-6 col-sm-12">
+            {% include 'bsl-cost-estimator' %}
+            </div>
+<!--             <div class="button_col">
+              <a href="{{section.settings.get_cost_link}}">Get my Cost to Build Report</a>
+            </div> -->
+          </div>
+          <div id="Send_a_message" class="tab-content">
+            <div class="form_col">{ets_cf_RYh}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="customization_tabs mobile_accordions ">
+    <div class="container">
+        <div class="row customize_tabs">
+            <div class="col-md-12">
+                <div id="accordion_one">
+                    <div class="head">
+                        <div class="card customize_tab">
+                            <h4>{{ section.settings.customiz_main_heading }}</h4>
+                            <ul>
+                                <li>
+                                    <span>{{ section.settings.customiz_icon01 }}</span>
+                                    {{ section.settings.customiz_icon01_text }}
+                                </li>
+                                <li>
+                                    <span>{{ section.settings.customiz_icon02 }}</span>
+                                    {{ section.settings.customiz_icon02_text }}
+                                </li>
+                                <li>
+                                    <span>{{ section.settings.customiz_icon03 }}</span>
+                                    {{ section.settings.customiz_icon03_text }}
+                                </li>
+                            </ul>
+                            <a class="btn">Customize this plan!</a>
+                        </div>
+                    </div>
+                    <div class="content tabs-content" style="display: none;">
+                        <div id="" class="tab-content Customize_plan">
+                            <div class="content_customize">
+                                <h4>{{ section.settings.customize_header }}</h4>
+                                <p>{{ section.settings.customize_Content }}</p>
+                                <div class="form_col">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4 4L28 28" stroke="#FF8266" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M12 6.66663H24C26.2091 6.66663 28 8.45749 28 10.6666V21.3333C28.0004 21.7262 27.9429 22.1171 27.8293 22.4933"
+                                                        stroke="#FF8266" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M25.16 25.1626C24.7838 25.2762 24.393 25.3337 24 25.3333H8C5.79086 25.3333 4 23.5424 4 21.3333V10.6666C4 8.86397 5.192 7.33997 6.832 6.83997"
+                                                        stroke="#FF8266" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M4 14.6667H14.6667" stroke="#FF8266" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M20 14.6667H28" stroke="#FF8266" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M9.33334 20H9.34667" stroke="#FF8266" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M14.6665 20H17.3332" stroke="#FF8266" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            No upfront payment
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="16" cy="16" r="12" stroke="#FF8266" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M16 9.33337V16L20 20" stroke="#FF8266" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            Get first draft in 48 hours
+                                        </li>
+                                    </ul>
+                                    {ets_cf_H5m}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion_two">
+                    <div class="head">
+                        <div class="card build_tab">
+                            <h4>{{ section.settings.get_cost_main_heading }}</h4>
+                            <ul>
+                              <li>
+                                <span>{{ section.settings.get_cost_icon01 }}</span>
+                                {{ section.settings.get_cost_icon01_text }}
+                              </li>
+                              <li>
+                                <span>{{ section.settings.get_cost_icon02 }}</span>
+                                {{ section.settings.get_cost_icon02_text }}
+                              </li>
+                              <li>
+                                <span>{{ section.settings.get_cost_icon03 }}</span>
+                                {{ section.settings.get_cost_icon03_text }}
+                              </li>
+                            </ul>
+                            <a class="btn" >Cost to build</a>
+                        </div>
+                    </div>
+                    <div class="content tabs-content" style="display: none;">
+                        <div  class="tab-content row">
+                            <div class="desc col-md-6 col-sm-12">
+                                {{ section.settings.cost_build_Content }}
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                {% include 'bsl-cost-estimator' %}
+                            </div>
+                            <!--             <div class="button_col">
+                            <a href="{{section.settings.get_cost_link}}">Get my Cost to Build Report</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion_three">
+                    <div class="head">
+                        <div class="card contact_tab">
+                            <h4>{{ section.settings.Question_main_heading }}</h4>
+                            <ul>
+                              <li>
+                                <span>{{ section.settings.Question_icon01 }}</span>
+                                {{ section.settings.Question_icon01_text }}
+                              </li>
+                            </ul>
+                            <p>OR</p>
+                            <p>{{ section.settings.phone_no }}</p>
+                            <a class="btn" onclick="fillPlanId()">Send a message</a>
+                        </div>
+                    </div>
+                    <div class="content tabs-content" style="display: none;">
+                        <div class="tab-content">
+                            <div class="form_col">{ets_cf_RYh}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+$(document).on("click", ".contact_tab a, .customize_tab a", function() {
+  $("input[name=plan_id]").val("{{product.metafields.my_fields.plan_id}}")
+})
+
+</script>
+
+{% schema %}
+{
+    "name": "Plan Details",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Customize This Plan"
+        },
+        {
+            "type": "header",
+            "content": "Customize Main Content"
+        },
+        {
+            "type": "textarea",
+            "id": "customiz_main_heading",
+            "label": "Main Heading",
+            "default": "Quick links"
+        },
+        {
+            "type": "html",
+            "id": "customiz_icon01",
+            "label": "Customize Icon 01"
+        },
+        {
+            "type": "text",
+            "id": "customiz_icon01_text",
+            "label": "Customize Icon 01 Text",
+            "default": "Quick links"
+        },
+        {
+            "type": "html",
+            "id": "customiz_icon02",
+            "label": "Customize Icon 02"
+        },
+        {
+            "type": "text",
+            "id": "customiz_icon02_text",
+            "label": "Customize Icon 02 Text",
+            "default": "Quick links"
+        },
+        {
+            "type": "html",
+            "id": "customiz_icon03",
+            "label": "Customize Icon 03"
+        },
+        {
+            "type": "text",
+            "id": "customiz_icon03_text",
+            "label": "Customize Icon 03 Text",
+            "default": "Quick links"
+        },
+        {
+            "type": "header",
+            "content": "Customize Inner Content"
+        },
+        {
+            "type": "text",
+            "id": "customize_header",
+            "label": "Customize Inner Heading",
+            "default": "Quick links"
+        },
+        {
+            "type": "richtext",
+            "id": "customize_Content",
+            "label": "Customize Inner Paragraph"
+        },
+        {
+            "type": "header",
+            "content": "Cost To Build Your Dream"
+        },
+        {
+            "type": "header",
+            "content": "Cost To Build Main Content"
+        },
+        {
+            "type": "textarea",
+            "id": "get_cost_main_heading",
+            "label": "Main Header",
+            "default": "Quick links"
+        },
+        {
+            "type": "html",
+            "id": "get_cost_icon01",
+            "label": "Cost To Build Icon 01"
+        },
+        {
+            "type": "text",
+            "id": "get_cost_icon01_text",
+            "label": "Cost To Build Icon 01 Text",
+            "default": "Quick links"
+        },
+        {
+            "type": "html",
+            "id": "get_cost_icon02",
+            "label": "Cost To Build Icon 02"
+        },
+        {
+            "type": "text",
+            "id": "get_cost_icon02_text",
+            "label": "Cost To Build Icon 02 Text",
+            "default": "Quick links"
+        },
+        {
+            "type": "html",
+            "id": "get_cost_icon03",
+            "label": "Cost To Build Icon 03"
+        },
+        {
+            "type": "text",
+            "id": "get_cost_icon03_text",
+            "label": "Cost To Build Icon 03 Text",
+            "default": "Quick links"
+        },
+        {
+            "type": "richtext",
+            "id": "cost_build_Content",
+            "label": "Cost To Build Inner Paragraph"
+        },
+        {
+            "type": "text",
+            "id": "get_cost_link",
+            "label": "Get my Cost to Build Report"
+        },
+        {
+            "type": "header",
+            "content": "Question About Plan"
+        },
+        {
+            "type": "textarea",
+            "id": "Question_main_heading",
+            "label": "Main Header",
+            "default": "Quick links"
+        },
+        {
+            "type": "html",
+            "id": "Question_icon01",
+            "label": "Question Icon"
+        },
+        {
+            "type": "text",
+            "id": "Question_icon01_text",
+            "label": "Question Icon Text",
+            "default": "Quick links"
+        },
+        {
+            "type": "text",
+            "id": "phone_no",
+            "label": "Contact Number",
+            "default": "1 (888) 814-1494"
+        }
+    ]
+}
+{% endschema %}
+
+<script>
+    jQuery(document).ready(function(){
+        jQuery('.card a[data_tabs="Customize_plan"]').click(function(){
+            jQuery('#Cost_to_build').removeClass('active');
+            jQuery('#Send_a_message').removeClass('active');
+            jQuery('#Customize_plan').toggleClass('active');
+        })
+    })
+
+    jQuery(document).ready(function(){
+      jQuery('.card a[data_tabs="Cost_to_build"]').click(function(){
+          jQuery('#Customize_plan').removeClass('active');
+          jQuery('#Send_a_message').removeClass('active');
+          jQuery('#Cost_to_build').toggleClass('active');
+      })
+  })
+
+  jQuery(document).ready(function(){
+      jQuery('.card a[data_tabs="Send_a_message"]').click(function(){
+          jQuery('#Cost_to_build').removeClass('active');
+          jQuery('#Customize_plan').removeClass('active');
+          jQuery('#Send_a_message').toggleClass('active');
+      })
+  })
+
+
+  $('#accordion_one .customize_tab a.btn').click(function(){
+    $('#accordion_one').toggleClass('active');
+    $('#accordion_two').removeClass('active');
+    $('#accordion_three').removeClass('active');
+  });
+
+  $('#accordion_two .build_tab a.btn').click(function(){
+    $('#accordion_two').toggleClass('active');
+    $('#accordion_one').removeClass('active');
+    $('#accordion_three').removeClass('active');
+  });
+
+  $('#accordion_three .contact_tab a.btn').click(function(){
+    $('#accordion_three').toggleClass('active');
+    $('#accordion_two').removeClass('active');
+    $('#accordion_one').removeClass('active');
+  });
+
+
+
+</script>

@@ -1,0 +1,163 @@
+<section
+  class="Home_about_us {{ section.settings.Class }}"
+  style=" background: {{ section.settings.Section_Background }}; padding: {{ section.settings.Section_padding_top }}px 0 {{ section.settings.Section_padding_bottom }}px 0; "
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="inner_col">
+          <h3 class="Quotes">
+            <span class="left_Qoute">
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36" fill="none">
+                <path d="M38 0.356436L37.1237 6.9307C34.9462 6.77228 33.2998 7.19472 32.1845 8.19802C31.0692 9.20132 30.3522 10.5743 30.0335 12.3168C29.7149 14.0594 29.6352 15.9868 29.7946 18.099H38V36H22.3857V15.7228C22.3857 10.1782 23.74 6.0066 26.4486 3.20792C29.2103 0.356436 33.0608 -0.59406 38 0.356436ZM15.6143 0.356436L14.7379 6.9307C12.5604 6.77228 10.914 7.19472 9.79874 8.19802C8.68344 9.20132 7.96646 10.5743 7.6478 12.3168C7.32914 14.0594 7.24948 15.9868 7.40881 18.099H15.6143V36H0V15.7228C0 10.1782 1.3543 6.0066 4.06289 3.20792C6.8246 0.356436 10.6751 -0.59406 15.6143 0.356436Z" fill="#FF8266"/>
+              </svg>
+            </span>
+            {{ section.settings.Home_about_us_Quote }}
+            <span class="right_Qoute">
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36" fill="none">
+                <path d="M0 35.6436L0.876305 29.0693C3.0538 29.2277 4.70021 28.8053 5.81551 27.802C6.93082 26.7987 7.6478 25.4257 7.96646 23.6832C8.28512 21.9406 8.36478 20.0132 8.20545 17.901H0L0 0L15.6143 0V20.2772C15.6143 25.8218 14.26 29.9934 11.5514 32.7921C8.78966 35.6436 4.9392 36.5941 0 35.6436ZM22.3857 35.6436L23.2621 29.0693C25.4396 29.2277 27.086 28.8053 28.2013 27.802C29.3166 26.7987 30.0335 25.4257 30.3522 23.6832C30.6709 21.9406 30.7505 20.0132 30.5912 17.901L22.3857 17.901L22.3857 0H38L38 20.2772C38 25.8218 36.6457 29.9934 33.9371 32.7921C31.1754 35.6436 27.3249 36.5941 22.3857 35.6436Z" fill="#FF8266"/>
+              </svg>
+            </span>
+          </h3>
+          <div
+            class="yt-image d-block d-sm-block d-md-none"
+            data-video="{{ section.settings.youtube_video }}"
+            style="background-image: url('{{ section.settings.image | img_url : "" }}');background-size: cover;background-position: center;padding: 0px; cursor:pointer; height:300px;"
+          >
+            <div style="width:100%;height:100%;text-align:center;background-color:rgba(0, 0, 0, 0.4);position:relative;">
+              <svg
+                style="width: 100px;height: 100%;position:absolute;display:block;right: 0px; bottom: 0px; top: 0px;left: 0px;height:80px;width:80px;margin: auto;"
+                class="circle-fill"
+              >
+                <circle cx="41" cy="41" r="37" stroke="#fff" stroke-width="4" fill="none"></circle>
+                <polygon fill="none" stroke="#fff" stroke-width="4" points="32,25 32,58 60,42"></polygon>
+              </svg>
+            </div>
+            <!--
+              <iframe width="1520" height="553" src="https://www.youtube.com/embed/yAoLSRbwxL8" title="Dummy Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            -->
+          </div>
+          <p>{{ section.settings.Home_about_us_para }}</p>
+        </div>
+        {% if section.settings.Show_paragraph_images == true %}
+          <div class="row award_images">
+            <div class="col-md-12">
+              {% for block in section.blocks %}
+                <img src="{{ block.settings.Home_about_us_Award_images | img_url : "" }}">
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+      <div
+        class="col-md-6 desktop_display yt-image"
+        data-video="{{ section.settings.youtube_video }}"
+        style="background-image: url('{{ section.settings.image | img_url : "" }}');background-size: cover;background-position: center;padding: 0px; cursor:pointer;height:"
+      >
+        <div style="width:100%;height:100%;text-align:center;background-color:rgba(0, 0, 0, 0.4);position:relative;">
+          <svg
+            style="width: 100px;height: 100%;position:absolute;display:block;right: 0px; bottom: 0px; top: 0px;left: 0px;height:80px;width:80px;margin: auto;"
+            class="circle-fill"
+          >
+            <circle cx="41" cy="41" r="37" stroke="#fff" stroke-width="4" fill="none"></circle>
+            <polygon fill="none" stroke="#fff" stroke-width="4" points="32,25 32,58 60,42"></polygon>
+          </svg>
+        </div>
+      </div>
+    </div>
+    {% if section.settings.Show_paragraph_images == false %}
+      <div class="row award_images">
+        <div class="col-md-12">
+          {% for block in section.blocks %}
+            <img src="{{ block.settings.Home_about_us_Award_images | img_url : "" }}">
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+ {
+   "name": "About Me",
+   "settings": [
+     {
+       "type": "textarea",
+       "id": "Home_about_us_Quote",
+       "label": "Quote"
+     },
+     {
+       "type": "textarea",
+       "id": "Home_about_us_para",
+       "label": "Paragraph"
+     },
+     {
+       "type": "checkbox",
+       "id": "Show_paragraph_images",
+       "label": "Display paragraph images",
+       "default": false
+     },
+     {
+       "type": "range",
+       "id": "Section_padding_top",
+       "min": 20,
+       "max": 200,
+       "step": 10,
+       "unit": "px",
+       "label": "Section Padding Top",
+       "default": 30
+     },
+     {
+       "type": "range",
+       "id": "Section_padding_bottom",
+       "min": 20,
+       "max": 200,
+       "step": 10,
+       "unit": "px",
+       "label": "Section Padding Bottom",
+       "default": 30
+     },
+     {
+       "type": "color",
+       "id": "Section_Background",
+       "label": "Background Color",
+       "default": "#ffffff"
+     },
+     {
+       "type": "text",
+       "id": "Class",
+       "label": "Class"
+     },
+     {
+           "type":"image_picker",
+           "id":"image",
+           "label":"Banner"
+     },
+     {
+		"type":"url",
+		"id":"youtube_video",
+		"label":"Youtube Video"
+  	}
+
+   ],
+   "blocks":[
+     {
+       "type":"image",
+       "name":"Award Image",
+       "settings":[
+         {
+           "type":"image_picker",
+           "id":"Home_about_us_Award_images",
+           "label":"Image"
+         }
+       ]
+     }
+]
+ }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

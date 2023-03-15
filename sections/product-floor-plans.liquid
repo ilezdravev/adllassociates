@@ -1,0 +1,225 @@
+<div class="floor-plan">
+<div class=" page-width">
+  <div class="title-wrapper-with-link title-wrapper--no-top-margin">
+  
+    {% for media in product.media  %}
+    {% if forloop.index == 1 %}
+    <h2 class="title">{{section.settings.heading}}</h2>
+    {%endif%}
+    {% endfor %}
+    
+        <h3 class="floor_plan_type h3_heading">
+        <ul class="plan">
+         {% assign variable = 0 %}
+         {% for media in product.media  %}
+         {% if media.alt contains "Floor_Plan" %}
+          {% assign variable = variable | plus: 1 %}
+
+          <li class="plan-{{forloop.index}}"> {{media.alt | remove:'Floor_Plan'}}</li>
+         {%comment%} <li class="plan-{{forloop.index}}"> {{media.alt | remove:'Floor_Plan' | remove:' ' |  replace: "-", " "  }}</li>{%endcomment%}
+        {%endif%}
+    
+          {% endfor %}</ul>
+         
+    </h3>
+  </div>
+ <div class="pro-media-thumbnail" >
+      {% assign variable = -1 %}
+      {% for media in product.media %}
+        {% if media.alt contains "Floor_Plan" %}
+        {% assign variable = variable | plus: 1 %}
+         {% case media.media_type %}
+          {% when 'image' %}
+          <div class="thumbnail-image-default" data-swatch="{{media.alt | handleize}}" data-index="{{variable}}" data-alt="{{media.alt | remove:'Floor_Plan'}}">
+                     <img src="{{ media.preview_image | img_url: '100x100' }}"
+                   class="black-nav" alt="{{media.alt | remove:'Floor_Plan' | remove:' ' |  replace: "-", " "  }}">
+           </div>  
+           {% when 'video' %}
+          <div class="thumbnail-image" data-swatch="{{media.alt | handleize}}" data-index="{{variable}}">
+                {{ media | video_tag: height:'86px', width :'86px'}}
+                <span class="play-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" viewBox="0 0 32 32"><style>.st0{fill:#444}</style><path class="st0" d="M9.3 6.2l17.1 9.7-17.1 9.7"></path></svg></span>
+          </div>  
+          {% endcase %}
+
+           {%endif%}
+       
+    
+       {% endfor %}
+    </div>
+  {% for media in product.media  %}
+  {% if forloop.index == 1 %}
+  <div class="note-outer">
+       <div class="reverse-button floor_image">
+          Reverse image 
+          <svg xmlns="http://www.w3.org/2000/svg" width="15.855" height="15.93" viewBox="0 0 15.855 15.93">
+            <path id="Icon_material-rotate-90-degrees-ccw" data-name="Icon material-rotate-90-degrees-ccw" d="M6.15,5.378,1.29,10.245l4.868,4.86,4.868-4.86L6.15,5.378ZM3.413,10.245,6.158,7.5,8.9,10.245,6.15,12.99Zm11.753-4.7A6.712,6.712,0,0,0,10.4,3.57V1.14L7.215,4.32,10.4,7.5V5.07a5.25,5.25,0,1,1-2.13,10.043L7.148,16.23A6.744,6.744,0,0,0,15.165,5.55Z" transform="translate(-1.29 -1.14)" fill="#fe7847"></path>
+          </svg>
+          </div>
+    <div class="note-inner">{{section.settings.note}}</div></div>
+  {%endif%}
+  {%endfor%}
+    <div class="main-image-pro product-slider  owl-carousel-home-slider " id="slider-main">
+      {% assign variable = 0 %}
+      {%- for media in product.media  -%}
+        {% if media.alt contains "Floor_Plan" %}
+       {% assign variable = variable | plus: 1 %}
+        {% case media.media_type %}
+        {% when 'image' %}
+        <div class="pro-main-image" data-index="{{variable}}">
+          <a href="{{ media.preview_image | img_url: 'original' }}" target="_blank">
+          <img src="{{ media.preview_image | img_url: 'original' }}"
+           alt="{{media.alt | remove:'Floor_Plan' | remove:' ' |  replace: "-", " " }}" class="{{ variant.title | handleize }} product-single__thumbnail-image">
+          </a>
+        </div>
+         {% when 'video' %}
+      
+         <div class="pro-main-image" data-index="{{variable }}">
+           
+              {{ media | video_tag: controls: true , image_size: "446x",height:'446px', width :'446px', autoplay : true}}
+                  
+        </div>
+
+        {% endcase %}
+     
+          {% endif %}     
+      {% endfor %}
+           
+     </div>
+  {% if product.metafields.custom.pdf_brochure != blank %}
+<center><a class="modify_plan" style="cursor: pointer;margin-top:5px;max-width:734px;" href="{{ product.metafields.custom.pdf_brochure | file_url }}" target="_blank">
+  Download The Brochure (PDF)
+</a></center>
+    {% endif %}
+ </div>
+ 
+</div>
+
+
+<script>
+  
+    
+  
+  
+  $(document).ready(function($){
+    
+    
+  $('.thumbnail-image-default').click(function(){
+      
+      	var data_index = $(this).attr('data-index');
+
+        var data_alt = $(this).attr('data-alt');
+    
+    	$('.owl-carousel-home-slider').trigger('to.owl.carousel', data_index);
+      
+      	$('.thumbnail-image-default').removeClass('active-thumb');
+        
+        $(this).addClass('active-thumb');
+    
+        $('ul.plan li:first-child').text(data_alt);
+        
+ 	});  
+
+    
+    
+  var owl;
+  owl = $('#slider-main').owlCarousel({
+      loop:false,
+      margin:10,
+      nav:true,
+     dots:false,
+      responsive:{
+        0:{
+          items:1,
+     
+          
+        },
+        600:{
+          items:1,
+      
+        },
+        1000:{
+          items:1,
+         
+        }
+      }
+    });
+    owl.on('changed.owl.carousel', function(e) {
+      
+      var comment = $(this).find('.active').find('img').attr('alt');
+     $('ul.plan li:first-child').text(comment);
+    console.log("test");
+  });
+    
+    
+    
+    
+    $('.pro-media-thumbnail').owlCarousel({
+      loop:false,
+      dots:false,
+      responsive:{
+        0:{
+          items:3,
+          dotsEach:true,
+          animateOut: 'slideOutUp',
+          animateIn: 'slideInUp',
+          mouseDrag: true,
+          touchDrag: true,
+          pullDrag: true,
+          nav:true,
+          margin:10
+        },
+        749:{
+          items:4,
+          dotsEach:true,
+          animateOut: 'slideOutUp',
+          animateIn: 'slideInUp',
+           mouseDrag: true,
+          touchDrag: true,
+          pullDrag: true,
+          nav:false,
+          margin:25
+        },
+        1024:{
+          items:5,
+          nav:false,
+          margin:30
+        },
+        1366:{
+          items:6,
+          nav:false,
+          margin:40,
+          loop:false,
+        }
+      }
+    });
+   });
+  
+</script>
+
+
+{% schema %}
+  {
+    "name": "Floor Plans",
+    "settings": [
+{
+"type":"text",
+"id":"heading",
+"label":"Heading"
+},
+{
+"type":"text",
+"id":"subheading",
+"label":"Sub Heading"
+},
+{
+"type":"text",
+"id":"note",
+"label":"Note"
+}
+
+
+]
+  }
+{% endschema %}
+
+

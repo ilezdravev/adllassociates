@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "modification": {
+      "type": "modifcation-request",
+      "settings": {
+        "heading": "Modifcation Request",
+        "subheading": "In order to receive your free modification quote, please fill out the form below. Be as detailed and descriptive as possible."
+      }
+    }
+  },
+  "order": [
+    "modification"
+  ]
+}

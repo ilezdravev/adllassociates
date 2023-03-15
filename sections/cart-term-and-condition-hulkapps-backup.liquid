@@ -1,0 +1,205 @@
+{% if cart != empty %}
+  <div class="term_of_buy-outer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="Cart_policies">
+            <div class="term_of_buy">
+              <h5 class="h2_heading">{{ section.settings.Term_of_buy }}</h5>
+              {{ section.settings.Term_of_buy_text }}
+            </div>
+
+            <div class="engineering">
+              <h5 class="h2_heading">{{ section.settings.engineering }}</h5>
+              {{ section.settings.Term_of_eng_text }}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="cart_total_col">
+            <table>
+              <tbody>
+                {%- for item in cart.items -%}
+                  <tr data-hulkapps-lineitem >
+                    <td>
+                      <p class="cart-item__name">{{ item.product.title | escape }}</p>
+                    </td>
+                    <td>
+                      <div class="cart-item__price-wrapper">
+                        {%- if item.original_line_price != item.final_line_price -%}
+                          <dl class="cart-item__discounted-prices">
+                            <dt class="visually-hidden">
+                              {{ 'products.product.price.regular_price' | t }}
+                            </dt>
+                            <dd>
+                              <s
+                                data-hulkapps-line-price
+                                data-key="{{item.key}}"
+                                class="cart-item__old-price price price--end"
+                              >
+                                {{ item.original_line_price | money }}
+                              </s>
+                            </dd>
+                            <dt class="visually-hidden">
+                              {{ 'products.product.price.sale_price' | t }}
+                            </dt>
+                            <dd data-hulkapps-line-price data-key="{{item.key}}" class="price price--end">
+                              {{ item.final_line_price | money }}
+                            </dd>
+                          </dl>
+                        {%- else -%}
+                          <span data-hulkapps-line-price data-key="{{item.key}}" class="price price--end">
+                            {{ item.original_line_price | money }}
+                          </span>
+                        {%- endif -%}
+
+                        {%- if item.variant.available and item.unit_price_measurement -%}
+                          <div class="unit-price caption">
+                            <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
+                            {{ item.variant.unit_price | money }}
+                            <span aria-hidden="true">/</span>
+                            <span class="visually-hidden"
+                              >&nbsp;{{ 'accessibility.unit_price_separator' | t }}&nbsp;</span
+                            >
+                            {%- if item.variant.unit_price_measurement.reference_value != 1 -%}
+                              {{- item.variant.unit_price_measurement.reference_value -}}
+                            {%- endif -%}
+                            {{ item.variant.unit_price_measurement.reference_unit }}
+                          </div>
+                        {%- endif -%}
+                      </div>
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Total</td>
+                  <td><span id="Cart_main_total"></span></td>
+                </tr>
+              </tfoot>
+            </table>
+            {%- comment -%} <h3 class="h3_heading">{{section.settings.acceptance_heading}}</h3> {%- endcomment -%}
+            <div class="text-flex">
+              <div class="custom_radio">
+                <input type="checkbox" id="accept" name="properties[Acceptance]" value="Accectance" checked>
+                <span></span>
+              </div>
+              <label for="html">{{ section.settings.acceptance_label }}</label><br>
+            </div>
+            <div class="checkout_btn">
+              <button
+                type="submit"
+                id="checkout"
+                class=" cart__checkout-button button"
+                name="checkout"
+                {% if cart == empty %}
+                  disabled
+                {% endif %}
+                form="cart"
+              >
+                {{ 'sections.cart.checkout' | t }}
+                <svg class="button-arrow" width="8.906" height="15.578" viewBox="0 0 8.906 15.578">
+                  <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M2.685,7.787,8.579,1.9A1.113,1.113,0,0,0,7,.325L.324,7A1.111,1.111,0,0,0,.292,8.534L7,15.254a1.113,1.113,0,0,0,1.577-1.572Z" transform="translate(8.906 15.578) rotate(180)" fill="#fff"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {%- comment -%}
+       <div class="page-width">
+          <div class="term_of_buy-inner">
+
+          </div>
+
+          <div class="acceptance_div">
+
+              <table>
+                  <tbody>
+                      {%- for item in cart.items -%}
+                          <tr>
+                              <td><a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a></td>
+                          </tr>
+                      {%endfor%}
+                  </tbody>
+                  <tfoot>
+                      <tr>
+                          <td>Total</td>
+                          <td></td>
+                      </tr>
+                  </tfoot>
+              </table>
+              <h3 class="h3_heading">{{section.settings.acceptance_heading}}</h3>
+              <div class="text-flex">
+                  <div class="custom_radio">
+                      <input type="checkbox" id="accept" name="properties[Acceptance]" value="Accectance" checked>
+                      <span></span>
+                  </div>
+                  <label for="html">{{section.settings.acceptance_label}}</label><br>
+              </div>
+          </div>
+
+      </div>
+    {%- endcomment -%}
+  </div>
+{% endif %}
+
+<script>
+  function myGreeting() {
+    var test = 0;
+    jQuery('.cart_total_col tbody tr').each(function(){
+        var price = jQuery(this).find('.price').text().split('$')[1].replace(/,/g, '');
+        test += parseInt(price);
+    })
+    jQuery('#Cart_main_total').html('$'+test.toLocaleString("en")+' USD');
+  }
+  jQuery(document).ready(function(){
+      setTimeout(myGreeting, 5000);
+
+  })
+</script>
+
+{% schema %}
+  {
+    "name": "Terms of Purchase",
+    "settings": [
+{
+"type":"text",
+"id":"Term_of_buy",
+"label":"Heading Terms of Purchase"
+
+},
+{
+"type":"richtext",
+"id":"Term_of_buy_text",
+"label":"Text Terms of Purchase"
+
+},
+{
+"type":"text",
+"id":"engineering",
+"label":"Heading of Engineering"
+
+},
+{
+"type":"richtext",
+"id":"Term_of_eng_text",
+"label":"Text of Engineering"
+}
+,
+{
+"type":"text",
+"id":"acceptance_heading",
+"label":"Acceptance Heading"
+},
+{
+"type":"richtext",
+"id":"acceptance_label",
+"label":"Acceptance label"
+}
+
+]
+  }
+{% endschema %}

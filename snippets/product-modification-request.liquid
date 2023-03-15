@@ -1,0 +1,62 @@
+<div class="product-modification_form" id="popup" style="display:none;">
+<div class="close_popup">X</div>
+  <div class="page-width">
+    <div class="product_detail-outer">
+  <div class="product_detail">
+ 
+      <div class="specific-product specific-product">
+          <img src="{{product.featured_image | img_url :''}}">
+      </div>
+</div>
+  
+  <div class="product_form">
+    
+    <h2 class="h2_heading">{{section.settings.heading}}-<span class="plan_name">{{product.title}}</span></h2>
+    <p class="text_para">{{section.settings.subheading}}</p>
+
+<div class="icon-content">
+      <div class="icon-content-iiner">
+        <div class="icon"><img src="{{ section.settings.image_1 | img_url:'' }}"></div>
+        <span class="">{{ section.settings.image_text_1 }}</span>
+      </div>
+      <div class="icon-content-inner">
+        <div class="icon"><img src="{{ section.settings.image_2 | img_url:'' }}"></div>
+        <span class="">{{ section.settings.image_text_2 }}</span>
+      </div>
+    </div>
+    
+    <div class="form_new"> {ets_cf_H5m}
+    
+      <style>
+      .modifcation-request div#ets_cf_ipg_YsPR2WwIvA {
+    display: none !important;
+}
+      
+      </style>
+    
+    </div>
+    
+    
+    <div class="pxFormGenerator" id="iEiv3IwrAT34DKyoCH-WNQ"></div>
+    {%if product.metafields.my_fields.plan_id != blank %}
+    <script>
+      var plan_id = "{{product.metafields.my_fields.plan_id}}"
+      setInterval(function() {$("input[name=plan-d]").val(plan_id)}, 5000);
+    </script>
+     {% endif %}
+   </div>
+  
+  </div>
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+$('.close_popup').click(function(){
+$('.product-modification_form').hide();
+$('body').removeClass('modify-popup');
+});
+});
+</script>
+
+

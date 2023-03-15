@@ -1,0 +1,218 @@
+{
+  "current": {
+    "colors_accent_1": "#fe8369",
+    "colors_text": "#303030",
+    "type_header_font": "playfair_display_n4",
+    "type_body_font": "muli_n4",
+    "body_scale": 100,
+    "page_width": 1300,
+    "spacing_grid_horizontal": 20,
+    "spacing_grid_vertical": 20,
+    "card_color_scheme": "background-2",
+    "media_shadow_vertical_offset": 0,
+    "social_twitter_link": "https:\/\/twitter.com",
+    "social_facebook_link": "https:\/\/facebook.com",
+    "social_instagram_link": "http:\/\/instagram.com",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Group_9988.png",
+    "checkout_logo_position": "center",
+    "checkout_body_background_color": "#f4f4f4",
+    "checkout_sidebar_background_color": "#fefefe",
+    "checkout_accent_color": "#fe8369",
+    "checkout_button_color": "#fe8369",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "(888) 814-1494",
+              "color_scheme": "inverse",
+              "link": "tel:1-888-814-1494",
+              "menu": "announcement-menu"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/Group_9988.png",
+          "logo_width": 155,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "margin_bottom": 0,
+          "header_phoneNo": "(888) 814-1494",
+          "header_MailTo": "sales@garrellassociates.com"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "6498c648-b7d4-48e2-92d4-af0aa95ae927": {
+            "type": "Contact_items",
+            "settings": {
+              "heading": "Contact Us",
+              "Contact_number": "1-(888) 814-1494",
+              "show_Socail_Icons": true
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "47aa87fd-c27e-46c1-bc40-fb8efcdcae95": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Sitemap",
+              "menu": "footer-menu2"
+            }
+          },
+          "d46d78c9-b3b0-4463-a3a0-ec39d3b5df27": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Discover",
+              "menu": "footer-menu3"
+            }
+          }
+        },
+        "block_order": [
+          "6498c648-b7d4-48e2-92d4-af0aa95ae927",
+          "footer-0",
+          "47aa87fd-c27e-46c1-bc40-fb8efcdcae95",
+          "d46d78c9-b3b0-4463-a3a0-ec39d3b5df27"
+        ],
+        "settings": {
+          "color_scheme": "inverse",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "Copyright_Enable": true,
+          "terms_Condition_Enable": true,
+          "Copyright_text": "2022 Garrell Associates",
+          "termService_text": "#!",
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
+          "margin_top": 40,
+          "padding_top": 40,
+          "padding_bottom": 0
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown-timer\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10042746950867549768": {
+        "type": "shopify:\/\/apps\/hulk-product-options\/blocks\/app-embed\/380168ef-9475-4244-a291-f66b189208b5",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "807785498547235276": {
+        "type": "shopify:\/\/apps\/contact-form-ultimate\/blocks\/app-embed-block\/7f36c127-5e2b-4909-bcc7-2631483e37a4",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}
