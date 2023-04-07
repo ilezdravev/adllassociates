@@ -1,0 +1,11 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/itfactoryca.myshopify.com/products/configure/201462/edit
+{% endcomment %}
+{% if product.metafields.custom_fields["includes"] != blank %}
+  <div class="custom-field custom-field__includes custom-field__type--text">
+   <ul class="custom-field--title"><strong>• Includes:</strong> {{ product.metafields.custom_fields["includes"] }}
+  </ul>
+  </div>
+{% endif %}

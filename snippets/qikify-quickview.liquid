@@ -1,0 +1,29 @@
+<script type="text/javascript" data-src="https://sdk.qikify.com/quickview/app-v1.js" defer="defer"></script>
+<script id="qikify-quickview-custom-script">/* Henry - ticket 29263 - 08Aug2022 */
+// display rating star in QV popup 
+document.addEventListener('qview-after-open', function(e) {
+  var productId = e.detail.id;
+    if (productId) {
+        const rating = document.querySelector(`.loox-rating[data-id="${productId}"]`);
+        const quickviewReview = document.querySelector('.qview-block--reviews');
+        if (rating && quickviewReview) {
+            const cloneNode = rating.cloneNode(true);
+            quickviewReview.append(cloneNode);
+        }
+    }
+});
+// integrate with LimeSpot
+var qikifyQuickviewTrigger = null;
+document.addEventListener('limespot:recommendationBoxLoaded', function() {
+  if (qikifyQuickviewTrigger) {
+    clearTimeout(qikifyQuickviewTrigger);
+  }
+  qikifyQuickviewTrigger = setTimeout(function() {
+    document.dispatchEvent(new CustomEvent('qview-grid-updated'));
+    qikifyQuickviewTrigger = false;
+  }, 200);
+});</script>
+<style id="qikify-quickview-custom-style">/* Henry - ticket 29263 - 08Aug2022 */
+body.v--modal-block-scroll {
+  overflow: visible !important;
+}</style>

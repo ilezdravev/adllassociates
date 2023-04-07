@@ -1,0 +1,11 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/itfactoryca.myshopify.com/products/configure/201463/edit
+{% endcomment %}
+{% if product.metafields.custom_fields["note"] != blank %}
+  <div class="custom-field custom-field__note custom-field__type--text">
+   <p class="custom-field--title"><strong>* Note:</strong> {{ product.metafields.custom_fields["note"] }}
+    </p>
+  </div>
+{% endif %}

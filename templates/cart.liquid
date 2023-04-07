@@ -1,0 +1,14 @@
+{% section 'cart-template' %}
+
+{%- if cart.item_count > 0 -%}
+  {% section 'static-recently-viewed-products' %}
+{%- endif -%}
+
+{% section 'sezzle-widget' %}
+
+{% if settings.mlvedaACS_isMessageDisplay %}
+<p class="mlvedaCartNote" style="display:none">
+  {{ settings.mlvedaACS_messageContent | replace: "<<shop.name>>", shop.name | replace:"<<shop.currency>>",shop.currency|replace:"<<shop.selected_currency>>","<span class='selected-currency'></span>"}}
+</p>
+{% endif %}
+<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=aa175ffc-b4b7-4933-9e34-329aa379e85e'></script>

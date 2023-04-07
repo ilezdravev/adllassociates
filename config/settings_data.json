@@ -1,0 +1,2108 @@
+{
+  "current": {
+    "heading_color": "#222629",
+    "text_color": "#222629",
+    "accent_color": "#1e1e1e",
+    "link_color": "#ff934f",
+    "border_color": "#e1e3e4",
+    "background": "#ffffff",
+    "secondary_background": "#ffffff",
+    "error_color": "#ff0000",
+    "success_color": "#00aa00",
+    "primary_button_background": "#ff8e47",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#222629",
+    "secondary_button_text_color": "#ffffff",
+    "header_background": "#f3f5f6",
+    "header_text_color": "#222629",
+    "header_light_text_color": "#677279",
+    "header_accent_color": "#222629",
+    "footer_background": "#505052",
+    "product_on_sale_accent": "#ee0000",
+    "product_in_stock_color": "#008a00",
+    "product_low_stock_color": "#ee0000",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#008a00",
+    "product_label_2_background": "#00a500",
+    "product_star_color": "#ffbd00",
+    "base_text_font_size": 17,
+    "heading_font": "din_next_n4",
+    "text_font": "din_next_n4",
+    "underline_links": false,
+    "animation_image_zoom": false,
+    "search_mode": "product,page",
+    "show_vendor": true,
+    "show_secondary_image": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "short",
+    "show_color_swatch": false,
+    "show_inventory_quantity": false,
+    "low_inventory_threshold": 0,
+    "show_reviews_badge": false,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "99",
+    "share_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/itfactory.ca",
+    "social_twitter": "https:\/\/twitter.com\/ITFactory_ca",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/itfactory\/",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCUvppUOMOGHGwmk1UtOPASg",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/Favicon_red_200x200_1.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/Checkout_Banner_1.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/ITF_blank.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Source Sans Pro",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#3d70ee",
+    "checkout_button_color": "#222629",
+    "checkout_error_color": "#ff0000",
+    "mlvedaACS_autoSwitch": true,
+    "mlvedaACS_isCustomized": true,
+    "mlvedaACS_borderLook": false,
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "mlvedaACS_messageColor": "inherit",
+    "mlvedaACS_roundDecimal": false,
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "mlvedaACS_os2": false,
+    "mlvedaACS_positionTop": "10px",
+    "mlvedaACS_positionRight": "10px",
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "CAD",
+    "social_google_plus": "",
+    "mlvedaACS_positionBottom": "10px",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "inherit",
+    "mlvedaACS_position": "inline",
+    "mlvedaACS_textHoverColor": "inherit",
+    "mlvedaACS_enable": false,
+    "mlvedaACS_supportedCurrencies": "CAD USD",
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_borderLineColor": "inherit",
+    "mlvedaACS_displayFlag": true,
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "About ITFACTORY",
+              "content": "<p>Since 2010, ITFactory's goal has been to make <strong>IT more accessible to Canadians<\/strong>. Whether you're looking for software, computer hardware, electronics or niche products, we're here to connect you to the tech you need — at the best price point possible.<\/p><p><\/p>",
+              "show_newsletter": true
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_google_review": false
+            }
+          },
+          "1586449971461": {
+            "type": "links",
+            "settings": {
+              "menu": "customer-service",
+              "show_google_review": false
+            }
+          },
+          "1596743604740": {
+            "type": "links",
+            "settings": {
+              "menu": "top-categories",
+              "show_google_review": true
+            }
+          },
+          "fa1c2c19-4ff6-46a7-95c6-a503a2d6419d": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "title": "ITFACTORY VIP NEWSLETTER",
+              "subheading": "<p>Sign up and get $10 off your first order of $99+!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "1586449971461",
+          "1596743604740",
+          "fa1c2c19-4ff6-46a7-95c6-a503a2d6419d"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_locale_selector": true,
+          "show_currency_selector": false,
+          "show_cookie_bar": false,
+          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "accept_button": "Accept"
+        }
+      },
+      "1634939144c8a570dd": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "html": "<div class=\"reputon-google-reviews-widget\" id=\"4b0cf1a0-3381-11ec-910d-cf2186b1dca6\"><\/div>"
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "1637686627efedd38a": {
+        "type": "collection-with-image",
+        "settings": {
+          "collection": "accounting-finance",
+          "products_count": 12,
+          "image": "shopify:\/\/shop_images\/av3.png",
+          "background": "#053c1b",
+          "text_color": "#ffffff",
+          "title": "Sage and QuickBooks",
+          "content": "Get your business ready for the tax season.",
+          "button_background": "#ffffff",
+          "button_text_color": "#222629",
+          "button_text": "Buy Now",
+          "button_link": "shopify:\/\/collections\/accounting-finance"
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Orders"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "How do I place an order?",
+              "answer": "<p>Navigate to the product page for the item you wish to purchase. Click the <strong>Add to Cart<\/strong> button on the right hand side of the page. Proceed to checkout and follow the steps indicated. If ever you are having trouble completing your purchase, give us a call at <strong>1-888-313-1124 (M-F 9:30AM to 5:30PM EST)<\/strong>.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "I placed an order, did you receive it?",
+              "answer": "<p>Once your order has been received, you will get a confirmation email in your inbox. If we need any additional information regarding your order, one of our Customer Service agents will contact you. If you do not see the confirmation email in your inbox, please check your junk\/spam folders.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "Can I place my order over the phone?",
+              "answer": "<p>Definitely! You can give us a call at <strong>1-888-313-1124<\/strong> and place your order over the phone with one of our Customer Service Agents. They are available <strong>Monday to Friday, from 9:30am to 5:30pm EST<\/strong>.<\/p>"
+            }
+          },
+          "1589919348867": {
+            "type": "question",
+            "settings": {
+              "title": "Why do I have to verify my order?",
+              "answer": "<p>One of the ways that we prevent online fraud and protect our clients from anyone using their credit card against their knowledge is by performing an additional verification. This is required on some new or large orders. During this process we may ask you to provide us with an alternate email address from a secure domain, or we may contact you directly by phone. If your order cannot be verified within 3 business days, it will automatically be cancelled and your payment will refunded.<\/p>"
+            }
+          },
+          "1589919353191": {
+            "type": "question",
+            "settings": {
+              "title": "Why was my order cancelled?",
+              "answer": "<p>Please note that ITFactory.ca reserves the right to cancel any order due to stock availability or information errors. In the case where we must verify your order, we will attempt to contact you either by phone or by email. If we do not get a response within 3 business days, your order will automatically be cancelled and your payment refunded.<\/p>"
+            }
+          },
+          "1589919351391": {
+            "type": "question",
+            "settings": {
+              "title": "How do I cancel\/change my order?",
+              "answer": "<p><strong>For Downloadable Software:<\/strong> If we have not yet emailed you the Product Key, you may contact us immediately to cancel or change your order. If we have already sent you the Product Key, please see our <a href=\"https:\/\/www.itfactory.ca\/returns\">Return Policy<\/a>.<\/p><p><\/p><p><strong>For all Shippable Products:<\/strong> If you wish to cancel or change your order that has not yet been shipped, please contact us immediately. If your order has already shipped, please see our <a href=\"https:\/\/www.itfactory.ca\/returns\">Return Policy<\/a>.<\/p>"
+            }
+          },
+          "1589919355852": {
+            "type": "question",
+            "settings": {
+              "title": "Where do I use my coupon code?",
+              "answer": "<p>If you are using a coupon code, simply add the product to your cart and then click <strong>Proceed to Checkout<\/strong>. Enter your coupon code in the appropriate box and click <strong>Apply Coupon<\/strong>. You should see the coupon being applied to the subtotal of your cart.<\/p>"
+            }
+          },
+          "1589919266992": {
+            "type": "question",
+            "settings": {
+              "title": "Why won't my coupon code work?",
+              "answer": "<p>If you do not see the discount being applied for a valid coupon code, send us an email at <strong>support@itfactory.ca<\/strong>. and give us the details of the code you are trying to use and where you got the code and we will be able to furthur assist you.<\/p>"
+            }
+          },
+          "1589919357706": {
+            "type": "question",
+            "settings": {
+              "title": "Can I apply multiple coupons at the same time?",
+              "answer": "<p>Most of our promotional coupon codes cannot be combined with other offers. If there is an exception to this rule, it will be mentioned in the details of the offer.<\/p>"
+            }
+          },
+          "1589919654121": {
+            "type": "question",
+            "settings": {
+              "title": "How do I see my order status?",
+              "answer": "<p>You can see the status of any of your orders by logging in to your account. If you do not have an account you can give us a call and we will be able to update you on the status of your order.<\/p>"
+            }
+          },
+          "1589919672567": {
+            "type": "question",
+            "settings": {
+              "title": "Why is my order on hold?",
+              "answer": "<p>There are a couple of reasons that your order status may be \"On Hold\" including out of stock product and problems with the shipping address or payment information. Please check your email inbox as our customer service team will be in touch regarding your order.<\/p>"
+            }
+          },
+          "1589919698665": {
+            "type": "question",
+            "settings": {
+              "title": "Why do I have to go through a verification process?",
+              "answer": "<p>Due to the high volume of fraudulent orders we receive daily, we do our very best to make sure that orders are legitimate to prevent customers and our business being defrauded. Sometimes this will mean getting some additional info from you before we complete your order. While we understand that this can sometimes be frustrating (you want to get you your order fast too!), please bear with us as this policy is in place to help keep everyone secure when they shop online!<\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Pricing"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Pricing Error Disclaimer",
+              "answer": "<p>All prices on this web site are subject to change without notice. Whilst we make every effort to provide you the most accurate, up-to-date information, occasionally, one or more items on our web site may be mis-priced. In the event a product is listed at an incorrect price due to typographical, photographic, or technical error or error in pricing information received from our suppliers, ITFactory.ca reserves the right to refuse or cancel any orders placed for product listed at the incorrect price.<\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "Shipping"
+            }
+          },
+          "1589919867949": {
+            "type": "question",
+            "settings": {
+              "title": "How much will my shipping fees be?",
+              "answer": "<p>We have Flat-Rate shipping options which you can find on our Shipping details page.<\/p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "How do I get free shipping for my order over $99?",
+              "answer": "<p>If the subtotal of your cart adds up to more than $99 CAD you will see the option for free shipping during your checkout process.<\/p>"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "How do I obtain the estimated date of delivery of my order?",
+              "answer": "<p>You can find more information on our Shipping details page.<\/p>"
+            }
+          },
+          "1589919915426": {
+            "type": "question",
+            "settings": {
+              "title": "How much is it to ship an order to the United States\/International?",
+              "answer": "<p>You can find our Flat-rate shipping options on our Shipping details page.<\/p>"
+            }
+          },
+          "1589919912872": {
+            "type": "question",
+            "settings": {
+              "title": "Where can I get my tracking number?",
+              "answer": "<p>Once your order has been shipped you will receive an email with your tracking number. You can also login to your account to track any of your orders, or give us a call at 1-888-313-1124.<\/p>"
+            }
+          },
+          "1589919295925": {
+            "type": "separator",
+            "settings": {
+              "title": "Returns"
+            }
+          },
+          "1589919969059": {
+            "type": "question",
+            "settings": {
+              "title": "I received the wrong product, what should I do?",
+              "answer": "<p>If we have shipped you the wrong product (not the product stated on your order confirmation) please contact us ASAP via email at <strong>support@itfactory.ca<\/strong> or by phone at <strong>1-888-313-1124<\/strong>.<\/p>"
+            }
+          },
+          "1589919971504": {
+            "type": "question",
+            "settings": {
+              "title": "How do I return a product?",
+              "answer": "<p>For details on your return eligibility please see our Returns details page.<\/p>"
+            }
+          },
+          "1589919974843": {
+            "type": "question",
+            "settings": {
+              "title": "When will I get reimbursed?",
+              "answer": "<p>Upon receipt of your approved return, we will process your refund within 3-5 business days and send you an email confirmation. From then, you can expect to see the credit reflected in your account within 5 business days depending on how quickly your bank processes the refund.<\/p>"
+            }
+          },
+          "1589919309749": {
+            "type": "separator",
+            "settings": {
+              "title": "Account"
+            }
+          },
+          "1589920183269": {
+            "type": "question",
+            "settings": {
+              "title": "How do I reset the password to my account?",
+              "answer": "<p>On the login page you can click <strong>Forgot Your Password<\/strong> and you will be emailed instructions on how to reset your password.<\/p>"
+            }
+          },
+          "1589920216848": {
+            "type": "question",
+            "settings": {
+              "title": "Why should I create an account?",
+              "answer": "<p>By creating an account you will be able to easily check your order status, track your order, print your invoices and access other useful options to make your shopping experience as fast and efficient as possible.<\/p>"
+            }
+          },
+          "1589920230769": {
+            "type": "question",
+            "settings": {
+              "title": "What is ITFactory VIP?",
+              "answer": "<p>An ITFactory VIP is anyone who has signed up for our email communications. By signing up as a VIP you will get access to exclusive deals and also be the first to hear about news and promotions. We love our VIPs!<\/p>"
+            }
+          },
+          "1589920248680": {
+            "type": "question",
+            "settings": {
+              "title": "What if I lost my Product Activation Key?",
+              "answer": "<p>If you purchased your software as a download you can find your Product Activation Key in your account. It is your responsibility to keep a copy of your activation key in your personal archives, we cannot be held responsible for any lost or misplaced activation keys. We cannot guarantee a company archive of activation keys beyond 1 year.<\/p>"
+            }
+          },
+          "1589919315126": {
+            "type": "separator",
+            "settings": {
+              "title": "General Information"
+            }
+          },
+          "1589920423633": {
+            "type": "question",
+            "settings": {
+              "title": "Do you provide technical support?",
+              "answer": "<p>While we will always do our best to point our customers in the right direction if they encounter any problems, we do not provide formal technical support and it is ultimately the customer's responsibilty to ensure they have the techincal knowledge required to download\/install and use the software purchased. Some products are eligible for updates and technical support from the manufacturer, if you are uncertain whether the product you are considering is eligible, be sure to ask.<\/p>"
+            }
+          },
+          "1589920451937": {
+            "type": "question",
+            "settings": {
+              "title": "I'm having trouble installing the software I purchased at ITFactory.ca, what should I do?",
+              "answer": "<p>If you are having problems installing or activating your purchase, please let us know either by sending an email to sales@itfactory.ca or calling us at 1-888-313-1124. Please try and include a screenshot of any error message you received as this will help us identify and resolve the problem much faster.<\/p>"
+            }
+          },
+          "1589920533962": {
+            "type": "question",
+            "settings": {
+              "title": "Will this software work outside North America?",
+              "answer": "<p>This depends on the product. You can give us a call at 1-888-313-1124 or email us at sales@itfactory.ca for more information.<\/p>"
+            }
+          },
+          "1589920556665": {
+            "type": "question",
+            "settings": {
+              "title": "What if I can't find the product I am looking for?",
+              "answer": "<p>Send us an email or give us a call! We have access to many products that aren't listed on our website and can potentially help you find the best deal on what you are looking for.<\/p>"
+            }
+          },
+          "1589920582686": {
+            "type": "question",
+            "settings": {
+              "title": "Do you have a physical store for pickup?",
+              "answer": "<p>No. We do not have a physical storefront and our head office location is strictly a sales office. The products we sell are kept throughout our warehouse locations.<\/p>"
+            }
+          },
+          "1589920593908": {
+            "type": "question",
+            "settings": {
+              "title": "What are the discounts for bulk orders?",
+              "answer": "<p>You can contact us about bulk orders on our <strong>Request a Quote<\/strong> page, or by sending an email to sales@itfactory.ca.<\/p>"
+            }
+          },
+          "1589920619697": {
+            "type": "question",
+            "settings": {
+              "title": "I'm a reseller, do you offer volume discounts?",
+              "answer": "<p>Yes! You can contact us through the <strong>Request a Quote <\/strong>page, or by sending an email to sales@itfactory.ca.<\/p>"
+            }
+          },
+          "1589919323741": {
+            "type": "separator",
+            "settings": {
+              "title": "Terminology"
+            }
+          },
+          "1589920645631": {
+            "type": "question",
+            "settings": {
+              "title": "Download vs. Physical Shipment",
+              "answer": "<p>If you purchased a software that says <strong>Download<\/strong> in the title, you will not receive a physical shipment. Instead, you will be able to download and install the software online and use the product activation key code we send you by email to activate the software.<\/p><p><\/p><p>Alternatively if you choose a physical item, we will ship you the item you purchased. <\/p>"
+            }
+          },
+          "1589920738304": {
+            "type": "question",
+            "settings": {
+              "title": "Retail",
+              "answer": "<p>For software, this indicates that the product you will receive is the full retail version (either delivered electronically or shipped), and usually qualifies for tech support from the manufacturer (whether there is support and the extent of support depends on the manufacturer and the product).<\/p>"
+            }
+          },
+          "1589920759136": {
+            "type": "question",
+            "settings": {
+              "title": "Product Key Card",
+              "answer": "<p>This retail version of software typically does not include any media (CD, DVD or otherwise). The Product Activation code is printed on a <em>key card<\/em> along with details of how to go about downloading the software online.<\/p>"
+            }
+          },
+          "1589920778727": {
+            "type": "question",
+            "settings": {
+              "title": "OEM",
+              "answer": "<p>OEM software is a full version of the software which will include the installation disc(s), and product keycode\/serial number. OEM software does not come in a retail box, doesn't include printed manuals, cannot be transferred (even if the original computer breaks), and is not eligible for free technical support from the manufacturer. Help files are normally included on the disc. OEM software can be upgraded to future versions of the software.<\/p>"
+            }
+          },
+          "1589920811868": {
+            "type": "question",
+            "settings": {
+              "title": "Refurbished",
+              "answer": "<p>A product can be considered \"refurbished\" for several reasons including but not limited to: returned items, items that used to be demo products, items that were originally leased or rented and defective or damaged items that have been repaired.<\/p>"
+            }
+          },
+          "1589920822180": {
+            "type": "question",
+            "settings": {
+              "title": "Open Box",
+              "answer": "<p>An open box item is an item that has been opened but unused. There may be some packaging missing (plastic wrap, cable ties, etc) however it has been deemed in like-new condition and should work as new out of the box. <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "1589919348867",
+          "1589919353191",
+          "1589919351391",
+          "1589919355852",
+          "1589919266992",
+          "1589919357706",
+          "1589919654121",
+          "1589919672567",
+          "1589919698665",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-7",
+          "1589919867949",
+          "page-faq-template-6",
+          "page-faq-template-8",
+          "1589919915426",
+          "1589919912872",
+          "1589919295925",
+          "1589919969059",
+          "1589919971504",
+          "1589919974843",
+          "1589919309749",
+          "1589920183269",
+          "1589920216848",
+          "1589920230769",
+          "1589920248680",
+          "1589919315126",
+          "1589920423633",
+          "1589920451937",
+          "1589920533962",
+          "1589920556665",
+          "1589920582686",
+          "1589920593908",
+          "1589920619697",
+          "1589919323741",
+          "1589920645631",
+          "1589920738304",
+          "1589920759136",
+          "1589920778727",
+          "1589920811868",
+          "1589920822180"
+        ],
+        "settings": {
+          "show_contact_info": true,
+          "contact_info_heading": "Have another question?",
+          "contact_info_text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+          "contact_1_icon": "bi-phone",
+          "contact_1_heading": "Talk to an agent",
+          "contact_1_text": "<p>Call us at 1-888-313-1124 and an agent will be happy to answer your question!<\/p><p> <strong>(M-F | 9:30AM - 5:30PM EST)<\/strong><\/p>",
+          "contact_2_icon": "bi-email",
+          "contact_2_heading": "Send us an email",
+          "contact_2_text": "<p>Email us your question at <strong>support@itfactory.ca<\/strong> and an agent will get back to you with an answer!<\/p>"
+        }
+      },
+      "blog-sidebar": {
+        "type": "blog-sidebar",
+        "settings": {
+          "show_on_mobile": false
+        }
+      },
+      "163787896720ab3fb5": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "best-selling-products",
+          "title": "→ Shop Our Best Sellers",
+          "products_count": 23,
+          "layout": "vertical",
+          "stack_desktop": false,
+          "show_quick_buy": false,
+          "link_title": "View all",
+          "link_url": ""
+        }
+      },
+      "1646027652601eb6f8": {
+        "type": "collection-list",
+        "blocks": {
+          "1646027652601eb6f8-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "antivirus-internet-security",
+              "image": "shopify:\/\/shop_images\/CatBlock-AVIS2_300x_333455a0-82c8-4580-ac02-f2f3703da931.png"
+            }
+          },
+          "1646027652601eb6f8-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "headphones-speakers",
+              "image": "shopify:\/\/shop_images\/CatBlock-HeadphoneSpeakers_300x_6091dcb3-aca6-49a5-a66b-803352df82f1.png"
+            }
+          },
+          "1646027652601eb6f8-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "gaming",
+              "image": "shopify:\/\/shop_images\/CatBlock-GamingS_300x_31b789a2-edcb-44ce-8eef-5fcad5031f38.png"
+            }
+          },
+          "1646027652601eb6f8-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "dictation",
+              "image": "shopify:\/\/shop_images\/CatBlock-Dictation_300x_a6bb26d9-4955-447b-b900-44b3b95f2dee.png"
+            }
+          },
+          "1646027652601eb6f8-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "mobile-accessories",
+              "image": "shopify:\/\/shop_images\/CatBlock-MobileAccS_300x_6baef2a5-9be4-44ca-9f9f-f4af52a239b1.png"
+            }
+          },
+          "1646027652601eb6f8-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "accounting-finance",
+              "image": "shopify:\/\/shop_images\/CatBlock-Acc_300x_89cad0ba-c0f6-416f-89b3-e3fd38aef9de.png"
+            }
+          }
+        },
+        "block_order": [
+          "1646027652601eb6f8-0",
+          "1646027652601eb6f8-1",
+          "1646027652601eb6f8-2",
+          "1646027652601eb6f8-3",
+          "1646027652601eb6f8-4",
+          "1646027652601eb6f8-5"
+        ],
+        "settings": {
+          "title": "Popular Categories",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_category": true,
+          "show_author": false,
+          "show_date": true,
+          "show_share_buttons": true,
+          "show_tags": true,
+          "show_gravatar": false
+        }
+      },
+      "1609546239726": {
+        "type": "collection-with-image",
+        "settings": {
+          "collection": "goal-zero",
+          "products_count": 8,
+          "background": "#0a0b0b",
+          "text_color": "#ffffff",
+          "title": "Goal Zero",
+          "content": "Enjoying the great outdoors, preparing for emergencies,  or living off the grid.\n\nGo Green, Go Goal Zero!",
+          "button_background": "#ffffff",
+          "button_text_color": "#1e1e1e",
+          "button_text": "Shop Now",
+          "button_link": "shopify:\/\/collections\/goal-zero"
+        }
+      },
+      "163787903986b4e2b5": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "product": "rocelco-34-5-sit-to-stand-adjustable-height-desk-riser-black",
+          "title": "→ Work from Home: Best Seller!",
+          "link_title": "View details",
+          "link_url": "",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": false,
+          "show_description": false,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "bb87119b-0c3d-43a7-b868-99ebd28a0688": {
+            "type": "image",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/visa-icon.png"
+            }
+          },
+          "62f49892-aae2-49c9-aa69-98c9ed54edd2": {
+            "type": "image",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/mastercard_color_card_1.png"
+            }
+          },
+          "59587058-459c-4e4e-8ef8-b5f251c50e3d": {
+            "type": "image",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/americanexpress.png"
+            }
+          },
+          "5ea6b65a-5738-4ec7-b4f6-b51b7ba5e215": {
+            "type": "image",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/paypal_3.png"
+            }
+          },
+          "8a3538a0-8a2f-4b70-b1fd-5f9e69998345": {
+            "type": "image",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/applepay.png"
+            }
+          },
+          "35f164c7-d431-4258-a4e1-7bf7079c9358": {
+            "type": "image",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/sezzle.png"
+            }
+          }
+        },
+        "block_order": [
+          "bb87119b-0c3d-43a7-b868-99ebd28a0688",
+          "62f49892-aae2-49c9-aa69-98c9ed54edd2",
+          "59587058-459c-4e4e-8ef8-b5f251c50e3d",
+          "5ea6b65a-5738-4ec7-b4f6-b51b7ba5e215",
+          "8a3538a0-8a2f-4b70-b1fd-5f9e69998345",
+          "35f164c7-d431-4258-a4e1-7bf7079c9358"
+        ],
+        "settings": {
+          "show_vendor": true,
+          "show_sku": true,
+          "show_share_buttons": true,
+          "show_taxes_included": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": false,
+          "enable_video_looping": false,
+          "zoom_effect": "inside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": true,
+          "low_inventory_threshold": 3,
+          "content_display_mode": "collapse_all_except_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": false,
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "Canada",
+          "show_refunds_policy": true,
+          "enable_badges_section": true,
+          "shipping_icon": "shopify:\/\/shop_images\/shiping.jpg",
+          "shipping_title": "FREE SHIPPING",
+          "shipping_dec": "<p>Enjoy free shipping on all orders over $99!<strong> <\/strong>  <a href=\"https:\/\/itfactory.ca\/pages\/shipping\" title=\"https:\/\/itfactory.ca\/pages\/shipping\">Shipping Details<\/a><\/p>",
+          "return_icon": "shopify:\/\/shop_images\/img_456253.png",
+          "return_title": "EASY RETURNS",
+          "return_dec": "<p>Our main priority is ensuring your complete satisfaction  <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">See Details<\/a><\/p>",
+          "payment_icon": true
+        }
+      },
+      "minimal-header": {
+        "type": "minimal-header",
+        "settings": {
+          "logo": "",
+          "logo_max_width": 140,
+          "mobile_logo_max_width": 100
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "articles_per_page": 6,
+          "highlight_first_article": true,
+          "show_tags": false,
+          "show_category": false,
+          "show_author": false,
+          "show_date": false,
+          "show_excerpt": true
+        }
+      },
+      "1646026863f513597c": {
+        "type": "image-with-text",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Banner_ITF-hp_0aaa9d23-c8e1-4b66-b9fa-22f1e4b2218b.png",
+          "image_position": "left",
+          "image_width": 55,
+          "title": "Shop + Save ⚡️",
+          "content": "<p>Earn <strong>2 points<\/strong> for every dollar you spend online. Redeem your points for discounts on future purchases. Yup, it pays being a ITF VIP!<\/p>",
+          "button_text": "How it works",
+          "button_link": "shopify:\/\/pages\/itf-rewards"
+        }
+      },
+      "1646027348c2ed178e": {
+        "type": "promotion-list",
+        "blocks": {
+          "1646027348c2ed178e-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Untitled_design_26.png",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#270806",
+              "text_color": "#ffffff",
+              "title": "BASIC ANTIVIRUS",
+              "content": "Basic antivirus program. Protection and removal of viruses, worms, and trojan horses.",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#222629",
+              "button_text": "See more",
+              "button_link": "shopify:\/\/collections\/antivirus"
+            }
+          },
+          "1646027348c2ed178e-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Untitled_design_25.png",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#27484e",
+              "text_color": "#ffffff",
+              "title": "INTERNET SECURITY",
+              "content": "Antivirus features + protection and privacy from phishing, spyware, data leaks and more.",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#4d7645",
+              "button_text": "See more",
+              "button_link": "shopify:\/\/collections\/internet-security"
+            }
+          },
+          "1646027348c2ed178e-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bit.png",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#275296",
+              "text_color": "#ffffff",
+              "title": "TOTAL SECURITY",
+              "content": "Complete coverage from the latest threats and advances viruses. Multi-layered protection.",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#275296",
+              "button_text": "See more",
+              "button_link": "shopify:\/\/collections\/total-security"
+            }
+          }
+        },
+        "block_order": [
+          "1646027348c2ed178e-0",
+          "1646027348c2ed178e-1",
+          "1646027348c2ed178e-2"
+        ],
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "blocks": {
+          "d148149d-6133-44fa-8029-a3a53c4bfc98": {
+            "type": "trust",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-secure-payment",
+              "custom_icon": "shopify:\/\/shop_images\/credit-card_1.png",
+              "title": "100% SECURE CHECKOUT",
+              "content": "<p>Whether you create an account or purchase as a guest, all of your details remain <strong>FULLY SECURE<\/strong>!<\/p>"
+            }
+          },
+          "499a0b1f-86b4-46d2-9706-dcd44cf0984a": {
+            "type": "trust",
+            "settings": {
+              "icon": "bi-fast-delivery",
+              "custom_icon": "shopify:\/\/shop_images\/delivery.png",
+              "title": "FREE SHIPPING*",
+              "content": "<p>Get <strong>FREE<\/strong> Canada-wide shipping on all orders over $99. Or, benefit from a budget-friendly flate-rate!<\/p>"
+            }
+          },
+          "708cdedb-ce10-48e4-a668-6b4621b066a9": {
+            "type": "trust",
+            "settings": {
+              "icon": "bi-chat",
+              "custom_icon": "shopify:\/\/shop_images\/star.png",
+              "title": "BACKED BY 500+ REVIEWS",
+              "content": "<p>We pride ourselves on creating the <strong>BEST<\/strong> experience for our customers. <a href=\"https:\/\/g.page\/r\/Cf5PdJdc_h28EBA\" target=\"_blank\" title=\"https:\/\/g.page\/r\/Cf5PdJdc_h28EBA\"><strong>Read what they think!<\/strong><\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "d148149d-6133-44fa-8029-a3a53c4bfc98",
+          "499a0b1f-86b4-46d2-9706-dcd44cf0984a",
+          "708cdedb-ce10-48e4-a668-6b4621b066a9"
+        ],
+        "settings": {
+          "enable_order_notes": false,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "Canada",
+          "trust_heading": "",
+          "upsell_heading": "➯ Complete your cart with an item from our Deals of the Week",
+          "upsell_collection": "",
+          "upsell_products_count": 4
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "collection-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "gaming",
+              "image": "shopify:\/\/shop_images\/CatBlock-GamingS.png"
+            }
+          },
+          "collection-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "dictation",
+              "image": "shopify:\/\/shop_images\/CatBlock-Dictation.png"
+            }
+          },
+          "collection-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "mobile-accessories",
+              "image": "shopify:\/\/shop_images\/CatBlock-MobileAccS.png"
+            }
+          },
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "antivirus-internet-security",
+              "image": "shopify:\/\/shop_images\/CatBlock-AVIS2.png"
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "accounting-finance",
+              "image": "shopify:\/\/shop_images\/CatBlock-Acc.png"
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "headphones-speakers",
+              "image": "shopify:\/\/shop_images\/CatBlock-HeadphoneSpeakers.png"
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-2",
+          "collection-3",
+          "collection-4",
+          "collection-5",
+          "collection-1"
+        ],
+        "settings": {
+          "title": "Popular Categories",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "title": "Subscribe to our newsletter",
+          "content": "<p>Get $10 off your first order over $99 &mdash; plus VIP access to our weekly deals and promotions!<\/p>",
+          "subtext": "",
+          "background": "#3c3b3b",
+          "text": "#ffffff"
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "sezzle-widget": {
+        "type": "sezzle-widget",
+        "settings": {
+          "show-sezzle-widget": true,
+          "color": "inherit",
+          "font-size": 13,
+          "font-family": "inherit",
+          "product-page-alignment": "auto",
+          "cart-page-alignment": "auto"
+        }
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "text-with-icons-0": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-computer-payment",
+              "title": "Proudly Canadian",
+              "content": "<p>All products ship from our warehouses in Canada.<\/p>"
+            }
+          },
+          "text-with-icons-1": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Free Shipping",
+              "content": "<p>Get everyday free shipping on orders over $99, or benefit from flat-rate standard shipping.<\/p>"
+            }
+          },
+          "text-with-icons-2": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Top-notch support",
+              "content": "<p>Need assistance? Don't worry, we're here for you. Talk to <em>real<\/em> people!<\/p>"
+            }
+          },
+          "text-with-icons-3": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Get $10 off!",
+              "content": "<p>Save on your first order over $99 when you <button role=\"button\" style=\"font-weight: 600; color: #ff934f;\" onclick=\"gsc('show', 30017)\"><b><u>sign up as a VIP<\/u>.<\/b><\/button><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text-with-icons-0",
+          "text-with-icons-1",
+          "text-with-icons-2",
+          "text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 20
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": true,
+          "background": "#071d2d",
+          "text_color": "#ffffff",
+          "text": "",
+          "text_position": "center",
+          "link": "",
+          "show_newsletter": false,
+          "newsletter_button": "Get $10 off!",
+          "newsletter_title": "Become an ITFactory VIP & get $10 OFF!",
+          "newsletter_content": "<p>Sign up here to get the latest news, updates and special offers delivered directly to your inbox.<\/p><p>Coupon is valid towards your first order over $99.<\/p>"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "product": "midland-er310-emergency-crank-weather-alert-radio",
+          "title": "→ Expect the Unexpected",
+          "link_title": "See more",
+          "link_url": "",
+          "show_vendor": true,
+          "show_sku": true,
+          "show_share_buttons": false,
+          "show_description": false,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "settings": {
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
+          "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list",
+          "show_quick_view": "list",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "tag",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": ""
+        }
+      },
+      "password-template": {
+        "type": "password-template",
+        "settings": {
+          "show_social_media": true,
+          "heading": "Opening Soon",
+          "text": "<p>A content describing what your store will sell.<\/p>",
+          "show_newsletter_signup": true,
+          "newsletter_text": "<p>A short sentence describing what someone will receive by subscribing.<\/p>"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "1586984953784": {
+            "type": "text",
+            "settings": {
+              "title": "Company (if applicable)",
+              "use_long_text": false,
+              "is_required": false
+            }
+          }
+        },
+        "block_order": [
+          "1586984953784"
+        ],
+        "settings": {
+          "form_heading": "Request a Quote",
+          "show_store_info": false,
+          "store_heading": "Find us",
+          "store_image": "",
+          "store_info": ""
+        }
+      },
+      "1646028014799af79f": {
+        "type": "offers",
+        "blocks": {
+          "1646028014799af79f-0": {
+            "type": "offer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cloud-computing_250x_7cfbda0b-79a1-47d6-bfe1-508c4ea1dd42.png",
+              "title": "Download Your Software Today!",
+              "content": "<p>Skip going to the store or waiting for your package in the mail. Purchase our downloadable software and get your installation information the same business day (restrictions may apply).<\/p>"
+            }
+          },
+          "1646028014799af79f-1": {
+            "type": "offer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/package_250x_fbe126c4-6d8b-490b-bfaf-bf49603f08f4.png",
+              "title": "FREE shipping on all orders over $99!",
+              "content": "<p>We've got you covered. If your order is under $99, no worries - we've got a Canada-wide flat-rate shipping option available.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1646028014799af79f-0",
+          "1646028014799af79f-1"
+        ],
+        "settings": {
+          "items_per_row": 2,
+          "stack_mobile": true
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "66fd571a-2157-4eda-ae8d-a1fc58763cc6": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "menu_item": "Software",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_1_link": "",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": ""
+            }
+          },
+          "8c99331b-ca26-41e5-a89d-0c5714a26bda": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "menu_item": "All Categories",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_1_link": "",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "66fd571a-2157-4eda-ae8d-a1fc58763cc6",
+          "8c99331b-ca26-41e5-a89d-0c5714a26bda"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/logo_2002.png",
+          "logo_max_width": 300,
+          "mobile_logo_max_width": 145,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "navigation_menu": "",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": true,
+          "navigation_phone_number": "Call us 1-888-313-1124",
+          "navigation_email": "sales@itfactory.ca",
+          "show_condensed_search": false,
+          "show_search_filter": false,
+          "search_menu": "",
+          "show_search_menu_title": false
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": false,
+          "title": "Recently viewed",
+          "show_quick_buy": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "8f03cbf1-d412-4eb5-a26e-7abc3993a4bb": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Goal_zero_desktop_202304_1.png",
+              "mobile_image": "shopify:\/\/shop_images\/Goal_zero_mobile_202304_1.png",
+              "show_overlay": false,
+              "overlay_opacity": 56,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "top_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "",
+              "link": "shopify:\/\/collections\/raycon"
+            }
+          }
+        },
+        "block_order": [
+          "8f03cbf1-d412-4eb5-a26e-7abc3993a4bb"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "preserve_ratio",
+          "carousel_effect": "slide",
+          "autoplay": false,
+          "cycle_speed": 7
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "heading": "You may also like",
+          "show_quick_buy": false
+        }
+      },
+      "1637689291d415f0fd": {
+        "type": "collection-with-image",
+        "disabled": true,
+        "settings": {
+          "collection": "office-equipment",
+          "products_count": 12,
+          "image": "shopify:\/\/shop_images\/monitor_11d2eb6c-cf55-4818-87c8-390004228734.png",
+          "background": "#8ad691",
+          "text_color": "#ffffff",
+          "title": "Huge Savings on Office Equipment!",
+          "content": "Monitors, Webcams, Printers, SSDs, - we've got them all ON SALE!",
+          "button_background": "#ffffff",
+          "button_text_color": "#222629",
+          "button_text": "SAVE NOW",
+          "button_link": ""
+        }
+      },
+      "hura-announcement-bar": {
+        "type": "hura-announcement-bar",
+        "settings": {
+          "show_announcement_bar": false,
+          "autoplay": false,
+          "delay": "5000",
+          "colorBackground": "#ffffff",
+          "colorText": "#000000"
+        }
+      },
+      "16487815327617634a": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "deals-of-the-week",
+          "title": "Deals of the Week",
+          "products_count": 9,
+          "layout": "horizontal",
+          "stack_desktop": false,
+          "show_quick_buy": false,
+          "link_title": "View all",
+          "link_url": ""
+        }
+      },
+      "41a23e65-91b2-4674-aea1-602d69195ff8": {
+        "type": "collection-with-image",
+        "disabled": true,
+        "settings": {
+          "collection": "antivirus-internet-security",
+          "products_count": 20,
+          "background": "#4dc7d4",
+          "text_color": "#ffffff",
+          "title": "Get an Additional 15% off All AntiVirus and Internet Security this Cyber Monday",
+          "content": "No code needed. Applied instantly at Checkout.",
+          "button_background": "#ffffff",
+          "button_text_color": "#0774d7",
+          "button_text": "Save 15% More",
+          "button_link": "shopify:\/\/collections\/antivirus-internet-security"
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1634939144c8a570dd",
+      "1646028014799af79f",
+      "1609546239726",
+      "1646027652601eb6f8",
+      "16487815327617634a",
+      "41a23e65-91b2-4674-aea1-602d69195ff8",
+      "1646027348c2ed178e",
+      "featured-product",
+      "1637686627efedd38a",
+      "1646026863f513597c",
+      "163787896720ab3fb5",
+      "163787903986b4e2b5",
+      "1637689291d415f0fd"
+    ],
+    "blocks": {
+      "15623156175785154009": {
+        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "12608439564960700138": {
+        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "disabled": false,
+        "settings": {
+          "heading": "Sezzle Widget",
+          "font_size": 14,
+          "font_family": "inherit"
+        }
+      },
+      "11468047240823483236": {
+        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/checkout-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "disabled": false,
+        "settings": {
+          "heading": "Sezzle Checkout Button",
+          "template": "Checkout with %%logo%%",
+          "mode": "light"
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Wood": {
+      "text_font": "basic_commercial_n4",
+      "show_inventory_quantity": true,
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "search_mode": "product,article,page",
+      "show_color_swatch": false,
+      "heading_color": "#3a2a2f",
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "cart_free_shipping_threshold": "50",
+      "link_color": "#ff6128",
+      "underline_links": true,
+      "show_secondary_image": true,
+      "header_light_text_color": "#e9e2dd",
+      "checkout_body_background_color": "#fff",
+      "checkout_sidebar_background_image": "",
+      "success_color": "#48b448",
+      "product_in_stock_color": "#008a00",
+      "secondary_button_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "checkout_accent_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "sections": {
+        "recently-viewed-products": {
+          "settings": {
+            "title": "Recently viewed"
+          },
+          "type": "recently-viewed-products"
+        },
+        "1550833441117": {
+          "settings": {
+            "image": "",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "background": "#3a2a2f",
+            "products_count": 12,
+            "button_link": "",
+            "collection": "",
+            "text_color": "#ffffff",
+            "button_text": "Learn more",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season."
+          },
+          "type": "collection-with-image"
+        },
+        "footer": {
+          "settings": {
+            "show_payment_icons": true,
+            "show_social_media": true
+          },
+          "blocks": {
+            "footer-2": {
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              },
+              "type": "newsletter"
+            },
+            "footer-1": {
+              "settings": {
+                "menu": "footer"
+              },
+              "type": "links"
+            },
+            "footer-0": {
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              },
+              "type": "text"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ]
+        },
+        "announcement-bar": {
+          "settings": {
+            "newsletter_title": "Newsletter",
+            "background": "#3a2a2f",
+            "link": "",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+            "newsletter_button": "Subscribe & Save"
+          },
+          "type": "announcement-bar"
+        },
+        "collection-template": {
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          },
+          "type": "collection-template"
+        },
+        "1542984811767": {
+          "settings": {
+            "layout": "vertical",
+            "products_count": 12,
+            "link_title": "View all",
+            "collection": "",
+            "title": "Featured collection"
+          },
+          "type": "featured-collection"
+        },
+        "product-template": {
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "carousel_effect": "fade",
+            "custom_security_badge": ""
+          },
+          "type": "product-template"
+        },
+        "1542984882560": {
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          },
+          "type": "blog-posts"
+        },
+        "header": {
+          "settings": {
+            "navigation_email": "info@yourwebsite.com",
+            "navigation_menu": "main-menu",
+            "logo_max_width": 140,
+            "navigation_phone_number": "Call us 000-000-0000",
+            "logo": "",
+            "desktop_navigation_open_trigger": "hover",
+            "mobile_logo_max_width": 100,
+            "desktop_navigation_layout": "inline",
+            "search_menu": ""
+          },
+          "type": "header"
+        },
+        "slideshow": {
+          "settings": {
+            "edge_to_edge": true,
+            "cycle_speed": 5,
+            "section_size": "preserve_ratio"
+          },
+          "blocks": {
+            "slide-0": {
+              "settings": {
+                "image": "",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "link": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "button_text": "Button",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft"
+              },
+              "type": "image"
+            },
+            "slide-1": {
+              "settings": {
+                "image": "",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "link": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "button_text": "Button",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft"
+              },
+              "type": "image"
+            }
+          },
+          "type": "slideshow",
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ]
+        },
+        "product-recommendations": {
+          "settings": {
+          },
+          "type": "product-recommendations"
+        },
+        "collection-list": {
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "link_title": "View all",
+            "title": "Our collections"
+          },
+          "blocks": {
+            "collection-3": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-4": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-5": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-0": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-1": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-2": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            }
+          },
+          "type": "collection-list",
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ]
+        },
+        "1555314133560": {
+          "settings": {
+            "stack_mobile": false,
+            "section_size": "medium",
+            "expand_items": false
+          },
+          "blocks": {
+            "1555314133560-0": {
+              "settings": {
+                "stretch_image": false,
+                "image": "",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "background": "#6f42ef",
+                "button_link": "",
+                "text_color": "#ffffff",
+                "button_text": "Learn more",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "show_overlay": false
+              },
+              "type": "item"
+            },
+            "1555314133560-2": {
+              "settings": {
+                "stretch_image": false,
+                "image": "",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "background": "#26c1ce",
+                "button_link": "",
+                "text_color": "#ffffff",
+                "button_text": "Learn more",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "show_overlay": false
+              },
+              "type": "item"
+            },
+            "1555314133560-1": {
+              "settings": {
+                "stretch_image": false,
+                "image": "",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "background": "#fc2a68",
+                "button_link": "",
+                "text_color": "#ffffff",
+                "button_text": "Learn more",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "show_overlay": false
+              },
+              "type": "item"
+            }
+          },
+          "type": "promotion-list",
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ]
+        }
+      },
+      "header_accent_color": "#ff6128",
+      "show_vendor": true,
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ],
+      "animation_image_zoom": true,
+      "low_inventory_threshold": 1,
+      "background": "#f7f4f2",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_2_background": "#a95ebe",
+      "error_color": "#f71b1b",
+      "header_background": "#3a2a2f",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "text_color": "#3a2a2f",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "checkout_button_color": "#ff6128",
+      "secondary_button_text_color": "#ffffff",
+      "product_low_stock_color": "#ee0000",
+      "show_discount": true,
+      "product_label_1_background": "#ff6128",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "cart_type": "drawer",
+      "checkout_input_background_color_mode": "white",
+      "product_on_sale_accent": "#ee0000",
+      "accent_color": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "checkout_error_color": "#f71b1b",
+      "base_text_font_size": 15,
+      "primary_button_background": "#ff6128",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "product_image_size": "square",
+      "product_star_color": "#ffb647",
+      "secondary_background": "#ffffff",
+      "show_reviews_badge": false,
+      "checkout_body_background_image": "",
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "cart_show_free_shipping_threshold": true
+    },
+    "Metal": {
+      "text_font": "din_next_n4",
+      "show_inventory_quantity": false,
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "search_mode": "product,article",
+      "show_color_swatch": false,
+      "heading_color": "#1e2d7d",
+      "heading_font": "din_next_n5",
+      "cart_free_shipping_threshold": "50",
+      "social_tumblr": "",
+      "social_snapchat": "",
+      "social_instagram": "",
+      "social_linkedin": "",
+      "link_color": "#00badb",
+      "underline_links": true,
+      "checkout_header_image": "",
+      "show_secondary_image": true,
+      "header_light_text_color": "#a3afef",
+      "checkout_body_background_color": "#fff",
+      "checkout_sidebar_background_image": "",
+      "success_color": "#00aa00",
+      "product_in_stock_color": "#008a00",
+      "secondary_button_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "checkout_accent_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "sections": {
+        "recently-viewed-products": {
+          "settings": {
+            "title": "Recently viewed"
+          },
+          "type": "recently-viewed-products"
+        },
+        "footer": {
+          "settings": {
+            "show_payment_icons": true,
+            "show_social_media": true
+          },
+          "blocks": {
+            "footer-2": {
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              },
+              "type": "newsletter"
+            },
+            "footer-1": {
+              "settings": {
+                "menu": "footer"
+              },
+              "type": "links"
+            },
+            "footer-0": {
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              },
+              "type": "text"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ]
+        },
+        "announcement-bar": {
+          "settings": {
+            "newsletter_title": "Newsletter",
+            "background": "#1e2d7d",
+            "link": "",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+            "newsletter_button": "Subscribe & Save"
+          },
+          "type": "announcement-bar"
+        },
+        "featured-product": {
+          "settings": {
+            "product": "",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "title": "Featured product",
+            "carousel_effect": "fade"
+          },
+          "type": "featured-product"
+        },
+        "collection-template": {
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          },
+          "type": "collection-template"
+        },
+        "1542984811767": {
+          "settings": {
+            "layout": "vertical",
+            "products_count": 12,
+            "link_title": "View all",
+            "collection": "",
+            "title": "Featured collection"
+          },
+          "type": "featured-collection"
+        },
+        "product-template": {
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "carousel_effect": "fade",
+            "custom_security_badge": ""
+          },
+          "type": "product-template"
+        },
+        "1542984882560": {
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          },
+          "type": "blog-posts"
+        },
+        "header": {
+          "settings": {
+            "navigation_email": "info@yourwebsite.com",
+            "navigation_menu": "main-menu",
+            "logo_max_width": 140,
+            "navigation_phone_number": "Call us 000-000-0000",
+            "logo": "",
+            "desktop_navigation_open_trigger": "hover",
+            "mobile_logo_max_width": 100,
+            "desktop_navigation_layout": "inline",
+            "search_menu": ""
+          },
+          "type": "header"
+        },
+        "slideshow": {
+          "settings": {
+            "edge_to_edge": true,
+            "cycle_speed": 5,
+            "section_size": "preserve_ratio"
+          },
+          "blocks": {
+            "slide-0": {
+              "settings": {
+                "image": "",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "link": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "button_text": "Button",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft"
+              },
+              "type": "image"
+            },
+            "slide-1": {
+              "settings": {
+                "image": "",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "link": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "button_text": "Button",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft"
+              },
+              "type": "image"
+            }
+          },
+          "type": "slideshow",
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ]
+        },
+        "product-recommendations": {
+          "settings": {
+          },
+          "type": "product-recommendations"
+        },
+        "collection-list": {
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "link_title": "View all",
+            "title": "Our collections"
+          },
+          "blocks": {
+            "collection-3": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-4": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-5": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-0": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-1": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            },
+            "collection-2": {
+              "settings": {
+                "image": "",
+                "collection": ""
+              },
+              "type": "collection"
+            }
+          },
+          "type": "collection-list",
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ]
+        },
+        "1542984842027": {
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          },
+          "type": "newsletter"
+        }
+      },
+      "header_accent_color": "#00badb",
+      "show_vendor": true,
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ],
+      "animation_image_zoom": true,
+      "low_inventory_threshold": 0,
+      "social_twitter": "",
+      "social_facebook": "",
+      "background": "#f3f5f6",
+      "product_sold_out_color": "#8a9297",
+      "product_label_2_background": "#00a500",
+      "error_color": "#ff0000",
+      "header_background": "#1e2d7d",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "text_color": "#677279",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "checkout_button_color": "#00badb",
+      "social_fancy": "",
+      "secondary_button_text_color": "#ffffff",
+      "checkout_logo_image": "",
+      "product_low_stock_color": "#ee0000",
+      "show_discount": true,
+      "social_youtube": "",
+      "product_label_1_background": "#008a00",
+      "checkout_sidebar_background_color": "#fafafa",
+      "share_image": "",
+      "cart_type": "drawer",
+      "checkout_input_background_color_mode": "white",
+      "product_on_sale_accent": "#ee0000",
+      "social_google_plus": "",
+      "accent_color": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "checkout_error_color": "#ff0000",
+      "base_text_font_size": 16,
+      "primary_button_background": "#00badb",
+      "social_vimeo": "",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "social_pinterest": "",
+      "favicon": "",
+      "product_image_size": "natural",
+      "product_star_color": "#ffbd00",
+      "secondary_background": "#ffffff",
+      "show_reviews_badge": false,
+      "checkout_body_background_image": "",
+      "discount_mode": "saving",
+      "product_price_position": "after_title",
+      "cart_show_free_shipping_threshold": false
+    }
+  }
+}

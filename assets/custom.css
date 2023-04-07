@@ -1,0 +1,63 @@
+
+.nav-bar__inner .nav-bar__item  .nav-bar__link{border:1px solid transparent;padding:10px 0;}
+.nav-bar__inner .nav-bar__item:hover .nav-bar__link{border-color:#272E5D;color: #272E5D;}
+.nav-bar {border-bottom: 1px solid #f3f5f6;}
+.product-meta.sale-lable-d .percentage-sell{font-size: 19px;line-height: 1;}
+
+#account-popover{z-index:1111;}
+
+.cart-wrapper .sezzle-shopify-info-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cart-hidden {
+  display: none;
+}
+
+.product-block-list .card--collapsed {margin-top:20px !important;}
+@media (max-width:720px){
+  body.itf-rewards #main{padding-top:30px;}
+}
+
+#promo-popover{max-height: 40px;}
+
+.seo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.seo-block .seo-block-link {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.homepage-slideshow .slick-slide .bss_pl_img {
+  visibility: hidden !important;
+}
+
+.badge-list-section{padding-top:35px;padding-bottom: 15px;}
+.badge-list-section .badge-list{width: 100%;max-width: 80%;margin: 0 auto;}
+.badge-list-section .badge{list-style: none;display: flex;flex-wrap: wrap;}
+.badge-list-section .badge:not(:last-child){margin-bottom: 15px;border-bottom: 1px solid rgba(0,0,0,.1);padding-bottom:15px;}
+.badge-list-section .badge .badge-img{max-width: 55px;width: 100%;padding-right: 20px;}
+.badge-list-section .badge .badge-text{width:100%;max-width:calc(100% - 55px);}
+.badge-list-section .badge .badge-title{font-weight: bold;font-size: 14px;line-height: 1.2;color:#222629;margin: 0px 0px 6px;}
+.badge-list-section .badge .badge-dec p{color: #222629;line-height: 1.2;font-size: 15px;}
+.badge-list-section .badge .badge-dec p a{color: #ff8e47;text-decoration: underline;}
+.badge-list-section .badge .badge-dec p a:hover{text-decoration:none;}
+
+.payment-icon-list{padding:40px 0px 0px;}
+.payment-icon-list ul{list-style:none;display: flex;align-items: center;flex-wrap: wrap;justify-content: center;}
+.payment-icon-list ul li{display: flex;flex-wrap: wrap;justify-content: center;margin-bottom:15px;}
+.payment-icon-list ul li:not(:last-child){margin-right:15px;}
+
+@media only screen and (max-width:540px){
+.badge-list-section .badge-list{max-width:100%;}
+}
+
+#desktop-currency-selector, .mz-expand {
+  z-index: 2147483602!important;
+}

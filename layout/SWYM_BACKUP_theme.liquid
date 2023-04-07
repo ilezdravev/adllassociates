@@ -1,0 +1,406 @@
+<!doctype html>
+
+<html class="no-js" lang="{{ request.locale.iso_code }}">
+  <head>{% render 'spdn' %}
+    {%- comment -%}smartseo_integration_begin{%- endcomment -%}{% include 'smartseo' %}{%- comment -%}smartseo_integration_end{%- endcomment -%}
+    <meta name="facebook-domain-verification" content="tlpsl35ve5ocvpq6tvl6hjjwhcjkpz" />
+    <meta name="google-site-verification" content="339tZ3vL11YOINtJfqGKf7C2hm18CvfW60qWZqRz1YI" />
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.accent_color }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-59TXPTJ"></script>
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M89XKH');</script>
+<!-- End Google Tag Manager -->
+    
+    <!-- Global site tag (gtag.js) - Google Ads: 1003067951 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1003067951"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1003067951');
+</script>
+    
+   
+
+<!-- CODE SETTINGS START -->
+
+<!-- Please add your Google Ads Audience Source Tag ID -->
+{% assign fa_google_ads_audience_tag_id = 1003067951 %}
+
+<!-- Please add your alpha2 code, you can find it here: https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode -->
+{% assign fa_product_id_alpha2_code = 'CA' %}
+
+<!-- set your product id values are default, product_id, parent_id, sku-->
+{% assign fa_product_id = 'default' %}
+
+<!-- CODE SETTINGS END -->
+<!-- CODE SETTINGS END -->
+
+<!-- ==================================== -->
+<!-- DO NOT EDIT ANYTHING BELOW THIS LINE -->
+{% if fa_google_coding %}{% assign fa_google_coding = true %}{%- else -%}{% assign fa_google_coding = false %}{%- endif -%}
+{% if fa_google_coding == false %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-{{ fa_google_ads_audience_tag_id }}"></script>
+{%- endif -%}
+{%- assign fa_current_variant = product.selected_or_first_available_variant -%}
+{%- if cart.currency.iso_code == 'GBP' or cart.currency.iso_code == 'USD' or cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'AUD' or cart.currency.iso_code == 'BWP' or cart.currency.iso_code == 'BND' or cart.currency.iso_code == 'DOP' or cart.currency.iso_code == 'GTQ' or cart.currency.iso_code == 'HKD' or cart.currency.iso_code == 'INR' or cart.currency.iso_code == 'ILS' or cart.currency.iso_code == 'YEN' or cart.currency.iso_code == 'KES' or cart.currency.iso_code == 'KOR' or cart.currency.iso_code == 'LBP' or cart.currency.iso_code == 'MYR' or cart.currency.iso_code == 'MXN' or cart.currency.iso_code == 'NPR' or cart.currency.iso_code == 'NZD' or cart.currency.iso_code == 'NIO' or cart.currency.iso_code == 'NGN' or cart.currency.iso_code == 'PKR' or cart.currency.iso_code == 'CNY' or cart.currency.iso_code == 'PHP' or cart.currency.iso_code == 'SGD' or cart.currency.iso_code == 'LKR' or cart.currency.iso_code == 'CHF' or cart.currency.iso_code == 'TWD' or cart.currency.iso_code == 'TSH' or cart.currency.iso_code == 'THB' or cart.currency.iso_code == 'UGX' or cart.currency.iso_code == 'KWD' -%}
+{% if template contains 'product' %}
+{%- assign fa_product_price = fa_current_variant.price | money_without_currency | remove:',' -%}
+{% elsif template contains 'cart' %}
+{%- assign fa_product_price = cart.total_price | money_without_currency | remove:',' -%}
+{% endif %}
+{%- else -%}
+{% if template contains 'product' %}
+{%- assign fa_product_price = fa_current_variant.price | money_without_currency | remove:'.' | replace: ',', '.' -%}
+{% elsif template contains 'cart' %}
+{%- assign fa_product_price = cart.total_price | money_without_currency | remove:'.' | replace: ',', '.' -%}
+{% endif %}
+{%- endif -%}
+
+{%- if fa_product_id == 'default' -%}
+{%- capture fa_product_id_value -%}shopify_{{ fa_product_id_alpha2_code }}_{{ product.id }}_{{ fa_current_variant.id }}{%- endcapture -%}
+{%- elsif fa_product_id == 'product_id' -%}
+{%- capture fa_product_id_value -%}{{ fa_current_variant.id }}{%- endcapture -%}
+{%- elsif fa_product_id == 'parent_id' -%}
+{%- capture fa_product_id_value -%}{{product.id }}{%- endcapture -%}
+{%- elsif fa_product_id == 'sku' -%}
+{%- capture fa_product_id_value -%}{{ fa_current_variant.sku }}{%- endcapture -%}
+{%- endif -%}
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-{{ fa_google_ads_audience_tag_id }}');
+</script>
+
+{% if template contains 'collection' %}
+{% assign fa_event = 'view_item_list' %}
+{% elsif template contains 'product' %}
+{% assign fa_event = 'view_item' %}
+{% elsif template contains 'search' %}
+{% assign fa_event = 'view_search_results' %}
+{% elsif template contains 'cart' %}
+{% assign fa_event = 'add_to_cart' %}
+{% elsif template contains 'index' %}
+{% assign fa_event = 'home' %}
+{% else %}
+{% assign fa_event = 'other' %}
+{% endif %}
+
+<script>
+  gtag('event', '{{ fa_event }}', {
+    'send_to': 'AW-{{ fa_google_ads_audience_tag_id }}',
+  	  {% if template contains 'product' or template contains 'cart' %}'value': {{ fa_product_price }},{% endif %}
+	{% if template contains 'product' %}
+    'items': [{
+			'id': '{{fa_product_id_value}}',
+      'google_business_vertical': 'retail'
+    }]
+	{% elsif template contains 'cart' %}
+	'items': [
+	{% for item in cart.items %}
+	{
+		{% if fa_product_id == 'default' %}
+			'id': 'shopify_{{ fa_product_id_alpha2_code }}_{{ item.product_id }}_{{ item.variant_id }}',
+		{% elsif fa_product_id == 'product_id' %}
+			'id': '{{ item.variant_id }}',
+		{% elsif fa_product_id == 'parent_id' %}
+			'id': '{{ item.product_id }}',
+		{% elsif fa_product_id == 'sku' %}
+			'id': '{{ item.sku }}',
+		{% endif %}
+      'google_business_vertical': 'retail'
+    },
+	{% endfor %}
+	]
+	{% endif %}
+  });
+</script>
+<!-- Google Ads Remarketing Tag By FeedArmy Version 2.16 END -->
+
+    
+
+<!-- Hotjar Tracking Code for https://itfactory.ca/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2755171,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+    
+    
+    
+    
+    {%- capture seo_page_title -%}
+      {%- if template contains 'search' and search.terms != blank -%}
+        {{ search.terms | replace: '*', '' | split: ' AND ' | last }} - {{ shop.name }}
+      {%- else -%}
+        {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+      {%- endif -%}
+    {%- endcapture -%}
+
+    {%- comment smartseo_integration_begin_meta_data -%}<title>{{- seo_page_title -}}</title>{%- endcomment smartseo_integration_end_meta_data -%}
+
+    {%- if page_description -%}
+      {%- comment smartseo_integration_begin_meta_data -%}<meta name="description" content="{{ page_description | escape }}">{%- endcomment smartseo_integration_end_meta_data -%}
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x' }}" type="image/png">
+    {%- endif -%}
+
+    <link rel="preload" as="style" href="{{ 'theme.scss.css' | asset_url }}">
+
+    {% render 'social-meta-tags' %}
+
+    {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="//fonts.shopifycdn.com">
+    <link rel="dns-prefetch" href="//productreviews.shopifycdn.com">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//maps.gstatic.com">
+
+    {{ content_for_header }}
+
+    {% render 'microdata-schema' %}
+
+    <script>
+      // This allows to expose several variables to the global scope, to be used in scripts
+      window.theme = {
+        pageType: {{ request.page_type | json }},
+        cartCount: {{ cart.item_count | json }},
+        moneyFormat: {{ shop.money_format | json }},
+        moneyWithCurrencyFormat: {{ shop.money_with_currency_format | json }},
+        showDiscount: {% if settings.show_discount %}true{% else %}false{% endif %},
+        discountMode: {{ settings.discount_mode | json }},
+        searchMode: {{ settings.search_mode | json }},
+        cartType: {{ settings.cart_type | json }}
+      };
+
+      window.routes = {
+        rootUrl: {{ routes.root_url | json }},
+        cartUrl: {{ routes.cart_url | json }},
+        cartAddUrl: {{ routes.cart_add_url | json }},
+        cartChangeUrl: {{ routes.cart_change_url | json }},
+        searchUrl: {{ routes.search_url | json }},
+        productRecommendationsUrl: {{ routes.product_recommendations_url | json }}
+      };
+
+      window.languages = {
+        collectionOnSaleLabel: {{ 'collection.product.discount_html' | t | json }},
+        productFormUnavailable: {{ 'product.form.unavailable' | t | json }},
+        productFormAddToCart: {% if product.template_suffix == 'pre-order' %}{{ 'product.form.pre_order' | t | json }}{% else %}{{ 'product.form.add_to_cart' | t | json }}{% endif %},
+        productFormSoldOut: {{ 'product.form.sold_out' | t | json }},
+        shippingEstimatorNoResults: {{ 'cart.shipping_estimator.no_results_title' | t | json }},
+        shippingEstimatorOneResult: {{ 'cart.shipping_estimator.one_result_title' | t | json }},
+        shippingEstimatorMultipleResults: {{ 'cart.shipping_estimator.multiple_results_title' | t | json }},
+        shippingEstimatorErrors: {{ 'cart.shipping_estimator.errors' | t | json }}
+      };
+
+      window.lazySizesConfig = {
+        loadHidden: false,
+        hFac: 0.8,
+        expFactor: 3,
+        customMedia: {
+          '--phone': '(max-width: 640px)',
+          '--tablet': '(min-width: 641px) and (max-width: 1023px)',
+          '--lap': '(min-width: 1024px)'
+        }
+      };
+
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
+     <script src="https://www.googleoptimize.com/optimize.js?id=OPT-59TXPTJ"></script>
+
+    <script src="{{ 'lazysizes.min.js' | asset_url }}" async></script>
+
+    {%- if request.page_type == 'customers/addresses' -%}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
+      <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
+    {%- endif -%}
+
+    <script src="//cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.matches,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,String.prototype.includes,String.prototype.padStart,Object.assign,CustomEvent,Intl,URL,DOMTokenList,IntersectionObserver,IntersectionObserverEntry" defer></script>
+    <script src="{{ 'libs.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'theme.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+    <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
+
+    <script>
+      (function () {
+        window.onpageshow = function() {
+          // We force re-freshing the cart content onpageshow, as most browsers will serve a cache copy when hitting the
+          // back button, which cause staled data
+          document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+            bubbles: true
+          }));
+        };
+      })();
+    </script>
+
+
+   
+    
+{% include 'booster-common' %}
+<img alt="icon" width="1400" height="1400" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">  {% render 'judgeme_core' %}
+
+	{{ shop.metafields.loox["global_html_head"] }}
+{% render 'wishlisthero-styles.liquid' %}<!-- BeginConsistentCartAddon -->  <script>  {% if customer %}  Shopify.customer_logged_in = true ;  Shopify.customer_email = "{{ customer.email }}" ;  Shopify.log_uuids = true;  {% else %}  Shopify.customer_logged_in = false ;  Shopify.customer_email = "" ;  Shopify.log_uuids = true;  {% endif %}  </script>  <!-- EndConsistentCartAddon -->
+
+<script>
+window.mlvedaShopCurrency = "{{ shop.currency }}";
+window.shopCurrency = "{{ shop.currency }}";
+window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
+</script>
+  
+  {% render 'analyzify-product-datalayer.liquid' %}
+    
+  
+  <!-- REAMAZE INTEGRATION START - DO NOT REMOVE -->
+{% render 'reamaze-config' %}
+{% render 'reamaze-sso' %}
+<!-- REAMAZE INTEGRATION END - DO NOT REMOVE -->
+
+</head>
+
+  <body class="warehouse--v1 {% if template.directory %}template-{{ template.directory | handle | replace: '_', '-' }}{% endif %} template-{{ template.name | handle | replace: '_', '-' }}" data-instant-intensity="viewport">
+    <span class="loading-bar"></span>
+    
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M89XKH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    {% section 'announcement-bar' %}
+
+    {%- unless request.page_type == 'cart' -%}
+      {%- comment -%}As required by Shopify rules, popup must be removed on cart page to remove distraction{%- endcomment -%}
+      {% section 'popups' %}
+    {%- endunless -%}
+
+    	
+{%- section 'hura-announcement-bar' -%}
+    {% section 'header' %}
+
+    <main id="main" role="main">
+      {{ content_for_layout }}
+    </main>
+
+    {%- if request.page_type == 'blog' or request.page_type == 'article' or request.page_type == 'page' -%}
+      {% section 'static-newsletter' %}
+    {%- endif -%}
+
+    {% section 'text-with-icons' %}
+    {% section 'footer' %}
+
+    <script src="//cdn.codeblackbelt.com/js/modules/also-bought/main.min.js?shop=itfactoryca.myshopify.com" defer></script>
+
+    <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=itfactoryca.myshopify.com" defer></script>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+  
+
+ {% include 'smile-initializer' %}
+
+{% render 'banana-stand-footer' %}
+{% include 'booster-discounts' %}
+
+	{{ shop.metafields.loox["global_html_body"] }}
+
+<!-- **BEGIN** Hextom USB Integration // Main Include - DO NOT MODIFY -->
+    {% render 'hextom_usb_main', product: product, customer: customer %}
+    <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
+<script src="https://zooomyapps.com/wishlist/ZooomyColl.js" data-shop-id="itfactoryca.myshopify.com" data-cus-id="{{customer.id}}" data-cus-email="{{customer.email}}" data-cus-name="{{customer.first_name}} {{customer.last_name}}" data-page="{{template}}" ></script>
+
+{% include 'swymSnippet' %}
+
+{% include 'mlveda-currencies-switcher' %}{% include 'mlveda-currencies' %}{% include 'mlveda-flag' %}{% include 'mlveda-currencies-style' %}</body>
+</html>
+        <!-- Start-MakeAnOffer version: 7 -->
+        <script>
+          var makeAnOfferData = (function() {
+            var data = {
+              product: null,
+              cartProducts: [],
+              currency_iso_code: "{{ currency.iso_code }}",
+              settings: {{ shop.metafields.make_an_offer.user_setting | json }},
+              customer_email: "{{ customer.email }}"
+            };
+
+            {% if product %}
+              data.product = (function() {
+                var mf_featured_image = "{{ product.selected_or_first_available_variant.featured_image | default: product.featured_image | img_url: '1024x1024'}}";
+                var mf_other_image = "{{ product.images.first | img_url: '1024x1024' }}";
+                return {
+                  title: {{ product.title | json }},
+                  price: "{{ product.price | money_without_currency }}",
+                  currency: '{{ shop.money_format }}',
+                  image: mf_featured_image || mf_other_image,
+                  variants: {{ product.variants | json }},
+                  tags: {{ product.tags | json }},
+                  collections: {{ product.collections | json }},
+                  url: "{{ product.url }}",
+                  available: {{ product.available }}
+                }
+              })();
+            {% endif %}
+
+            {% if cart.items.size > 0 %}
+              {% for item in cart.items %}
+                data.cartProducts.push(function() {
+                  return {
+                    title: {{ item.product.title | json }},
+                    price: "{{ item.price | money }}",
+                    image: "{{ item | img_url: '1024x1024' }}",
+                    variants: {{ item.variants | json }},
+                    variant_id: "{{ item.variant.id }}",
+                    url: "{{ item.url }}",
+                    sku: "{{ item.sku }}",
+                    tags: {{ item.product.tags | json }},
+                    collections: {{ item.product.collections | json }},
+                    available: {{ item.product.available }}
+                  }
+                }());
+              {% endfor %}
+            {% endif %}
+
+            return data;
+          })();
+
+        </script>
+        <!-- End-MakeAnOffer -->
