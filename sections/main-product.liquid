@@ -34,6 +34,18 @@
 
 
     }
+
+   .download-brochure{
+    width: 100%;
+    background: var(--primary_Color);
+    padding: 15px;
+    font-size: 20px;
+    border-color: var(--primary_Color);
+    line-height: 28px;
+    border-style: none;
+    color: white;
+   }
+   
 </style>
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -502,6 +514,9 @@
                                         </div>
                                     </div> <!-- END tabs-content -->
                                 </div> <!-- END tabs -->
+                              {% if product.metafields.custom.pdf_brochure %}
+                                <a href="{{ product.metafields.custom.pdf_brochure.value.url }}" target="_blank"><button class="download-brochure">Download The Brochure (PDF)</button></a>
+                              {% endif %}
                             </div>
 
                             <div class="additional_information desktop_view">
@@ -520,6 +535,18 @@
                                                 <tr>
                                                     <td>1st Floor</td>
                                                     <td>{{product.metafields.my_fields.new_first_floor}}</td>
+                                                </tr>
+                                                {% endif %}
+                                                {% if product.metafields.my_fields.second_floor %}
+                                                <tr>
+                                                    <td>2nd Floor</td>
+                                                    <td>{{product.metafields.my_fields.second_floor}}</td>
+                                                </tr>
+                                                {% endif %}
+                                                {% if product.metafields.my_fields.third_floor %}
+                                                <tr>
+                                                    <td>3rd Floor</td>
+                                                    <td>{{product.metafields.my_fields.third_floor}}</td>
                                                 </tr>
                                                 {% endif %}
                                                 {% if product.metafields.my_fields.garage %}
@@ -721,7 +748,7 @@
                                                 class="select__select selectPlanSet" name="options[{{ option.name | escape }}]"
                                                 form="{{ product_form_id }}">
                                                 {%- for variant in product.variants -%}
-                                                <option value="{{ variant.option1 | escape }}" data-price="{{ variant.price | money | strip_html }}"
+                                                <option value="{{ variant.option1 | escape }}" data-vid="{{ variant.id }}" data-price="{{ variant.price | money | strip_html }}"
                                                     {% if option.selected_value == value %}selected="selected"
                                                     {% endif %}>
                                                     {{ variant.option1 }} - {{ variant.price | money | strip_html }}
@@ -2075,13 +2102,11 @@ if (!customElements.get('product-modal')) customElements.define('product-modal',
 
     });
 </script>
-
 <script>
     $(document).ready(function () {
 
         $(".main_reverse").click(function () {
             $('.owl-carousel-2 img').toggleClass('Rotate');
-
 
         });
 
@@ -2146,30 +2171,56 @@ if (!customElements.get('product-modal')) customElements.define('product-modal',
     jQuery(this).next('.tooltip').toggleClass('active');
 })
 
-  jQuery(document).on('change', 'input[type="checkbox"]', function() {
-    var calculated = jQuery('#calculated_option_total').text();
+function changePrice(){
+    var calculated = 0;
+    if(document.querySelector('#calculated_option_total')){
+        calculated = jQuery('#calculated_option_total').text();
+    } else{
+        if(document.querySelector('.hulkapps_option_set')){
+           let selectedPlans =  document.querySelector('.hulkapps_option_set').querySelectorAll('input:checked');
+            for(let i = 0; i < selectedPlans.length; i ++){
+                console.log($(selectedPlans[i]).attr('data-price'));
+                calculated += parseFloat($(selectedPlans[i]).attr('data-price'));
+            }
+        }
+    }
     var plan_price = $(".selectPlanSet").find(":selected").data("price").replace("$", "").replace("USD", "").replace(",", "");
     var total =  parseInt(calculated)+parseInt(plan_price);
     jQuery('span#total_price').text('$'+ total.toLocaleString("en"));
     $(".total_price_con").show()
+    
+}
 
-})
-jQuery(document).on('change', 'input[type="radio"]', function() {
-    var calculated = jQuery('#calculated_option_total').text();
+
+jQuery(document).on('change', 'input[type="checkbox"]', function() {
+    changePrice()
+    /*
+    var calculated = jQuery('#calculated_option_total').text() || 0;
     var plan_price = $(".selectPlanSet").find(":selected").data("price").replace("$", "").replace("USD", "").replace(",", "");
     var total =  parseInt(calculated)+parseInt(plan_price);
     jQuery('span#total_price').text('$'+ total.toLocaleString("en"));
-  $(".total_price_con").show()
-
+    $(".total_price_con").show()*/
+    
+})
+jQuery(document).on('change', 'input[type="radio"]', function() {
+    changePrice();
+    /*var calculated = jQuery('#calculated_option_total').text() || 0;
+    var plan_price = $(".selectPlanSet").find(":selected").data("price").replace("$", "").replace("USD", "").replace(",", "");
+    var total =  parseInt(calculated)+parseInt(plan_price);
+    jQuery('span#total_price').text('$'+ total.toLocaleString("en"));
+    $(".total_price_con").show()*/
 })
 
 $(".selectPlanSet").on('change', function() {
+    $('[name="id"]').val($(".selectPlanSet").find(":selected").data("vid"));
   $(".price-item--regular").text($(".selectPlanSet").find(":selected").data("price").toLocaleString("en")+" USD");
-  var calculated = jQuery('#calculated_option_total').text();
+  changePrice()
+  /*function changePrice();
+    var calculated = jQuery('#calculated_option_total').text() || 0;
   var plan_price = ($(".selectPlanSet").find(":selected").data("price").replace("$", "").replace("USD", "").replace(",", ""));
   var total =  parseInt(calculated)+parseInt(plan_price);
   jQuery('span#total_price').text('$'+ total.toLocaleString("en"));
-  $(".total_price_con").show()
+  $(".total_price_con").show()*/
 });
 
 // Show the first tab and hide the rest
@@ -2182,7 +2233,7 @@ $('#tabs-nav li').click(function(){
   $('#tabs-nav li').removeClass('active');
   $(this).addClass('active');
   $('.tab-content').hide();
-
+  
   var activeTab = $(this).find('a').attr('href');
   $(activeTab).fadeIn();
   return false;
@@ -2208,36 +2259,43 @@ jQuery(document).ready(function(){
         jQuery('.hover1').removeClass('active');
         jQuery('.hover3').toggleClass('active');
     })
-
+    
 })
 
 
 jQuery(document).ready(function(){
 
     var width = 770 ;
+    var height = 480 ;
 
     jQuery('.flip_img').click(function(){
         jQuery(this).parent().toggleClass('rotates');
     })
 
-
+    
     jQuery('.zoom_in_img').click(function(){
+        jQuery(this).parent('.img_wrapper').find('img').css('width', width );
+        jQuery(this).parent('.img_wrapper').find('img').css('height', height );
         width = width + 50 ;
-        jQuery(this).parent('.img_wrapper').find('img').css('width', width );
+        height = height + 50 ;
     })
-
+        
     jQuery('.zoom_out_img').click(function(){
-        width = width - 50 ;
         jQuery(this).parent('.img_wrapper').find('img').css('width', width );
+        jQuery(this).parent('.img_wrapper').find('img').css('height', height );
+        width = width - 50 ;
+        height = height - 50 ;
     })
 
     jQuery('.reset_img').click(function(){
         jQuery(this).parent().removeClass('rotates');
         width = 770 ;
+        height = 480 ;
         jQuery(this).parent('.img_wrapper').find('img').css('width', width );
+        jQuery(this).parent('.img_wrapper').find('img').css('height', height );
     })
 
-
+    
     $('.Interior').click(function(){
         $('.owl-carousel-2').trigger('to.owl.carousel', {{product.metafields.custom.position_of_interior_image}}-1 )
     });
@@ -2260,10 +2318,10 @@ jQuery(document).ready(function(){
     var ww = document.body.clientWidth;
     var showChar ;
     if(ww < 500 ){
-       showChar = 80;
+       showChar = 80; 
     }
     else{
-      showChar = 150;
+      showChar = 150; 
     }
 	var ellipsestext = "...";
 	var moretext = "Read more";

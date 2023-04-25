@@ -125,12 +125,6 @@
 
     ],
     "blocks": {
-      "12657775114333427046": {
-        "type": "shopify:\/\/apps\/essential-countdown-timer\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "10042746950867549768": {
         "type": "shopify:\/\/apps\/hulk-product-options\/blocks\/app-embed\/380168ef-9475-4244-a291-f66b189208b5",
         "disabled": true,
@@ -139,6 +133,12 @@
       },
       "807785498547235276": {
         "type": "shopify:\/\/apps\/contact-form-ultimate\/blocks\/app-embed-block\/7f36c127-5e2b-4909-bcc7-2631483e37a4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown-timer-bar\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
         "disabled": false,
         "settings": {
         }
