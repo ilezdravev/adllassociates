@@ -364,8 +364,9 @@
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
 
+    {%- endif -%}
+    
     {% include 'swymSnippet' %}
 
     <script>
@@ -466,5 +467,15 @@
     <!-- jquery zoom -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.21/jquery.zoom.min.js"></script> -->
   </body>
+  <script>
+    let interval = setInterval(function(){
+      if($('.hulkapps_check_option input.hulkapps_option_child').length > 0){
+          $('.hulkapps_option_value').on('change',function(){
+              $('.hulkapps_check_option').removeClass('selected')
+              $('.hulkapps_check_option .hulkapps_option_child:checked ').parent().addClass('selected')
+          })
+      }
+    },500)
+  </script>
 </html>
 {% render 'change-headline' %}
