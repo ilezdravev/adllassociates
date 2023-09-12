@@ -3076,7 +3076,7 @@ form.input-group.search-bar .input-group-field { width: 83%;}
     }
     
     @media screen and (max-width:599px) {
-    
+      
         .product-additional .table table tr td {font-size: 14px;line-height: 18px}
         .badges strong,
         .products-custom-text-section h3 {font-size: 20px}
@@ -3118,4 +3118,19 @@ form.input-group.search-bar .input-group-field { width: 83%;}
         .review_image img {max-height: 50px; width: auto; }
         .thumnail_text-review {  justify-content: center;}
         h1.product__title {   font-size: 14px;line-height: 21px; margin-bottom: 20px; }
+    }
+
+
+    .Pdf_viewers_tabs .tabs ul li{
+        flex:1;
+    }
+    @media (max-width: 599px) {
+        
+        button.owl-prev,  button.owl-next{
+            display: none !important;
+        }
+       
+        body.compensate-for-scrollbar{
+            overflow: scroll !important;
+        }
     }

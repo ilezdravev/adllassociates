@@ -8,7 +8,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
-
+    {% if template.name == "product" %}
+      <style>
+        @media (max-width:567px) {
+          .pop-up-thum-image,.fancybox-container{
+            display: none !important;
+          }
+        }
+      </style>
+    {% endif %}
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
     {%- endif -%}
@@ -235,12 +243,8 @@
     {{ 'custom.css' | asset_url | stylesheet_tag }}
     {{ 'responsive.css' | asset_url | stylesheet_tag }}
 
-    {% include 'hulk_po_vd.liquid' %}
-    {% include 'hulkcode_common' %}
-    <script
-      src="https://ha-product-option.nyc3.digitaloceanspaces.com/assets/api/v2-beta/hulkcode.js?{{ 'now' | date: '%s'}}"
-      defer="defer"
-    ></script>
+    {% include 'hulk_po_vd' %}
+    
 
     <!-- MapBox GL used by home-building-map.liquid -->
     <!-- <script defer src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script> -->

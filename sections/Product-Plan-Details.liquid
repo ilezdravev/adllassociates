@@ -456,4 +456,99 @@ $(document).on("click", ".contact_tab a, .customize_tab a", function() {
 
 
 
+
+
 </script>
+<script>
+  var cost_estimator_data = {
+    first_floor: "{{product.metafields.my_fields.new_first_floor}}",
+    second_floor: "{{product.metafields.my_fields.second_floor}}",
+    third_floor: "{{product.metafields.my_fields.third_floor}}",
+    garage: "{{product.metafields.my_fields.garage}}",
+    baths: "{{product.metafields.my_fields.bathrooms}}",
+    half_baths: "{{product.metafields.my_fields.half_baths}}",
+    // new
+    porch_sf: "{{product.metafields.details.porch_sf}}",
+    slab_on_grade: "{{product.metafields.details.slab_on_grade}}",
+    floor_height: "{{product.metafields.details.floor_height}}",
+    cov_porch_sf: "{{product.metafields.details.cov_porch_sf}}",
+    deck_sf: "{{product.metafields.details.deck_sf}}",
+    covered_deck_sf: "{{product.metafields.details.covered_deck_sf}}",
+    roof_slope: "{{product.metafields.details.roof_slope}}",
+    building_class: "{{product.metafields.details.building_class}}",
+    basement_walkout: "{{product.metafields.details.basement_walkout}}",
+    basement_finished_sf: "{{product.metafields.details.basement_finished_sf}}",
+    basement_unfinished_sf: "{{product.metafields.details.basement_unfinished_sf}}",
+    garage_cars: "{{product.metafields.details.garage_cars}}",
+    loft: "{{product.metafields.details.loft}}",
+    kitchen: "{{product.metafields.details.kitchen}}",
+    b_3_4_bathrooms: "{{product.metafields.details.b_3_4_bathrooms}}",
+    //
+    plan: "{{product.title}}",
+    url: "{{ product.url }}"
+  }
+
+  $(document).on("click",".cost-estimator-send",function() {
+    var parent = $(this).closest(".cost-estimator")
+     var holder = parent.find(".cost-estimator-results").first()
+
+        var zipcode = parent.find('#cost-estimator-zipcode').val();
+    var basement = parent.find('#cost-estimator-basement').val();
+    var quality = parent.find('#cost-estimator-quality').val();
+    var email = parent.find('#cost-estimator-email').val();
+
+    cost_estimator_data["zipcode"] = zipcode
+    cost_estimator_data["finishing_class"] = quality
+    cost_estimator_data["basement"] = basement
+    cost_estimator_data["email"] = email
+    
+    fetch('https://auto.garrellassociates.com/estimator/?' + new URLSearchParams(cost_estimator_data)).then((response) => response.text()).then(function(response){
+      holder.html(response)
+      holder.css("display", "block")
+    })
+  });
+</script>
+
+<style>
+    .cost-estimator {
+      margin-bottom:10px;
+      padding:10px;
+    }
+    .cost-estimator input, .cost-estimator select {
+      border-radius: 1px;
+      border: 1px solid #d1d1d1 !important;
+      text-align: left;
+      font-size: 14px!important;
+      font-weight: normal;
+      width: 100%;
+      padding-left: 15px;
+      padding: 10px;
+      background-color:white !important;
+      font-family: tahoma;
+  }
+
+  .cost-estimator button {
+      border: none;
+    }
+
+  .cost-estimator select {
+      height:47px;
+  }
+
+  .cost-estimator-results {
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    font-size:1.5em;
+    display: none;
+  }
+
+  .cost-estimator-results:before {
+    content: "YOUR FREE ESTIMATION ";
+    font-size:14px;
+    display:block;
+  }
+</style>

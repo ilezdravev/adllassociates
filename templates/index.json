@@ -3,35 +3,35 @@
     "164784721427722522": {
       "type": "main-hero-section",
       "blocks": {
-        "ba430f77-71fc-4983-8ac4-604dea46b862": {
+        "a1fb60a0-1539-4ca1-8b44-785cbd740634": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/E1sunset.webp",
-            "mobile_image": "shopify:\/\/shop_images\/E1sunset.webp",
-            "url": "shopify:\/\/products\/37-182"
+            "image": "shopify:\/\/shop_images\/Front_Night-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Front_Night-1_f7ff0f21-443d-4134-bca8-66391234e3de.jpg",
+            "url": "shopify:\/\/products\/mill-creek-cottage-a"
           }
         },
-        "1aa37a93-d726-4ea8-8533-c9e2a4446710": {
+        "3070960f-750a-4331-b1a3-2e996269e745": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FrontNight-1-2.webp",
-            "mobile_image": "shopify:\/\/shop_images\/FrontNight-1-2.webp",
-            "url": "https:\/\/garrellassociates.com\/products\/seaside-lodge"
+            "image": "shopify:\/\/shop_images\/Front_Day-1_92d8cc87-057c-45d5-8dc3-ad2340c64a08.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Front_Day-1_1f069caf-2e81-4989-b804-cf172c93eb5e.jpg",
+            "url": "shopify:\/\/products\/mount-silverthorne-cottage"
           }
         },
-        "450398c2-c311-41e5-9c25-0637b561123f": {
+        "8bc155d4-ad44-402d-b588-7f54acad8291": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FrontRightDay-1_ed016496-1c41-414d-a23c-be0d7dff2be4.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/FrontRightDay-1_ed016496-1c41-414d-a23c-be0d7dff2be4.jpg",
-            "url": "https:\/\/garrellassociates.com\/products\/pine-lake-cottage"
+            "image": "shopify:\/\/shop_images\/Front_Overcast-1_dfd080b8-3991-4c20-ad1f-56f622381f01.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Front_Overcast-1_38ecfc46-6f4d-4d7a-a904-c0e1e6308fe4.jpg",
+            "url": "shopify:\/\/products\/walkers-cottage-2510"
           }
         }
       },
       "block_order": [
-        "ba430f77-71fc-4983-8ac4-604dea46b862",
-        "1aa37a93-d726-4ea8-8533-c9e2a4446710",
-        "450398c2-c311-41e5-9c25-0637b561123f"
+        "a1fb60a0-1539-4ca1-8b44-785cbd740634",
+        "3070960f-750a-4331-b1a3-2e996269e745",
+        "8bc155d4-ad44-402d-b588-7f54acad8291"
       ],
       "settings": {
         "text_1": "Find your dream home plan from Americas trusted designer",
@@ -86,13 +86,13 @@
       ],
       "settings": {
         "Home_about_us_Quote": "I design the homes that <span>my clients want<\/span> to build, not the home I want them to build",
-        "Home_about_us_para": "Have your home plans customised by award winning designer and Garrell Associates Inc, Founder, Michael W. Garrell.\n<br><br>\nMike has earned the firm more than 200 professional awards, with numerous Street of Dreams® honers. His “Tranquility” show home earned the firm the prestigious “Best in American Living Award” (BALA) from Professional Builder magazine.",
+        "Home_about_us_para": "Mike Garrell has earned the firm more than 200 professional awards, with numerous Street of Dreams® honers. His “Tranquility” show home earned the firm the prestigious “Best in American Living Award” (BALA) from Professional Builder magazine.",
         "Show_paragraph_images": false,
         "Section_padding_top": 80,
         "Section_padding_bottom": 80,
         "Section_Background": "#ffffff",
         "Class": "",
-        "image": "shopify:\/\/shop_images\/mike-g.png",
+        "image": "shopify:\/\/shop_images\/2023-08-10_14-13-03.png",
         "youtube_video": "https:\/\/www.youtube.com\/watch?v=LvMQDAp9Xqk"
       }
     },
@@ -290,7 +290,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -328,6 +327,7 @@
         "column3",
         "column2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Why Buy From Us",
         "image_width": "third",

@@ -2129,7 +2129,7 @@ if (!customElements.get('product-modal')) customElements.define('product-modal',
 
 
         $(".tumb-popup-img").click(function () {
-
+            if(window.innerWidth < 600) return;
             var index = $(this).attr('data-index');
 
             //var thumb_source = $(this).attr("src");
