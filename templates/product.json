@@ -13,8 +13,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -25,8 +24,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -36,8 +34,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -48,8 +45,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -232,13 +228,13 @@
       ],
       "settings": {
         "Home_about_us_Quote": "I design the homes that <span>my clients want <\/span> to build, not the home I want them to build",
-        "Home_about_us_para": "Have your home plans customised by award winning designer and Garrell Associates Inc, Founder, Michael W. Garrell.\n\nMike has earned the firm more than 200 professional awards, with numerous Street of Dreams® honers. His “Tranquility” show home earned the firm the prestigious “Best in American Living Award” (BALA) from Professional Builder magazine.",
+        "Home_about_us_para": "<p>Buy with peace of mind knowing that your home has been designed by award winning designer Michael W. Garrell of  Garrell <a href=\"https:\/\/garrellassociates.com\/\" title=\"https:\/\/garrellassociates.com\/\">Associates.com<\/a> . Mike has earned more than 200 professional awards, with numerous Street of Dreams® honers. One of his many  show homes has earned him the prestigious “Best in American Living Award” (BALA) from Professional Builder magazine.<\/p>",
         "Show_paragraph_images": false,
         "Section_padding_top": 30,
         "Section_padding_bottom": 30,
         "Section_Background": "#ffffff",
         "Class": "",
-        "image": "shopify:\/\/shop_images\/mike-g.png",
+        "image": "shopify:\/\/shop_images\/2023-08-10_14-13-03.png",
         "youtube_video": "https:\/\/www.youtube.com\/watch?v=LvMQDAp9Xqk"
       }
     },

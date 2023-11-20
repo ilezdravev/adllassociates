@@ -164,8 +164,25 @@
 }
 
 .footer__list-social.list-social:only-child {
-  justify-content: center;
+  justify-content: start;
+  padding-top: 20px;
 }
+
+.footer__list-social.list-social:only-child .list-social__link:first-child {
+  padding-left: 0px;
+}
+
+.footer__list-social.list-social:only-child .list-social__item svg   {
+  width: 27px;
+  height: 27px;
+  transition: all .3s;
+} 
+
+.footer__list-social.list-social:only-child .list-social__item:hover svg  {
+  transition: all .3s;
+  opacity: 0.8;
+   /* fill: #FFFFFF; */
+} 
 
 .footer-block__newsletter {
   text-align: center;

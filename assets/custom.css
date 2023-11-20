@@ -358,7 +358,7 @@
     
     /* Review Section 02 started */
     .review_section02 .main_header {padding: 0px 0 70px;}
-    .review_section02 .inner_col { background: white; display: flex;  align-items: center; gap: 3rem; padding: 35px 0;}
+    .review_section02 .inner_col { background: white; display: flex;  align-items: center; gap: 3rem; padding: 35px 0; height: 100%;}
     .review_section02 .row { gap: 2rem 0;}
     .review_section02 .inner_col .image { width: 30%; position: relative; text-align: center;}
     .review_section02 .inner_col .desc { width: 70%;}

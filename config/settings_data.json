@@ -10,9 +10,11 @@
     "spacing_grid_vertical": 20,
     "card_color_scheme": "background-2",
     "media_shadow_vertical_offset": 0,
-    "social_twitter_link": "https:\/\/twitter.com",
-    "social_facebook_link": "https:\/\/facebook.com",
-    "social_instagram_link": "http:\/\/instagram.com",
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/people\/Garrell-Associates-Inc\/61551858638358\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/garrellassociate\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/garrell_associates\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/@garrellassociates",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/Group_9988.png",
     "checkout_logo_position": "center",
@@ -99,7 +101,7 @@
           "newsletter_heading": "Subscribe to our emails",
           "Copyright_Enable": true,
           "terms_Condition_Enable": true,
-          "Copyright_text": "2022 Garrell Associates",
+          "Copyright_text": "2023 Garrell Associates",
           "termService_text": "#!",
           "enable_country_selector": false,
           "enable_language_selector": false,
@@ -132,6 +134,16 @@
       },
       "10042746950867549768": {
         "type": "shopify:\/\/apps\/hulk-product-options\/blocks\/app-embed\/380168ef-9475-4244-a291-f66b189208b5",
+        "disabled": false,
+        "settings": {}
+      },
+      "4015264832934714879": {
+        "type": "shopify:\/\/apps\/ecomsend-popups\/blocks\/app\/a5670cf8-5705-4b01-ad9e-447033feae26",
+        "disabled": false,
+        "settings": {}
+      },
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
         "settings": {}
       }

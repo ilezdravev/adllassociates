@@ -28,15 +28,15 @@
             {% for block in section.blocks %}
                 <div class="col-md-4">
                     <div class="arrorw-img">
-                        <div class="image_wrapper">
-                            <img src="{{ block.settings.icon_image | img_url : "" }}" alt="">
-                        </div>
-                        <div class="desc">
-                            <{{ block.settings.Main_heading_tag }}>{{ block.settings.Main_heading }}</{{ block.settings.Main_heading_tag }}>
-                            <{{ block.settings.Sub_heading_tag }}>{{ block.settings.Sub_heading }}</{{ block.settings.Sub_heading_tag }}>
-                            <p>{{ block.settings.Icon_paragraph }}</p>
-                        </div>
-                    </div>
+                      <div class="image_wrapper">
+                          <img src="{{ block.settings.icon_image | img_url : "" }}" alt="">
+                      </div>
+                      <div class="desc">
+                          <{{ block.settings.Main_heading_tag }}>{{ block.settings.Main_heading }}</{{ block.settings.Main_heading_tag }}>
+                          <{{ block.settings.Sub_heading_tag }}>{{ block.settings.Sub_heading }}</{{ block.settings.Sub_heading_tag }}>
+                          <p>{{ block.settings.Icon_paragraph }}</p>
+                      </div>
+                  </div>
                 </div>
             {% endfor %}
         </div>
@@ -100,10 +100,9 @@
             "default": "Sub Heading"
           },
           {
-            "type": "textarea",
+            "type": "richtext",
             "id": "Icon_paragraph",
-            "label": "Paragraph",
-            "default": "Welcome to my shop!"
+            "label": "Paragraph"
           },
           {
             "type": "select",

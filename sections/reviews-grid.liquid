@@ -23,7 +23,7 @@
                       </div>
                       <div class="desc">
                           <h6>{{ block.settings.Review_Heading }}</h6>
-                          <p>{{ block.settings.review_paragraph }}</p>
+                          <p>{{ block.settings.review_paragraph | truncate: 300   }}</p>
                           {% if block.settings.author_name != blank %}
                             <div class="autor_div">
                                 <span class="name">{{ block.settings.author_name }}</span>
